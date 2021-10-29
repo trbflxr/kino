@@ -51,8 +51,7 @@ As mentioned in the terms of service, discord exclusive rewards are permanent an
    2.1. To get the link: Go to your Steam profile page, right click anywhere (for an example on the profile background) and click **`Copy Page URL`**.  
    ![steam context](../../Images/steam_context.png)
 
-   2.2 Respond to the bot with the link following the command !steam like in an example bellow:
-   > !steam https://steamcommunity.com/id/examplelink
+   2.2 Respond to the bot with the link you copied.
 
    2.3 If the link you have provided is correct, the bot will respond to you confirming that it’s a working link and you will have to await for validation. Once you are validated you will also get a notification from the bot.  
 
