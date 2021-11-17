@@ -133,7 +133,6 @@ Default keybinds:
 `Home` to freeze your car in place.  
 `End` to unfreeze the car.
 ![noclip_tut](../../Images/noclip.png)
-
 **Noclip only works in singleplayer and modded lobbies (with *CORRUPTED* tag).**
 #
 ## Settings

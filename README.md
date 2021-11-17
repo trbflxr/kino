@@ -14,27 +14,7 @@
 
 ## Features
 
-* [**Car Lights**](Help/CarLights.md)  
-Ability to control and customize your headlights and tail lights, as well as hazard lights and neons. Settings for the lights are synced between players who have the mod.
-
-* [**Weather**](Help/Weather.md)  
-Features rain with custom road shader and a few custom skyboxes to choose from. Also some sliders to customize the lighting and the fog.
-
-* [**Cinematic**](Help/Cinematic.md)  
-A future that was present in the first versions of the mod and served as a defining feature at the start. Can be used to record and playback replays. Modified CarX free camera can be used for recording videos of your replays.
-Probably gonna have the the ability to animate the camera via keyframes as it once used to work.
-
-* [**Visuals**](Help/Visuals.md)  
-Livery sharing, ability to offset the camera in livery editor for easier livery creation and changing the materials of all the decals at once as well as enabling symmetry for all layers with one click.
-
-* [**Tuning**](Help/Tuning.md)  
-This module contains the tune sharing, license plates as well as the custom backfire option. Supporters with access to the [Extras](Help/Extras.md) module will also see the swaps there. 
-
-* [**Settings**](Help/Settings.md)   
-You can change the mod language from here. Also has some other neat options to improve quality of life in the game.
-
-* [**Extras**](Help/Extras.md)  
-An extra module that is given as a "thanks you" to players who supported the mod development by donating. Has a few neat features such as the ability to disable collisions with chosen players, adding a custom tag for your nickname (so you don't have to clutter your steam name), changing the tire pressure on the go and the experimental features that hasn't been made public yet such as **engine swaps** for now.
+For more information on the mod features please visit the [feature guide](Help/Support/Guide.md).
 
 ### How to use
 **|** **F4** to bring up the menu.  
@@ -44,11 +24,11 @@ An extra module that is given as a "thanks you" to players who supported the mod
 
 **|** **F1** to enable noclip/flymod (only works in modded/corrupted lobbies)
 Controlls are WASD/QE keys.   
-Speed can be adjusted in [settings](Help/Settings.md).
+Speed can be adjusted in [settings](Help/Support/Guide.md#keybinds)
 
 ## Installation
 Installation is described [here](INSTALL.md).  
-If you have issues with the mod, refer to the [Troubleshooting guide](.../help/../../Help/Support/Troubleshooting.md).
+If you have issues with the mod, refer to the [Troubleshooting guide](Help/Support/Troubleshooting.md)
 
 ## Feedback
 Forward all the bugs to the issues tab or open a ticket in our Discord  
