@@ -118,11 +118,15 @@ In the visuals tab you can load and save your liveries. Additionally you have so
 #
 ## Extras
 ![extras](../../Images/icons/extras.png)  
+Extras is the module given to kino supporters.  
 In the extras tab you can enable your custom nametag as well as select whether it will show in the front or after you nickname. Your tag can be set in the `tag.txt` file located at:  
 `../Carx Drift Racing Online/BepInEx/plugins/KN_Base/tag.txt`  
 ![extras_tut](../../Images/extras.png)  
 Here's an example of how the file should look:  
 ![tag](../../Images/custom_tag.png)
+
+Aside from the nametag Extras include [engine swaps](#swaps).  
+And ability to manage player's [collisions](#players).
 #
 ## Noclip settings
 ![noclip](../../Images/icons/noclip.png)  
