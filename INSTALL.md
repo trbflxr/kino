@@ -2,7 +2,7 @@
 
 - [English](#English)
 - [Русский](#Русский)
-- [Português](#Português)
+- [Português](#Português) by [Bruno Peselli](https://github.com/pzzzl)
 
 ## English:
 1. Install [BepInEx mod loader](https://github.com/BepInEx/BepInEx/releases) if you haven't already.  
