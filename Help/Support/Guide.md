@@ -41,17 +41,7 @@
 
 > [Resource manger](#resource-manager)
 #
-## Extras
-![extras](../../Images/icons/extras.png)  
-Extras is the module given to kino supporters.  
-In the extras tab you can enable your custom nametag as well as select whether it will show in the front or after you nickname. Your tag can be set in the `tag.txt` file located at:  
-`../Carx Drift Racing Online/BepInEx/plugins/KN_Base/tag.txt`  
-![extras_tut](../../Images/extras.png)  
-Here's an example of how the file should look:  
-![tag](../../Images/custom_tag.png)
-#
-Aside from the nametag Extras include [engine swaps](#swaps).  
-And ability to manage player's [collisions](#players).
+
 ## Lights
 ![lights](../../Images/icons/headlights.png)  
 In this tab you can adjust settings of your headlights such as horizontal angle (affects vertical as well), brightness and the colors of the beam.
@@ -125,6 +115,18 @@ Currently only allows you to enable simplified tachometer that only works with i
 ![visuals](../../Images/icons/visuals.png)  
 In the visuals tab you can load and save your liveries. Additionally you have some additional features to help you with livery creation such as camera zoom and offset along with the ability to enable and disable symmetry for all the layers at once as well as change their material.
 ![visuals_tut](../../Images/visuals.png)
+#
+## Extras
+![extras](../../Images/icons/extras.png)  
+Extras is the module given to kino supporters.  
+In the extras tab you can enable your custom nametag as well as select whether it will show in the front or after you nickname. Your tag can be set in the `tag.txt` file located at:  
+`../Carx Drift Racing Online/BepInEx/plugins/KN_Base/tag.txt`  
+![extras_tut](../../Images/extras.png)  
+Here's an example of how the file should look:  
+![tag](../../Images/custom_tag.png)
+
+Aside from the nametag Extras include [engine swaps](#swaps).  
+And ability to manage player's [collisions](#players).
 #
 ## Noclip settings
 ![noclip](../../Images/icons/noclip.png)  
