@@ -102,6 +102,13 @@ In this tab you can swap the engine of the car and adjust the engine settings on
 ## Tune
 ![tunes](../../Images/icons/tuning.png)  
 From here you can save and load your tunes, as well as enable suspension monitor to see live values for your camber and enable custom backfire.  
+
+The saved tunes can be found inside the **tunes** folder.
+It can be found at: 
+```
+...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\visuals
+```
+To use a downloaded tune put it in this folder as well.
 ![tunes_tut](../../Images/tuning.png)
 #
 ## Change car
@@ -112,7 +119,12 @@ Change car feature allows you to switch your car on the track (works only in mul
 ![cinematic](../../Images/icons/cinematic.png)  
 Select players you want to record from the list and click on the record button to record a replay. Click on the stop button to save your replay once you're done.
 ![cinematic_tut](../../Images/cinematic_1.png)  
-From the playback tab you can load your replays and focus on cars from the replay by choosing a ghost from the list and pressing F3.
+From the playback tab you can load your replays and focus on cars from the replay by choosing a ghost from the list and pressing F3.  
+
+You replays are saved to:
+```
+...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\replays
+```
 ![cinematic_tut](../../Images/cinematic_2.png)  
 On the timeline you can set the starting and ending point of your replay by dragging arrows at the start and the end of the timeline. You can also adjust the playback speed and loop your replay.
 ![timeline](../../Images/timeline.png)
@@ -125,6 +137,13 @@ Currently only allows you to enable simplified tachometer that only works with i
 ## Visuals
 ![visuals](../../Images/icons/visuals.png)  
 In the visuals tab you can load and save your liveries. Additionally you have some additional features to help you with livery creation such as camera zoom and offset along with the ability to enable and disable symmetry for all the layers at once as well as change their material.
+
+The saved liveries can be found inside the **visuals** folder.  
+It can be found at: 
+```
+...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\visuals
+```
+To use a downloaded livery put it in this folder as well.
 ![visuals_tut](../../Images/visuals.png)
 #
 ## Noclip settings
