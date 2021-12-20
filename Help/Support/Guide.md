@@ -23,6 +23,10 @@
 
 > [Tune](#tune)
 
+> [Maps](#maps)
+
+> [Waypoints](#waypoints)
+
 > [Change car](#change-car)
 
 > [Cinematic](#cinematic)
@@ -110,6 +114,22 @@ It can be found at:
 ```
 To use a downloaded tune put it in this folder as well.
 ![tunes_tut](../../Images/tuning.png)
+#
+## Maps
+![maps_icon](../../Images/icons/maps.png)  
+Kino features a custom maploader that allows you to load the maps in the .obj format.  
+![maps](../../Images/maps.png)
+Downloaded maps should be installed into:
+```
+...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\maps
+```
+To instal the map you need to put the folder containing the .obj file in the aformentioned folder. No .zip or .rar files.  
+If you wish to create your own maps, refer to the [this guide](Map%20Conversion.md).
+#
+## Waypoints
+![waypoints_icon](../../Images/icons/waypoints.png)  
+This feature allows you to save multiple points on the map that you can quickly teleport to. Every native map already has some preset waypoints.  
+![waypoints](../../Images/waypoints.png)
 #
 ## Change car
 ![change car](../../Images/icons/car_swap.png)  

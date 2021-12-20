@@ -1,11 +1,14 @@
 ## Does not work on Win 7
 
-- [English](#English)
-- [Русский](#Русский)
-- [Português](#Português) by [Bruno Peselli](https://github.com/pzzzl)
+- [Does not work on Win 7](#does-not-work-on-win-7)
+- [English:](#english)
+- [Русский:](#русский)
+- [Português:](#português)
 
 ## English:
-1. Install [BepInEx mod loader](https://github.com/BepInEx/BepInEx/releases) if you haven't already.  
+1. Make sure you're on the moddable version of the game.  
+Go to Steam and right click on **CarX Drift Racing Online**. Go to **`Properties...`**, then click on **`BETAS`** and select a version of the game that has **(moddable)** next to the version name.
+2. Install [BepInEx mod loader](https://github.com/BepInEx/BepInEx/releases) if you haven't already.  
 Download the **x64** version of the BepInEx. Do not download the **Unix** version.   
 Extract the following files from **BepInEx_x64_%version%.zip** into your `CarX Drift Racing Online` folder:  
     > BepInEx  
@@ -13,7 +16,8 @@ Extract the following files from **BepInEx_x64_%version%.zip** into your `CarX D
      winhttp.dll
 1. Download the latest version of **KiNO** from the [release tab](https://github.com/trbflxr/kino/releases) **(DO NOT DOWNLOAD SOURCE CODE)**.  
 Extract the following files from **release_%version%.zip**:  
-    > KN_Core.dll  
+    > assimp.dll  
+     KN_Core.dll  
      KN_Loader.dll  
      KN_Updater.exe  
 
@@ -25,6 +29,7 @@ If you don't have the `plugins` folder inside the `BepInEx` then either create i
 1. A short description of the features can be found [here](README.md).
 
 ## Русский:
+1. Убедитесь что вы находитесь на модовой версии игры. Для этого откройте стим, правый клик по **CarX Drift Racing Online**, затем **`Свойства...`**, перейдите во вкладку **`БЕТА-ВЕРСИИ`** и из списка выбирете версию игры с припиской **(moddable)**.
 1. Установите [BepInEx mod loader](https://github.com/BepInEx/BepInEx/releases), если ещё не установлен.  
 Для этого скачайте **x64** версию BepInEx. Не скачивайте **Unix** версию.  
 Распакуйте следующие файлы из **BepInEx_x64_%version%.zip** в папку игры `CarX Drift Racing Online`:  
@@ -33,7 +38,8 @@ If you don't have the `plugins` folder inside the `BepInEx` then either create i
     winhttp.dll
 1. Скачайте последний релиз **KiNO** со [вкладки с релизами](https://github.com/trbflxr/kino/releases) (**НЕ НУЖНО СКАЧИВАТЬ SOURCE CODE**).  
 Распакуйте следущие файлы из архива **release_%version%.zip**:  
-    > KN_Core.dll  
+    > assimp.dll  
+     KN_Core.dll  
      KN_Loader.dll  
      KN_Updater.exe  
 
@@ -53,7 +59,8 @@ Extraia os seguintes arquivos de **BepInEx_x64_%version%.zip** dentro da sua pas
      winhttp.dll
 1. Baixe a última versão do **KiNO** da [aba de releases](https://github.com/trbflxr/kino/releases) **(NÃO BAIXE O CÓDIGO FONTE)**.  
 Extraia os seguintes arquivos de **release_%version%.zip**:  
-    > KN_Core.dll  
+    > assimp.dll  
+     KN_Core.dll  
      KN_Loader.dll  
      KN_Updater.exe  
 
