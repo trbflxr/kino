@@ -35,6 +35,8 @@
 
 > [Visuals](#visuals)
 
+> [Air](#air-suspension)
+
 > [Extras](#extras)
 
 > [Noclip](#noclip-settings)
@@ -165,6 +167,15 @@ It can be found at:
 ```
 To use a downloaded livery put it in this folder as well.
 ![visuals_tut](../../Images/visuals.png)
+#
+## Air suspension
+![air_icon](../../Images/icons/air.png)  
+A module rewarded as a part of Discord exclusive rewards for 2nd tier Patreon supporters.  
+
+It allows you to control the suspension height, switch between air and hydraulics modes, save up to 3 presets for the air suspension and set up [keybinds](#keybinds) for a more convenient use.
+
+The first time you open the module you will be greeted with a tutorial containing some information on how to use the features. 
+![air](../../Images/air.png)
 #
 ## Noclip settings
 ![noclip](../../Images/icons/noclip.png)  

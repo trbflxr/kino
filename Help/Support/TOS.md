@@ -15,21 +15,21 @@
 
      1.5. Donation - a financial support provided through the means established by the receiving side (kino mod team in the following text).
 
-     1.6. Extras - a module given out as a reward to users with a supporter role in Kino mod’s discord server. More information is provided in the upcoming text.  
+     1.6. Discord exclusive rewards - in the following text this term is used for the Extras and Air modules of the mod that are currently only available to kino supporters as part of the associated Patreon tiers.
 
      1.7. Supporter role - a role that users acquire after their donation being successfully verified.  
 
-     1.8. Validation - a process of verifying the fact of donation and unlocking the access to the Extras module for the user.  
+     1.8. Validation - a process of verifying the donation.
 2. **Conditions**  
 2.1. Donations made through patreon are rewarded with a patreon supporter role in the Kino’s discord server.  
 
    2.2. The role mentioned in 2.1 is managed automatically on the side of Patreon and only applies to the user for the period of continuous support. Kino mod team is not responsible for distribution of this reward.  
 
-   2.3. Every user with a patreon supporter role is eligible for receiving the permanent supporter role along with receiving access to the Extras module of the mod (please refer to the guide for more information).  
+   2.3. Every user with a patreon supporter role is eligible for receiving the permanent supporter role along with receiving access to the Discord exclusive rewards.
 
-   2.4. Membership in Kino mod’s discord server is mandatory for receiving the role along with getting the access to the aforementioned module.
+   2.4. Membership in Kino mod’s discord server is mandatory for receiving the role along with getting the access to the aforementioned modules.
 
-   2.5. The receival of discord exclusive rewards (permanent supporter role along with Extras module) is responsibility of the user making a donation. Kino mod team does not bear the responsibility for the user failing to successfully complete the process necessary for the validation.
+   2.5. The receival of discord exclusive rewards (permanent supporter role along with Extras or Air modules) is responsibility of the user making a donation. Kino mod team does not bear the responsibility for the user failing to successfully complete the process necessary for the validation.
 
    2.6. Discord exclusive rewards are permanent and do not require continuous support as they have no relation to Patreon rewards.
 
@@ -53,17 +53,15 @@ As mentioned in the terms of service, discord exclusive rewards are permanent an
 
    2.2 Respond to the bot with the link you copied.
 
-   2.3 If the link you have provided is correct, the bot will respond to you confirming that it’s a working link and you will have to await for validation. Once you are validated you will also get a notification from the bot.  
+   2.3 If the link you have provided is correct, the bot will respond to you confirming that it’s a working link and once the validation process is over you will receive access to eligable rewards.
 
-   2.4 Validation time: This part relies on how quickly Patreon bot is gonna give you the patreon supporter role (which might take up to a few hours from personal experience). After you get a DM from our bot and provide a valid steam link it might take up to 24 hours depending on our availability. While normally it would take a lot less, please understand that the process of validation is not automatic.  
-   
-   2.5 If you don’t get a DM from our bot after receiving the patreon supporter role - please open a ticket on our server. We will try to resolve it as quickly as possible.
+   2.4 If you don’t get a DM from our bot after receiving the patreon supporter role - please open a ticket on our server. We will try to resolve it as quickly as possible.
 # FAQ
-- Will I get Extras if I donate?
-  > Up to you. Extras are not a part of Patreon pledge reward since the distribution of the reward heavily relies on your cooperation, however every Patreon supporter is eligible to gain access to the Extras module as a part of discord exclusive reward.
+- Will I get Extras/Air if I donate?
+  > Up to you. Extras and the Air are not a part of Patreon pledge reward since the distribution of the reward heavily relies on your cooperation, however every Patreon supporter is eligible to gain access to the rewards appropriate to their Patreon donation tier as a part of discord exclusive rewards.
 - Can I donate for a friend?
   > If you have a friend who is unable to donate through the means of Patreon or for some other reason - you can open a ticket in our discord and we might try to come up with a solution.
-- Do I have to stay subscribed to maintain my access to Extras?
-  > As mentioned earlier, you don’t have to stay subscribed to maintain the access to the module. The supporter role as well and the access to the Extras are permanent.
+- Do I have to stay subscribed to maintain my access to Discord rewards?
+  > As mentioned earlier, you don’t have to stay subscribed to maintain the access to the modules. The supporter role as well and the access to the Discord exclusive rewards are permanent.
 - I got the patreon supporter role but I haven’t received a DM from the bot!
   > If for some reason our bot is down and failed to send you a message or you had your DMs closed, please open a ticket in our Discord.
