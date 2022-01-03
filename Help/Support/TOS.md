@@ -45,8 +45,8 @@ Now that we finished with the formal part of this document, we hope for your und
 Assuming you want to get a full advantage of your benefits for supporting the mod, read through the following guide which will explain everything regarding the process that follows after you make your donation on Patreon and more.  
 1. **Receiving the patreon supporter role.**  
 Once you have made the donation, you should receive the aforementioned role in our discord. For that you need to make sure you have linked your Discord in your Patreon account settings. How long it will take for you to receive the role is entirely up to Patreon and there’s nothing we can do on our side to speed up the process.  
-2. **Permanent supporter role and access to Extras module.**  
-As mentioned in the terms of service, discord exclusive rewards are permanent and don’t require you to stay subscribed to our Patreon. After you receive the role you should get a DM on discord from our bot, which will ask you to provide the link to your steam account. This is mandatory for the validation process needed for you to get access to the Extras module so please keep your DMs open.  
+2. **Permanent supporter role and access to additional modules.**  
+As mentioned in the terms of service, discord exclusive rewards are permanent and don’t require you to stay subscribed to our Patreon. After you receive the role you should get a DM on discord from our bot, which will ask you to provide the link to your steam account. This is mandatory for the validation process needed for you to get access to the additional modules so please keep your DMs open.  
 
    2.1. To get the link: Go to your Steam profile page, right click anywhere (for an example on the profile background) and click **`Copy Page URL`**.  
    ![steam context](../../Images/steam_context.png)
