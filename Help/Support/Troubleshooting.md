@@ -29,7 +29,7 @@ even if your installation 100% correct, this might be the cause. However only re
 > 📌**Note:** after installing **.NET Framework** and **Visual C++ Redistributable** you might have to restart your PC for it to work.
 
 ### **Still having issues? Get the log.**
-**|** 1. Go to your CarX Drift Racing Online folder and find the file called `doorstep_config.ini`.  
+**|** 1. Go to your CarX Drift Racing Online folder and find the file called `doorstop_config.ini`.  
 **|** 2. Open the file with any text editor and find a following line:  
 ```
 redirectOutputLog=false
