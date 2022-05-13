@@ -82,7 +82,32 @@ In license plates settings you can add plates for front and rear of the car, adj
 ## Weather
 ![weather](../../Images/icons/weather.png)  
 In the weather tab you can adjust in-game lighting, enable the fog and use custom skyboxes.
+
 ![weather_tut](../../Images/weather_settings.png)
+
+To load your own skyboxes you need to have them in the following formats: 
+
+![skybox_tut](/Images/tut_skyboxes.png)
+
+**For cubemaps:**
+>**nx = +x  
+ny = -y  
+nz = -z  
+px = +x  
+py = +y  
+pz = +z**  
+
+**png** and **jpg** only
+
+All the face images should be inside a folder.
+
+**For panoramas:**  
+Panoramas can be used in .png and .jpg formats. You can convert HDR and EXR skyboxes to .png or .jpg to use them with the mod.
+
+Skyboxes are installed into the following folder: 
+```
+CarX Drift Racing Online\BepInEx\plugins\KN_Base\sky
+```
 #
 ## Players
 ![player](../../Images/icons/players.png)  
@@ -196,6 +221,9 @@ From the modules tab you can enable and disable some of the mod's features.
 ![settings_modules](../../Images/settings_modules.png)  
 In the game settings you have some *quality of life* features as well as toggles for synchronization of different mod features between kino users (on by defaul).
 ![settings_game](../../Images/settings_game.png)
+Graphics settings enable you to toggle `HD shadows` and `Realtime reflections`.  
+Realtime reflections have 2 quality options: **Low** only relfects skybox and the map while **Medium** reflects cars and shadows as well.  
+![settings_graphics](/Images/settings_graphics.png)
 #
 ## Keybinds
 ![keybinds](../../Images/icons/keybind.png)  
