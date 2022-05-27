@@ -13,7 +13,7 @@
 
 > [License plates](#license-plates)
 
-> [Weather](#weather)
+> [Graphics](#graphics)
 
 > [Players](#players)
 
@@ -62,6 +62,10 @@ And ability to manage player's [collisions](#players).
 ## Lights
 ![lights](../../Images/icons/headlights.png)  
 In this tab you can adjust settings of your headlights such as horizontal angle (affects vertical as well), brightness and the colors of the beam.
+
+Also you have an option for daylight running lights which hide the beams and toggle pop-ups in **fully open** and **sleepy** modes.
+
+P.S. Pop-up headlights don't work on AE86 due to the model issue.
 ![lights_tut](../../Images/lights_settings.png)
 #
 ## Hazards
@@ -79,15 +83,23 @@ Color settings, brightness and lighting mode for your underglow.
 In license plates settings you can add plates for front and rear of the car, adjust their positions, change the format and put your own text on it.
 ![plates_tut](../../Images/license_plates.png)
 #
-## Weather
-![weather](../../Images/icons/weather.png)  
-In the weather tab you can adjust in-game lighting, enable the fog and use custom skyboxes.
+## Graphics
+![graphics](../../Images/icons/weather.png)  
+In the graphics tab you can adjust in-game lighting, enable the fog and use custom skyboxes.
 
-![weather_tut](../../Images/weather_settings.png)
+General settings enable you to toggle `HD shadows` and `Realtime reflections`.  
+Realtime reflections have 2 quality options: **Low** only relfects skybox and the map while **Medium** reflects cars and shadows as well.  
+![graphics_general](../../Images/graphics_general.png)
+
+![graphics_sun](../../Images/graphics_sun.png)
+
+![graphics_sky](../../Images/graphics_sky.png)
 
 To load your own skyboxes you need to have them in the following formats: 
 
 ![skybox_tut](/Images/tut_skyboxes.png)
+
+![graphics_fog](../../Images/graphics_fog.png)
 
 **For cubemaps:**
 >**nx = +x  
@@ -221,9 +233,6 @@ From the modules tab you can enable and disable some of the mod's features.
 ![settings_modules](../../Images/settings_modules.png)  
 In the game settings you have some *quality of life* features as well as toggles for synchronization of different mod features between kino users (on by defaul).
 ![settings_game](../../Images/settings_game.png)
-Graphics settings enable you to toggle `HD shadows` and `Realtime reflections`.  
-Realtime reflections have 2 quality options: **Low** only relfects skybox and the map while **Medium** reflects cars and shadows as well.  
-![settings_graphics](/Images/settings_graphics.png)
 #
 ## Keybinds
 ![keybinds](../../Images/icons/keybind.png)  
