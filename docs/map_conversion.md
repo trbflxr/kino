@@ -1,5 +1,7 @@
 # Map Conversion
 
+//TODO: To be edited
+
 This is a basic guide for map conversion.  
 It is intended for people who already have experience working with 3D software such as 3Ds Max and Blender.
 

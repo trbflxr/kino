@@ -1,5 +1,5 @@
 site_name: Kino Mod for CarX
-repo_url: https://github.com/trbflxr/kino
+repo_url: https://github.com/locomoco28/kino
 copyright: Copyright &copy; 2016 - 2020 Martin Donath
 site_description: |
   Kino is an extensive modification for CarX Drift Racing Online offering a lot of useful features and customizability, including lighting and livery sharing features.
@@ -60,15 +60,26 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
 
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+
 # let's manually create navigation so we can order it properly
 nav:
   - Welcome:
-      - Intro: index.md
-      - Installation: installation.md
-  - Usage:
-      - "All Features": usage/all_features.md
-      - Basics: usage/basics.md
-      - "Map Conversion": usage/map_conversion.md
+      - index.md
+      - usage.md
+      - installation.md
   - troubleshooting.md
   - credits.md
   - tos.md

@@ -1,22 +1,44 @@
 # Installation
 
-## Does not work on Win 7
+**This mod does not work on Windows 7**
 
-- [Does not work on Win 7](#does-not-work-on-win-7)
-- [English:](#english)
-- [Русский:](#русский)
-- [Português:](#português)
+Please refer to the installation instructions in your preferred language in the table of contents on the right.
 
-## English:
+## English
 
-1.  Make sure you're on the moddable version of the game.  
-    Go to Steam and right click on **CarX Drift Racing Online**. Go to **`Properties...`**, then click on **`BETAS`** and select a version of the game that has **(moddable)** next to the version name.
-2.  Install [BepInEx mod loader](https://github.com/BepInEx/BepInEx/releases) if you haven't already.  
-    Download the **x64** version of the BepInEx. Do not download the **Unix** version.  
-    Extract the following files from **BepInEx*x64*%version%.zip** into your `CarX Drift Racing Online` folder:  
-     > BepInEx  
-     doorstep_config.ini  
-     winhttp.dll
+### Step 1: Make sure to enabled the moddable version of CarX
+
+You are required to enable the moddable version of CarX in steam to be able to load mods!
+
+- Go to Steam, open your library and right click on **CarX Drift Racing Online**
+- Select `Properties`
+- Select `BETAS`
+- Select the version of the game that says `moddable`
+
+!!! info "Once you have selected the moddable beta, your game should start downloading the moddable build which you should see in your Steam downloads. Once that's complete, you are ready to continue"
+
+  <iframe width="560" height="560" src="https://www.youtube-nocookie.com/embed/h7rgvBkVgHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Step 2: Install BepInEx Mod Loader
+
+BepInEx is a mod loader that we require to be able to load the mod in the game.
+
+Go to the [BepInEx Releases Page](https://github.com/BepInEx/BepInEx/releases) and download the latest stable release.
+
+Make sure **NOT** to download the _Source Code_. What we require is the `BepInEx_x64_[version].zip` whereas `version` is the version you are installing at the moment.
+
+If you're running Windows in 32bit, you need the `x86` file instead of `x64` as chosen in our example.
+
+![Example image from BepInEx's releases page](img/bepinex_download.png)
+
+Once downloaded, extract the contents of the `.zip` archieve into your CarX Drift Racing Online folder.
+
+![Example image of the CarX game folder with the BepInEx files extracted into it](img/bepinex_extraction.png)
+
+### Step 3: Download KiNO
+
+!!! TODO "//TODO: THE REST FROM HERE"
+
 3.  Download the latest version of **KiNO** from the [release tab](https://github.com/trbflxr/kino/releases) **(DO NOT DOWNLOAD SOURCE CODE)**.  
     Extract the following files from **release\_%version%.zip**:  
      > assimp.dll  

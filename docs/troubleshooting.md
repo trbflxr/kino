@@ -4,6 +4,8 @@ title: Troubleshooting
 
 # Mod doesn't work?
 
+//TODO: To be edited
+
 If the mod doesn't work there could be multiple reasons as to why that could be happening.
 
 > **Note:** Win 7 and cracked version of the game are unsupported.
