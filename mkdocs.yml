@@ -1,0 +1,74 @@
+site_name: Kino Mod for CarX
+repo_url: https://github.com/trbflxr/kino
+copyright: Copyright &copy; 2016 - 2020 Martin Donath
+site_description: |
+  Kino is an extensive modification for CarX Drift Racing Online offering a lot of useful features and customizability, including lighting and livery sharing features.
+theme:
+  name: material
+  logo: img/logo.png
+  language: en
+  # dark/bright mode
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - search.share
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+extra_css:
+  # load custom colors to suit the logo
+  - stylesheets/extra.css
+extra:
+  # Remove "Made with MaterialDocs" notice
+  generator: false
+
+  # Social links in the footer
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/xvGMEEcEEp
+      name: Join our Discord!
+    - icon: fontawesome/brands/patreon
+      link: https://www.patreon.com/kinomod
+      name: Your pledge is truly appreciated
+    - icon: material/file-document-multiple
+      link: /tos
+      name: Terms of Use
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      # ensure that slugs for enchor links are unicode aware (important for non-ascii characters)
+      slugify: !!python/name:pymdownx.slugs.uslugify
+
+  # https://jamstackthemes.dev/demo/theme/mkdocs-material/
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+# let's manually create navigation so we can order it properly
+nav:
+  - Welcome:
+      - Intro: index.md
+      - Installation: installation.md
+  - Usage:
+      - "All Features": usage/all_features.md
+      - Basics: usage/basics.md
+      - "Map Conversion": usage/map_conversion.md
+  - troubleshooting.md
+  - credits.md
+  - tos.md

@@ -1,0 +1,9 @@
+:root > * {
+  --md-primary-fg-color: #f58792;
+  --md-accent-fg-color: #c75864;
+  --md-primary-fg-color--light: #ecb7b7;
+  --md-primary-fg-color--dark: #f58792;
+}
+.md-nav__title[for="__drawer"] {
+  --md-primary-fg-color: transparent; /* make the background of the logo in the sidebar navigation transparent bcz otherwise the "K" is not visible (same color as background) */
+}
