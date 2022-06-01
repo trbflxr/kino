@@ -29,32 +29,54 @@ Make sure **NOT** to download the _Source Code_. What we require is the `BepInEx
 
 If you're running Windows in 32bit, you need the `x86` file instead of `x64` as chosen in our example.
 
-![Example image from BepInEx's releases page](img/bepinex_download.png)
+??? faq "Do I need 64 or 32 bit?"
+    You can easily check if your system is running 32 or 64 bit by going into  
+    `Windows Settings` :material-chevron-right: `System` :material-chevron-right: `About`
+
+    ![Example image of the Windows settings highlighting the "System Type" value in the before mentioned About page](img/win_settings_sys_type.png)
+
+???+ info "Example for 64bit"
+    ![Example image from BepInEx's releases page](img/bepinex_download.png)
 
 Once downloaded, extract the contents of the `.zip` archieve into your CarX Drift Racing Online folder.
 
 ![Example image of the CarX game folder with the BepInEx files extracted into it](img/bepinex_extraction.png)
 
-### Step 3: Download KiNO
+#### Verify BepInEx Installation
 
-!!! TODO "//TODO: THE REST FROM HERE"
+To verify that you have successfully installed BepInEx, start your game and check if a Log file gets created in your BepInEx folder inside the CarX game folder
 
-3.  Download the latest version of **KiNO** from the [release tab](https://github.com/trbflxr/kino/releases) **(DO NOT DOWNLOAD SOURCE CODE)**.  
-    Extract the following files from **release\_%version%.zip**:  
-     > assimp.dll  
-     KN_Core.dll  
-     KN_Loader.dll  
-     KN_Updater.exe
+![Example iamge showing the LogOutput.txt inside our BepInEx folder](img/bepinex_verify_logfile.png)
 
-        inside `CarX Drift Racing Online\BepInEx\plugins`.
+!!! warning "I do ^^not^^ have that file"
+    If the `LogOutput.txt` does ^^**not**^^ generate, it's very likely that you have missed a point, or perhaps the BepInEx installation has changed.
 
-    If you don't have the `plugins` folder inside the `BepInEx` then either create it yourself or start the game for it to be created automatically.
+    Please refer to the official BepInEx documentation on how to install it here:  
+    <https://docs.bepinex.dev/articles/user_guide/installation/index.html>
 
-4.  If mod doesn't work, or you get `VCRUNTIME140.dll Is Missing` error, you might have to download and install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). You will need the [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
+### Step 3: Install KiNO
 
-5.  A short description of the features can be found [here](README.md).
+!!! warning inline end "Do ^^**NOT**^^ download the source code"
+
+Once you have installed BepInEx and verified that the Log file gets created to ensure BepInEx works properly, continue by downloading the latest release of KiNO in the [release page](https://github.com/trbflxr/kino/releases).
+
+Once you have downloaded the release file, you need to extract the contents of it into your BepInEx `plugins` folder.
+
+!!! info "If you don't have the `plugins` folder, you can create it yourself"
+
+![Example image showing the extracted files from the zip in the plugins folder](img/kino_extraction.png)
+
+!!! warning "I'm getting `VCRUNTIME140.dll Is Missing` error"
+    Please install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).  
+    You will need the [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
+
+That's it, when you start up CarX now it should be ready. Please take a look at our [usage guide](usage.md) to get started!
+
+---
 
 ## Русский:
+
+!!! TODO "Needs contribution by someone speaking the language to be reworked similar to the English version!"
 
 1.  Убедитесь что вы находитесь на модовой версии игры. Для этого откройте стим, правый клик по **CarX Drift Racing Online**, затем **`Свойства...`**, перейдите во вкладку **`БЕТА-ВЕРСИИ`** и из списка выбирете версию игры с припиской **(moddable)**.
 1.  Установите [BepInEx mod loader](https://github.com/BepInEx/BepInEx/releases), если ещё не установлен.  
