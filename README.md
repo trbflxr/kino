@@ -22,3 +22,8 @@ mkdocs serve
 # build and deploy website to github pages
 mkdocs gh-deploy
 ```
+
+## Additional ideas
+
+- Create custom landing page similar to mkdocs-material's docs page: <https://github.com/squidfunk/mkdocs-material/blob/master/src/overrides/home.html>
+- Credits page could be written in a custom HTML template to design it a bit differently maybe and perhaps even utilize Patreon's APIs to fetch a list of all Patreons, idk if that's possible without a backend server though
