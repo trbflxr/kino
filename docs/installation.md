@@ -6,7 +6,7 @@ Please refer to the installation instructions in your preferred language in the 
 
 ## English
 
-### Step 1: Make sure to enabled the moddable version of CarX
+### Step 1: Make sure to enable the moddable version of CarX
 
 You are required to enable the moddable version of CarX in steam to be able to load mods!
 
@@ -32,6 +32,8 @@ If you're running Windows in 32bit, you need the `x86` file instead of `x64` as 
 ??? faq "Do I need 64 or 32 bit?"
     You can easily check if your system is running 32 or 64 bit by going into  
     `Windows Settings` :material-chevron-right: `System` :material-chevron-right: `About`
+
+    <small>More Info: <https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d></small>
 
     ![Example image of the Windows settings highlighting the "System Type" value in the before mentioned About page](img/win_settings_sys_type.png)
 
@@ -74,7 +76,79 @@ That's it, when you start up CarX now it should be ready. Please take a look at 
 
 ---
 
-## Русский:
+## German/Deutsch
+
+### Schritt 1: Wechsel auf die modifizierbare CarX Version
+
+Du musst die modifizierbare Version von CarX in Steam einstellen damit du Mods laden kannst!
+
+- Öffne Steam, gehe in deine Bibliothek und Rechts-Klicke auf **CarX Drift Racing Online**
+- Gehe in die `Eigenschaften`
+- Wähle `BETAS`
+- Wähle die Version des Spiels welche `moddable` im Namen hat
+
+!!! info "Sobald du die modifizierbare Version ausgewählt hast, sollte der Download in Steam starten. Sobald dies fertig ist kannst du mit den nächsten Schritten weiter machen."
+
+  <iframe width="560" height="560" src="https://www.youtube-nocookie.com/embed/h7rgvBkVgHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Schritt 2: Installiere BepInEx Mod Loader
+
+BepInEx ist ein mod loader welches wir für KiNO benötigen um es in unserem Spiel zu nutzen.
+
+Gehe in die [BepInEx Releases Seite auf Github](https://github.com/BepInEx/BepInEx/releases) und lade dir die neuste stabile Version runter.
+
+Lade auf **keinen Fall** den _Source Code_ (Quelltext) runter. Wir benötigen die `BepInEx_x64_[version].zip` worin `version` die gerade zu installierende Version ist.
+
+Wenn du Windows in 32bit hast, dann brauchst du die `x86` Datei anstatt der `x64` welches wir im Beispiel genutzt haben.
+
+??? faq "Brauche ich 64 oder 32 bit?"
+    Du kannst ganz einfach überprüfen ob dein System 32 oder 64 bit nutzt indem du in den Windows Einstellungen hierhin gehst:
+    `Windows Einstellungen` :material-chevron-right: `System` :material-chevron-right: `Info`
+
+    <small>Mehr Infos: <https://support.microsoft.com/de-de/windows/32-bit-und-64-bit-windows-h%C3%A4ufig-gestellte-fragen-c6ca9541-8dce-4d48-0415-94a3faa2e13d></small>
+
+    ![Beispielbild aus den Windows Einstellungen mit dem Wert des "System Type" hervorgehoben](img/win_settings_sys_type.png)
+
+???+ info "Beispiel für 64bit"
+    ![Beispielbild von BepInEx's Releases Seite](img/bepinex_download.png)
+
+Sobald der Download abgeschlossen hat, extrahiere den Inhalt der `.zip` in deinen CarX Drift Racing Online Ordner.
+
+![Beispielbild des CarX Ordners mit den BepInEx Dateien hinein extrahiert](img/bepinex_extraction.png)
+
+#### Verifiziere die BepInEx Installation
+
+Um die Installation von BepInEx zu verifizieren, starte einfache das Spiel und überprüfe ob eine Log Datei im BepInEx Order erstellt wurde
+
+![Beispielbild der LogOutput.txt im BepInEx Ordner](img/bepinex_verify_logfile.png)
+
+!!! warning "Ich habe diese Datei ^^nicht^^"
+    Wenn die `LogOutput.txt` Datei ^^**nicht**^^ erstellt wurde, hast du wahrscheinlich einen Schritt verpasst, oder vielleicht hat sich die Installtion von BepInEx geändert.
+
+    Bitte greife auf die offiziellen BepInEx Installationsdokumentation zurück. Diese findest du hier:  
+    <https://docs.bepinex.dev/articles/user_guide/installation/index.html>
+
+### Step 3: Installiere KiNO
+
+!!! warning inline end "Lade ^^**nicht**^^ den _Source Code_ (Quelltext) runter"
+
+Sobald du BepInEx erfolgreich installiert und auf funktion verifiziert hast, kannst du mit dem Download der KiNO Mod fortfahren. Diesen findest du auf der [Releases Seite auf Github](https://github.com/trbflxr/kino/releases).
+
+Sobald du die Datei heruntergeladen hast, extrahiere dessen Inhalt in den BepInEx `plugins` Ordner.
+
+!!! info "Wenn du den `plugins` Ordner nicht hast, dann kannst du diesen selber erstellen"
+
+![Beispielbild der extrahierten Dateien aus der zip im plugins Ordner](img/kino_extraction.png)
+
+!!! warning "Ich bekomme den `VCRUNTIME140.dll Is Missing` Fehler"
+    Bitte installiere die [Visual C++ Redistributable für Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).  
+    Du benötigst die [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
+
+Das war's, du kannst nun CarX starten und es sollte funktionieren. Schau die unseren [Usage Guide (Nutzungsanleitung, Englisch)](usage.md) an um dich mit den Funktionen vertraut zu machen.
+
+---
+
+## Russian/Русский:
 
 !!! TODO "Needs contribution by someone speaking the language to be reworked similar to the English version!"
 
@@ -100,7 +174,7 @@ That's it, when you start up CarX now it should be ready. Please take a look at 
 
 1.  Краткое описание функций мода можно посмотреть [здесь](README.md).
 
-## Português:
+## Portuguese/Português:
 
 1.  Instale o [BepInEx mod loader](https://github.com/BepInEx/BepInEx/releases) caso você ainda não o tenha.  
     Baixe a versão **x64** do BepInEx. Não baixe a versão **Unix**.  
