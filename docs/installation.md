@@ -176,6 +176,8 @@ Das war's, du kannst nun CarX starten und es sollte funktionieren. Schau die uns
 
 ## Portuguese/Português:
 
+!!! TODO "Needs contribution by someone speaking the language to be reworked similar to the English version!"
+
 1.  Instale o [BepInEx mod loader](https://github.com/BepInEx/BepInEx/releases) caso você ainda não o tenha.  
     Baixe a versão **x64** do BepInEx. Não baixe a versão **Unix**.  
     Extraia os seguintes arquivos de **BepInEx*x64*%version%.zip** dentro da sua pasta do `CarX Drift Racing Online`:  
