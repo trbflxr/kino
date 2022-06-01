@@ -154,7 +154,7 @@ To use a downloaded tune put it in this folder as well.
 
 ### <img src="../img/icons/maps.png" style="height: 1.4rem" alt="Maps Icon" /> Maps
 
-Kino features a custom maploader that allows you to load the maps in the .obj format.  
+KiNO features a custom maploader that allows you to load the maps in the .obj format.  
 ![maps](../img/maps.png)
 Downloaded maps should be installed into:
 
@@ -226,7 +226,7 @@ In the gui settings you can change the mod language, color theme, enable window 
 ![settings_gui](../img/settings_gui.png)  
 From the modules tab you can enable and disable some of the mod's features.
 ![settings_modules](../img/settings_modules.png)  
-In the game settings you have some _quality of life_ features as well as toggles for synchronization of different mod features between kino users (on by defaul).
+In the game settings you have some _quality of life_ features as well as toggles for synchronization of different mod features between KiNO users (on by defaul).
 ![settings_game](../img/settings_game.png)
 
 ### <img src="../img/icons/keybind.png" style="height: 1.4rem" alt="Keybinds Icon" /> Keybinds

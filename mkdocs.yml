@@ -1,8 +1,8 @@
-site_name: Kino Mod for CarX
+site_name: KiNO Mod for CarX
 repo_url: https://github.com/locomoco28/kino
 copyright: Copyright &copy; 2016 - 2020 Martin Donath
 site_description: |
-  Kino is an extensive modification for CarX Drift Racing Online offering a lot of useful features and customizability, including lighting and livery sharing features.
+  KiNO is an extensive modification for CarX Drift Racing Online offering a lot of useful features and customizability, including lighting and livery sharing features.
 theme:
   name: material
   logo: img/logo.png

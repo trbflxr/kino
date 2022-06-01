@@ -2,7 +2,7 @@
 title: Intro
 ---
 
-# Welcome to Kino Mod
+# Welcome to KiNO Mod
 
 [![Releases](https://img.shields.io/github/v/release/trbflxr/kino?include_prereleases&label=DOWNLOAD&style=for-the-badge)](https://github.com/trbflxr/kino/releases)
 [![KiNO Discord](https://img.shields.io/discord/716264804498538516?label=DISCORD&style=for-the-badge)](https://discord.gg/xvGMEEcEEp)
@@ -13,7 +13,7 @@ title: Intro
 The mod that has become popular for it's lighting and livery sharing features.  
 Still in active development with more things getting added.
 
-To get more familiar with the features of Kino, take a glance at our [usage guide](usage.md).
+To get more familiar with the features of KiNO, take a glance at our [usage guide](usage.md).
 
 ## Installation
 
@@ -24,7 +24,7 @@ If you have issues with the mod, refer to the [Troubleshooting guide](troublesho
 
 |         Keyboard | Action                                                        |
 | ---------------: | ------------------------------------------------------------- |
-|    <kbd>F4</kbd> | bring up the Kino menu                                        |
+|    <kbd>F4</kbd> | bring up the KiNO menu                                        |
 |    <kbd>F3</kbd> | toggle cinematic camera                                       |
 | <kbd>PG UP</kbd> | toggle hazard lights                                          |
 | <kbd>PG DN</kbd> | toggle headlights                                             |
