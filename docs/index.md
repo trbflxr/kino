@@ -31,7 +31,7 @@ If you have issues with the mod, refer to the [Troubleshooting guide](troublesho
 |    <kbd>F1</kbd> | toggle noclip/flymod (only works in modded/corrupted lobbies) |
 
 ???+ info "Noclip/Flymod Controls"
-Controlls are <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Q</kbd> <kbd>E</kbd> keys.
+    Controlls are <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Q</kbd> <kbd>E</kbd> keys.
 
     Speed can be adjusted in [settings](usage.md#keybinds)
 
