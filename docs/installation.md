@@ -74,6 +74,8 @@ Once you have downloaded the release file, you need to extract the contents of i
 
 That's it, when you start up CarX now it should be ready. Please take a look at our [usage guide](usage.md) to get started!
 
+If you have any more issues, take a glance at our [Troubleshooting Page](troubleshooting.md) before creating a Github Ticket or asking on Discord as we have covered the most commonly asked questions there :)
+
 ---
 
 ## German/Deutsch
@@ -145,6 +147,8 @@ Sobald du die Datei heruntergeladen hast, extrahiere dessen Inhalt in den BepInE
     Du benötigst die [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
 Das war's, du kannst nun CarX starten und es sollte funktionieren. Schau die unseren [Usage Guide (Nutzungsanleitung, Englisch)](usage.md) an um dich mit den Funktionen vertraut zu machen.
+
+Wenn du noch Probleme hast, schaue dir unsere [Troubleshooting Seite](troubleshooting.md) an bevor du ein Github Ticket erstellst oder im Discord fragst, weil wir dort die häufig gestellten Fragen beantworten :)
 
 ---
 
