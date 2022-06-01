@@ -1,33 +1,39 @@
 # Map Conversion
 
-//TODO: To be edited
+!!! important "Intendet Audience"
+    This document is intended for people who have experience working with 3D software such as 3Ds Max or Blender.
 
-This is a basic guide for map conversion.  
-It is intended for people who already have experience working with 3D software such as 3Ds Max and Blender.
+    If you have no expertise in 3D technologies, this document might not be helpful for you
 
-The guide will use Blender as an example software since it is free and is most popular for converting maps in CarX.
+This guide will lead you through the steps to convert/port a map from another game or model into CarX.
+
+We will use Blender as an example software since it is free and is most popular for converting maps in CarX.
 
 ## Physical Materials
 
-Physical materials are assigned by adding a "tag" in the object's name like in example bellow:  
+Physical materials are assigned by adding a "tag" in the object's name like in example bellow:
+
 ![physical_materials](../img/map_physical_materials.png)
 
 ### Available materials and their tags:
 
-Asphalt - **road\_**  
-Grass - **grass\_**  
-Kerbs - **kerb\_**  
-Sand - **sand\_**  
-Snow - **snow\_**  
-Gravel - **gravel\_**  
-Dirt - **dirt\_**  
-Ice - **icyroad\_**
+| Material | Tag        |
+| -------: | ---------- |
+| Asphalt  | `road_`    |
+| Grass    | `grass_`   |
+| Kerbs    | `kerb_`    |
+| Sand     | `sand_`    |
+| Snow     | `snow_`    |
+| Gravel   | `gravel_`  |
+| Dirt     | `dirt_`    |
+| Ice      | `icyroad_` |
 
 ## Object types
 
-There are 2 tags for the object types:  
-Object with no collision - nocol*
-Riggid body - rb*
+There are 2 tags for the object types:
+
+- Object with no collision - `nocol*`
+- Riggid body - `rb*`
 
 ## Extras
 

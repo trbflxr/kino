@@ -81,5 +81,7 @@ nav:
       - usage.md
       - installation.md
   - troubleshooting.md
+  - 'Advanced Usage':
+      - advanced/map_conversion.md
   - credits.md
   - tos.md
