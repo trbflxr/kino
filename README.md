@@ -16,7 +16,12 @@
 
 For more information on the mod features please visit the [feature guide](Help/Support/Guide.md).
 
-### How to use
+### Map creation documentation
+
+Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
+OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).  
+
+## How to use
 **|** **F4** to bring up the menu.  
 **|** **F3** to toggle cinematic camera.  
 **|** **PG UP** to enable hazard lights.  
