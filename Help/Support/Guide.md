@@ -162,8 +162,17 @@ Downloaded maps should be installed into:
 ```
 ...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\maps
 ```
-To instal the map you need to put the folder containing the .obj file in the aformentioned folder. No .zip or .rar files.  
-If you wish to create your own maps, refer to the [this guide](Map%20Conversion.md).
+Kino supports two types of custom maps:
+1. Unity asset bundle scene loader.
+2. .obj legacy map loader.
+
+To install Unity maps just put the map file in the **maps** folder mentioned earlier.
+
+Legacy maps go into the same folder, however when installing legacy maps you need to put a folder that has the .obj file inside the **maps** folder. No .zip or .rar files. Also make sure you don't have double folders.  
+
+To learn how to create maps for Kino Unity map loader go [here](../../MapDocumentation/KinoMapDoc.md).
+
+If you wish to create your own maps for the legacy loader, refer to the [this guide](../../MapDocumentation/ObjMapDoc.md).
 #
 ## Waypoints
 ![waypoints_icon](../../Images/icons/waypoints.png)  
