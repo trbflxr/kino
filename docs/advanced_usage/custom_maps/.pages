@@ -1,0 +1,6 @@
+# Put index on top and legacy on bottom
+
+nav:
+    - index.md
+    - ...
+    - legacy.md

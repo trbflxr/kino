@@ -1,0 +1,9 @@
+# I use this file to ensure that the Welcome tab comes first, followed by all other tabs, except Credits and ToS
+
+nav:
+    - index.md
+    - getting_started
+    - advanced_usage
+    - ...
+    - credits.md
+    - tos.md

@@ -1,7 +1,3 @@
----
-title: Intro
----
-
 # Welcome to KiNO Mod
 
 [![Releases](https://img.shields.io/github/v/release/trbflxr/kino?include_prereleases&label=DOWNLOAD&style=for-the-badge)](https://github.com/trbflxr/kino/releases)
@@ -13,11 +9,11 @@ title: Intro
 The mod that has become popular for it's lighting and livery sharing features.  
 Still in active development with more things getting added.
 
-To get more familiar with the features of KiNO, take a glance at our [usage guide](usage.md).
+To get more familiar with the features of KiNO, take a glance at our [usage guide](getting_started/usage.md).
 
 ## Installation
 
-Installation is described [here](installation.md).  
+Installation is described [here](getting_started/usage.md).  
 If you have issues with the mod, refer to the [Troubleshooting guide](troubleshooting.md) _before_ opening a ticket or asking on the Discord server.
 
 ## Basic Controls
@@ -33,7 +29,7 @@ If you have issues with the mod, refer to the [Troubleshooting guide](troublesho
 ???+ info "Noclip/Flymod Controls"
     Controlls are <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Q</kbd> <kbd>E</kbd> keys.
 
-    Speed can be adjusted in [settings](usage.md#keybinds)
+    Speed can be adjusted in [settings](getting_started/usage.md#keybinds)
 
 ## Feedback
 
@@ -44,7 +40,7 @@ Suggestions can also be left in the [dedicated channel in Discord](https://disco
 ## Support Us
 
 If you wish to support the development of the mod, you can do so on [our Patreon](https://www.patreon.com/kinomod) page.
-All supporters get access to **Extras** which you can read about in the [Usage](usage.md) page.
+All supporters get access to **Extras** which you can read about in the [Usage](getting_started/usage.md) page.
 
 Thanks a lot to the people who have already supported us!  
 For the list of supporters check out our [Credits](credits.md) page :material-heart:

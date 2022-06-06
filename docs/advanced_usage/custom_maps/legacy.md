@@ -1,6 +1,11 @@
-# Map Conversion
+# Map Conversion (Legacy)
 
-!!! important "Intendet Audience"
+!!! important "UNITY MAPS ARE NOW AVAILABLE"
+    ## Map conversion documentation is _legacy_ as we now support importing Unity maps!
+
+    Please take a look at the [KiNO Map Documentation](./index.md)
+
+!!! info "Intendet Audience"
     This document is intended for people who have experience working with 3D software such as 3Ds Max or Blender.
 
     If you have no expertise in 3D technologies, this document might not be helpful for you

@@ -1,4 +1,5 @@
 site_name: KiNO Mod for CarX
+site_url: https://locomoco28.github.com/kino
 repo_url: https://github.com/locomoco28/kino
 copyright: Copyright &copy; 2016 - 2020 Martin Donath
 site_description: |
@@ -47,6 +48,7 @@ extra:
 
 plugins:
   - search
+  - awesome-pages
 
 markdown_extensions:
   - toc:
@@ -74,14 +76,18 @@ markdown_extensions:
   - md_in_html
   - pymdownx.superfences
 
-# let's manually create navigation so we can order it properly
-nav:
-  - Welcome:
-      - index.md
-      - usage.md
-      - installation.md
-  - troubleshooting.md
-  - 'Advanced Usage':
-      - advanced/map_conversion.md
-  - credits.md
-  - tos.md
+# Let's use the mkdocs-awesome-pages-plugin plugin to order the pages!
+# Documentation: https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#features
+# Basically, define order in .pages files (use the existing .pages files as reference)
+#nav: null
+#nav:
+#  - Welcome:
+#      - index.md
+#      - usage.md
+#      - installation.md
+#  - troubleshooting.md
+#  - 'Advanced Usage':
+#      - advanced/map_conversion/index.md:
+#        - advanced/map_conversion/en.md
+#  - credits.md
+#  - tos.md
