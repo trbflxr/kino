@@ -35,20 +35,20 @@ If you're running Windows in 32bit, you need the `x86` file instead of `x64` as 
 
     <small>More Info: <https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d></small>
 
-    ![Example image of the Windows settings highlighting the "System Type" value in the before mentioned About page](img/win_settings_sys_type.png)
+    ![Example image of the Windows settings highlighting the "System Type" value in the before mentioned About page](../img/win_settings_sys_type.png)
 
 ???+ info "Example for 64bit"
-    ![Example image from BepInEx's releases page](img/bepinex_download.png)
+    ![Example image from BepInEx's releases page](../img/bepinex_download.png)
 
 Once downloaded, extract the contents of the `.zip` archieve into your CarX Drift Racing Online folder.
 
-![Example image of the CarX game folder with the BepInEx files extracted into it](img/bepinex_extraction.png)
+![Example image of the CarX game folder with the BepInEx files extracted into it](../img/bepinex_extraction.png)
 
 #### Verify BepInEx Installation
 
 To verify that you have successfully installed BepInEx, start your game and check if a Log file gets created in your BepInEx folder inside the CarX game folder
 
-![Example iamge showing the LogOutput.txt inside our BepInEx folder](img/bepinex_verify_logfile.png)
+![Example iamge showing the LogOutput.txt inside our BepInEx folder](../img/bepinex_verify_logfile.png)
 
 !!! warning "I do ^^not^^ have that file"
     If the `LogOutput.txt` does ^^**not**^^ generate, it's very likely that you have missed a point, or perhaps the BepInEx installation has changed.
@@ -66,7 +66,7 @@ Once you have downloaded the release file, you need to extract the contents of i
 
 !!! info "If you don't have the `plugins` folder, you can create it yourself"
 
-![Example image showing the extracted files from the zip in the plugins folder](img/kino_extraction.png)
+![Example image showing the extracted files from the zip in the plugins folder](../img/kino_extraction.png)
 
 !!! warning "I'm getting `VCRUNTIME140.dll Is Missing` error"
     Please install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).  
@@ -109,20 +109,20 @@ Wenn du Windows in 32bit hast, dann brauchst du die `x86` Datei anstatt der `x64
 
     <small>Mehr Infos: <https://support.microsoft.com/de-de/windows/32-bit-und-64-bit-windows-h%C3%A4ufig-gestellte-fragen-c6ca9541-8dce-4d48-0415-94a3faa2e13d></small>
 
-    ![Beispielbild aus den Windows Einstellungen mit dem Wert des "System Type" hervorgehoben](img/win_settings_sys_type.png)
+    ![Beispielbild aus den Windows Einstellungen mit dem Wert des "System Type" hervorgehoben](../img/win_settings_sys_type.png)
 
 ???+ info "Beispiel für 64bit"
-    ![Beispielbild von BepInEx's Releases Seite](img/bepinex_download.png)
+    ![Beispielbild von BepInEx's Releases Seite](../img/bepinex_download.png)
 
 Sobald der Download abgeschlossen hat, extrahiere den Inhalt der `.zip` in deinen CarX Drift Racing Online Ordner.
 
-![Beispielbild des CarX Ordners mit den BepInEx Dateien hinein extrahiert](img/bepinex_extraction.png)
+![Beispielbild des CarX Ordners mit den BepInEx Dateien hinein extrahiert](../img/bepinex_extraction.png)
 
 #### Verifiziere die BepInEx Installation
 
 Um die Installation von BepInEx zu verifizieren, starte einfache das Spiel und überprüfe ob eine Log Datei im BepInEx Order erstellt wurde
 
-![Beispielbild der LogOutput.txt im BepInEx Ordner](img/bepinex_verify_logfile.png)
+![Beispielbild der LogOutput.txt im BepInEx Ordner](../img/bepinex_verify_logfile.png)
 
 !!! warning "Ich habe diese Datei ^^nicht^^"
     Wenn die `LogOutput.txt` Datei ^^**nicht**^^ erstellt wurde, hast du wahrscheinlich einen Schritt verpasst, oder vielleicht hat sich die Installtion von BepInEx geändert.
@@ -140,7 +140,7 @@ Sobald du die Datei heruntergeladen hast, extrahiere dessen Inhalt in den BepInE
 
 !!! info "Wenn du den `plugins` Ordner nicht hast, dann kannst du diesen selber erstellen"
 
-![Beispielbild der extrahierten Dateien aus der zip im plugins Ordner](img/kino_extraction.png)
+![Beispielbild der extrahierten Dateien aus der zip im plugins Ordner](../img/kino_extraction.png)
 
 !!! warning "Ich bekomme den `VCRUNTIME140.dll Is Missing` Fehler"
     Bitte installiere die [Visual C++ Redistributable für Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).  
