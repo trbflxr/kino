@@ -1,0 +1,6 @@
+.idea
+.vs
+.vscode
+
+#osx
+.DS_Store
