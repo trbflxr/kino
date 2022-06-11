@@ -1,8 +1,5 @@
 # Mod Usage Manual
 
-## This manual is guide you through the main mod's features and provide a short guide on how to use them.
-
-![main window](../../Images/main.png)
 ## List of mod tabs:
 
 > [Lights](#lights)  
@@ -30,6 +27,8 @@
 > [Change car](#change-car)
 
 > [Cinematic](#cinematic)
+
+> [Custom camera](#custom-camera)
 
 > [Custom HUD](#custom-hud)
 
@@ -196,6 +195,18 @@ You replays are saved to:
 ![cinematic_tut](../../Images/cinematic_2.png)  
 On the timeline you can set the starting and ending point of your replay by dragging arrows at the start and the end of the timeline. You can also adjust the playback speed and loop your replay.
 ![timeline](../../Images/timeline.png)
+#
+## Custom camera
+The feature allows to adjust different camera parameters for the 3rd person cameras. The mod automatically forces dynamic camera setting for the better look. You can save and load custom camera presets from the file.
+```
+...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\cameras
+```
+Or save up to 3 presets inside the menu for quick application.
+
+![custom_camera](../../Images/custom_camera.png)
+
+Camera shake can also be turned on and off and adjusted to your taste.
+![custom_camera_shake](../../Images/custom_camera_shake.png)
 #
 ## Custom HUD
 ![custom hud](../../Images/icons/custom_hud.png)  
