@@ -21,6 +21,7 @@
   * [Optimization](#kino_map_optimization)
 * [Colliders](#kino_map_colliders) 
 * [Spawn points](#kino_map_waypoints) 
+* [Rigid bodies](#kino_map_rigid_bodies) 
 * [MapTool and building the map asset bundle](#kino_map_tool) 
   * [MapTool](#kino_map_tool_about) 
   * [Building the map asset bundle](#kino_map_build) 
