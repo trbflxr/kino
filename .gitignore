@@ -1,1 +1,9 @@
+.idea
+.vs
+.vscode
+
+#osx
+.DS_Store
+
+# statically generated site
 site/
