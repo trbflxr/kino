@@ -21,6 +21,7 @@
   * [Оптимизация](#kino_map_optimization)
 * [Коллайдеры](#kino_map_colliders) 
 * [Точки спавна](#kino_map_waypoints) 
+* [Rigid bodies](#kino_map_rigid_bodies) 
 * [MapTool и сборка карты](#kino_map_tool) 
   * [MapTool](#kino_map_tool_about) 
   * [Сборка карты](#kino_map_build) 
@@ -192,6 +193,17 @@ https://github.com/trbflxr/kino_map_sdk
 ## Точки спавна 
 Для добавления точек спавна нужно создать объект **Empty** с именем **waypoints** в корне сцены. Затем в него добавить нужные точки спавна. Первая точка в списке будет дефолтной позицией спавна в игре. Все эти точки будут доступны в модуле **Waypoints**.  
 ![sdk_waypoints_root](images/sdk_waypoints_root.png)  
+
+
+<a name="kino_map_rigid_bodies"></a> 
+## Rigid bodies  
+Для добавления динамических объектов **RigidBody** нужно создать объект **Empty** с именем **rigid_bodies** в корне сцены.  
+В него добавь все динамические объекты со сцены. Также обязательно удостоверься, что у всех объектов в **rigid_bodies** **НЕ** установлен флаг **static**.  
+Также на все эти объекты нужно добавить компонент **RigidBody**.  
+![sdk_rigid_bodies](images/sdk_rigid_bodies.png)  
+
+После чего можно приступить к настройке компонента. Тут всё в твоих руках, эксперементируй.  
+![sdk_rigid_body](images/sdk_rigid_body.png)  
 
 
 <a name="kino_map_tool"></a> 

@@ -195,6 +195,17 @@ To add spawn points you need to create **Empty** objects named **waypoints** In 
 ![sdk_waypoints_root](images/sdk_waypoints_root.png)  
 
 
+<a name="kino_map_rigid_bodies"></a> 
+## Rigid bodies  
+To add a dynamic **RigidBody** ojbect, create an **Empty** object called **rigid_bodies** in the scene's hierarchy.  
+Add all the dynamic objects inside of it. Also make sure that all the objects inside **rigid_bodies** **DO NOT** have a **static** flag.  
+Also you need to add the **RigidBody** component to all of the objects.  
+![sdk_rigid_bodies](images/sdk_rigid_bodies.png)  
+
+After that you can get to setting up the object's parameters. Play around with the values to get the desired result.  
+![sdk_rigid_body](images/sdk_rigid_body.png)
+
+
 <a name="kino_map_tool"></a> 
 ## MapTool and building the map asset bundle
 
