@@ -48,15 +48,16 @@
 #
 ## Extras
 ![extras](../../Images/icons/extras.png)  
-Extras is the module given to kino supporters.  
-In the extras tab you can enable your custom nametag as well as select whether it will show in the front or after you nickname. Your tag can be set in the `tag.txt` file located at:  
-`../Carx Drift Racing Online/BepInEx/plugins/KN_Base/tag.txt`  
-![extras_tut](../../Images/extras.png)  
-Here's an example of how the file should look:  
-![tag](../../Images/custom_tag.png)
+Extras is the module given to kino **supporters**.  
+In this module you can create a custom **name tag** that can be shown before or after your nickname.  
 
-Aside from the nametag Extras include [engine swaps](#swaps).  
-And ability to manage player's [collisions](#players).
+You can also set up the colors for your tag, as well as your Steam nickname using a solid color, gradient or by coloring each letter separately.
+
+You are also able to save up to 3 presets for your name.
+![extras_tut](../../Images/extras.png)  
+
+Aside from the nametag **Extras** include [engine swaps](#swaps).  
+And ability to manage players' [collisions](#players).
 #
 ## Lights
 ![lights](../../Images/icons/headlights.png)  
