@@ -56,6 +56,7 @@ redirectOutputLog=true
 
 **|** 4. The file will appear inside the following folder:
 ```
-CarX Drift Racing Online/kino/output_log.txt
+CarX Drift Racing Online/kino/output.log
+CarX Drift Racing Online/kino/kino.log
 ```
 The loader will generate the file automatically so you don't have to change any values.
