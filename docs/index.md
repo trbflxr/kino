@@ -1,3 +1,7 @@
+---
+template: home.html
+---
+
 # Welcome to KiNO Mod
 
 [![Releases](https://img.shields.io/github/v/release/trbflxr/kino?include_prereleases&label=DOWNLOAD&style=for-the-badge)](https://github.com/trbflxr/kino/releases)
@@ -15,21 +19,6 @@ To get more familiar with the features of KiNO, take a glance at our [usage guid
 
 Installation is described [here](getting_started/usage.md).  
 If you have issues with the mod, refer to the [Troubleshooting guide](troubleshooting.md) _before_ opening a ticket or asking on the Discord server.
-
-## Basic Controls
-
-|         Keyboard | Action                                                        |
-| ---------------: | ------------------------------------------------------------- |
-|    <kbd>F4</kbd> | bring up the KiNO menu                                        |
-|    <kbd>F3</kbd> | toggle cinematic camera                                       |
-| <kbd>PG UP</kbd> | toggle hazard lights                                          |
-| <kbd>PG DN</kbd> | toggle headlights                                             |
-|    <kbd>F1</kbd> | toggle noclip/flymod (only works in modded/corrupted lobbies) |
-
-???+ info "Noclip/Flymod Controls"
-    Controlls are <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Q</kbd> <kbd>E</kbd> keys.
-
-    Speed can be adjusted in [settings](getting_started/usage.md#keybinds)
 
 ## Feedback
 

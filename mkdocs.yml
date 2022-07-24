@@ -6,6 +6,7 @@ site_description: |
   KiNO is an extensive modification for CarX Drift Racing Online offering a lot of useful features and customizability, including lighting and livery sharing features.
 theme:
   name: material
+  custom_dir: overrides # https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
   logo: img/logo.png
   language: en
   # dark/bright mode
@@ -49,6 +50,9 @@ extra:
 plugins:
   - search
   - awesome-pages
+  - redirects:
+      redirect_maps:
+        "index.md": "getting_started/index.md"
 
 markdown_extensions:
   - toc:
@@ -75,7 +79,6 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
-
 # Let's use the mkdocs-awesome-pages-plugin plugin to order the pages!
 # Documentation: https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#features
 # Basically, define order in .pages files (use the existing .pages files as reference)

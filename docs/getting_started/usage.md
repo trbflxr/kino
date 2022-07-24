@@ -8,6 +8,23 @@ If you try to find quick links to all settings on the right sidebar.
 
 ---
 
+## Basic Controls
+
+|         Keyboard | Action                                                        |
+| ---------------: | ------------------------------------------------------------- |
+|    <kbd>F4</kbd> | bring up the KiNO menu                                        |
+|    <kbd>F3</kbd> | toggle cinematic camera                                       |
+| <kbd>PG UP</kbd> | toggle hazard lights                                          |
+| <kbd>PG DN</kbd> | toggle headlights                                             |
+|    <kbd>F1</kbd> | toggle noclip/flymod (only works in modded/corrupted lobbies) |
+
+???+ info "Noclip/Flymod Controls"
+Controlls are <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Q</kbd> <kbd>E</kbd> keys.
+
+    Speed can be adjusted in [settings](getting_started/usage.md#keybinds)
+
+---
+
 ## Supporter **only** features
 
 We have some features reserved for our supporters as an appreciation for their support to make this mod possible.

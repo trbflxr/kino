@@ -1,0 +1,23 @@
+<!--
+  Hiding table of content and 
+-->
+{% extends "main.html" %}
+
+{% block tabs %}
+  {{ super() }}
+
+  <!-- Additional styles for landing page -->
+  <style>
+    /* Hide table of contents as we only got the index.md on the main page, all other pages are in the navigation */
+    @media screen and (min-width: 76.25em) {
+      .md-sidebar--primary {
+        display: none;
+      }
+    }
+  </style>
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+{{ page.content }}
+{% endblock %}
