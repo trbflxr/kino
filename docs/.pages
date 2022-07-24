@@ -3,6 +3,6 @@
 nav:
     - getting_started
     - advanced_usage
-    - ...
+    - ... | regex=^(?!index\.md).*$ # skip index.md as we don't need it, it can be accessed from the logo in the header
     - credits.md
     - tos.md
