@@ -1,0 +1,96 @@
+site_name: KiNO Mod for CarX
+site_url: https://locomoco28.github.io/kino/
+repo_url: https://github.com/locomoco28/kino
+copyright: Copyright &copy; 2016 - 2020 Martin Donath
+site_description: |
+  KiNO is an extensive modification for CarX Drift Racing Online offering a lot of useful features and customizability, including lighting and livery sharing features.
+theme:
+  name: material
+  custom_dir: overrides # https://squidfunk.github.io/mkdocs-material/customization/#extending-the-theme
+  logo: img/logo.png
+  language: en
+  # dark/bright mode
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - search.share
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - navigation.instant
+extra_css:
+  # load custom colors to suit the logo
+  - stylesheets/extra.css
+extra:
+  # Remove "Made with MaterialDocs" notice
+  generator: false
+
+  # Social links in the footer
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/xvGMEEcEEp
+      name: Join our Discord!
+    - icon: fontawesome/brands/patreon
+      link: https://www.patreon.com/kinomod
+      name: Your pledge is truly appreciated
+    - icon: material/file-document-multiple
+      link: /tos
+      name: Terms of Use
+
+plugins:
+  - search
+  - awesome-pages
+  - redirects:
+      redirect_maps:
+        "index.md": "getting_started/index.md"
+
+markdown_extensions:
+  - toc:
+      # ensure that slugs for enchor links are unicode aware (important for non-ascii characters)
+      slugify: !!python/name:pymdownx.slugs.uslugify
+
+  # https://jamstackthemes.dev/demo/theme/mkdocs-material/
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  # https://squidfunk.github.io/mkdocs-material/reference/admonitions/
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+  # https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+  - attr_list
+  - md_in_html
+  - pymdownx.superfences
+# Let's use the mkdocs-awesome-pages-plugin plugin to order the pages!
+# Documentation: https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin#features
+# Basically, define order in .pages files (use the existing .pages files as reference)
+#nav: null
+#nav:
+#  - Welcome:
+#      - index.md
+#      - usage.md
+#      - installation.md
+#  - troubleshooting.md
+#  - 'Advanced Usage':
+#      - advanced/map_conversion/index.md:
+#        - advanced/map_conversion/en.md
+#  - credits.md
+#  - tos.md

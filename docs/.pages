@@ -1,0 +1,8 @@
+# I use this file to ensure that the Welcome tab comes first, followed by all other tabs, except Credits and ToS
+
+nav:
+    - getting_started
+    - advanced_usage
+    - ... | regex=^(?!index\.md).*$ # skip index.md as we don't need it, it can be accessed from the logo in the header
+    - credits.md
+    - tos.md

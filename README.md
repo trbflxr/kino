@@ -1,46 +1,29 @@
-![LOGO](Images/logo.png)
-#
-[![Releases](https://img.shields.io/github/v/release/trbflxr/kino?include_prereleases&label=DOWNLOAD&style=for-the-badge)](https://github.com/trbflxr/kino/releases) 
-[![KiNO Discord](https://img.shields.io/discord/716264804498538516?label=DISCORD&style=for-the-badge)](https://discord.gg/xvGMEEcEEp)
-[![donation](https://img.shields.io/badge/patreon-support-ff424d?style=for-the-badge)](https://www.patreon.com/kinomod)
+# KiNO Mod Documentation
 
-### **Required:** [*BepInEx mod loader*](https://github.com/BepInEx/BepInEx/releases)
+This repository contains a statically generated website for documentation on how to setup the [KiNO modification for CarX](https://github.com/trbflxr/kino).
 
-## About
- The mod that has become popular for it's lighting and livery sharing features.  
- Still in active development with more things getting added.
- 
- Brief explanation of features is listed bellow. You can click on the titles for more detailed explanation along with the screenshots of the mentioned tabs. 
+This has been an effort by [locomoco28](https://github.com/locomoco28) to improve the user experience for the less tech-affine users who struggle working with `.md` documentation placed in a Github repository.
 
-## Features
+## Requirements
 
-For more information on the mod features please visit the [feature guide](Help/Support/Guide.md).
+This project uses [mkdocs](https://github.com/mkdocs/mkdocs/) as site generator, and [mkdocs-material](https://github.com/squidfunk/mkdocs-material) as theme for mkdocs.
 
-### Map creation documentation
+You need Python 3 installed for mkdocs.
 
-Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
-OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).  
+## Installing
 
-## How to use
-**|** **F4** to bring up the menu.  
-**|** **F3** to toggle cinematic camera.  
-**|** **PG UP** to enable hazard lights.  
-**|** **PG DN** to enable headlights.
+```bash
+# install dependencies
+pip install -r requirements.txt
 
-**|** **F1** to enable noclip/flymod (only works in modded/corrupted lobbies)
-Controlls are WASD/QE keys.   
-Speed can be adjusted in [settings](Help/Support/Guide.md#keybinds)
+# run local development server with hot reloading
+mkdocs serve
 
-## Installation
-Installation is described [here](INSTALL.md).  
-If you have issues with the mod, refer to the [Troubleshooting guide](Help/Support/Troubleshooting.md)
+# build and deploy website to github pages
+mkdocs gh-deploy
+```
 
-## Feedback
-Forward all the bugs to the issues tab or open a ticket in our Discord  
-Suggestions can also be left in the dedicated channel in Discord
+## Additional ideas
 
-## Support the mod
-If you wish to support the development of the mod, there's a link at the top of this page.  
-All supporters get access to **Extras** which you can read about in the ***Features*** part of this page.  
-Thanks a lot to people who have already supported us!  
-For the list of supporters click [here](Supporters.md).
+- Create custom landing page similar to mkdocs-material's docs page: <https://github.com/squidfunk/mkdocs-material/blob/master/src/overrides/home.html>
+- Credits page could be written in a custom HTML template to design it a bit differently maybe and perhaps even utilize Patreon's APIs to fetch a list of all Patreons, idk if that's possible without a backend server though
