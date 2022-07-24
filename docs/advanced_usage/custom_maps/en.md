@@ -226,9 +226,10 @@ The field **Creator name** is needed for the map creator's name.
 Bellow is the list of maps. The maps marked with a checkmark are the maps that will be built. Mark only the map you're working on currently. That way the other maps won't be rebuilt and it will speed up the process.  
 Bellow you have a button **Add new map entry**, that allows to add a new map to the list. To remove a map from the list click on **Remove '<map_name>'**.
 
-Then you have **Reload cache** and **Wipe cache** buttons, Which are needed for realoding and deleting the maps' cache. Maps' cache is stored inside **Assets/Build/map_cache.knd** and is needed to save the current state of the tool.
+Then you have **Reload cache** and **Wipe cache** buttons, which are needed for reloading and deleting the maps' cache. Maps' cache is stored inside **Assets/Build/map_cache.knd** and is needed to save the current state of the tool.
 
-Buttons **Build for all platforms** and **Build for '<platform_name>'** is responsible for bulding the map only for the current platform or for all the platorms. Build the map for all platforms only for the final testing or for publishing the map. This will speed up the development process.
+Buttons **Build for all platforms** and **Build for '<platform_name>'** is responsible for bulding the map only for the current platform or for all the platforms. Build the map for all platforms only for the final testing or for publishing the map. This will speed up the development process.
+![sdk_maptool](images/sdk_maptool.png)
 
 ![sdk_maptool](../../img/sdk_maptool.png)
 

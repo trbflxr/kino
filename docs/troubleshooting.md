@@ -6,7 +6,6 @@ title: Troubleshooting
 
 If the mod doesn't work there could be multiple reasons as to why that could be happening.
 
-
 !!! warning "Windows 7 and cracked/inofficial versions of the game are ^^not^^ supported"
 
 Let's take a look at possible solutions:
@@ -40,18 +39,22 @@ The mod relies on the **Visual C++ Redistributable for Visual Studio 2015, 2017 
 even if your installation 100% correct, this might be the cause. However only resort to this if KiNO is the only mod that isn't working. You will need the x64 version of the VC Redist that you can also download from the [Miscrosoft website](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). Download and install the [vc_redist.x64.exe](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
 
 !!! note "Note"
-    After installing **.NET Framework** and **Visual C++ Redistributable** you might have to restart your PC for it to work.
+After installing **.NET Framework** and **Visual C++ Redistributable** you might have to restart your PC for it to work.
 
 ### **Still having issues? Get the log.**
 
-1.  Go to your CarX Drift Racing Online folder and find the file called `doorstop_config.ini`.  
+#### For BepInEx
+
+1.  Go to your CarX Drift Racing Online folder and find the file called `doorstop_config.ini`.
 
 2.  Open the file with any text editor and find a following line:
+
     ```
     redirectOutputLog=false
     ```
 
 3.  Change the value from **false** to **true** like in the example bellow:
+
     ```
     redirectOutputLog=true
     ```
@@ -61,3 +64,20 @@ even if your installation 100% correct, this might be the cause. However only re
 5.  Open a ticket in [our discord](https://discord.gg/WfHAp6UupP) and send the `output_log.txt` file along with detailed explanation of the issue.
 
 !!! note "If the file isn't there you might have an issue with **BepInEx**, unfortunately we cannot provide support for that."
+
+#### For Kino Loader
+
+1. Start the game
+
+2. If you have an issue with a specific feature make sure to reproduce it
+
+3. Close the game normally
+
+4. The file will appear inside the following folder:
+
+```
+CarX Drift Racing Online/kino/output.log
+CarX Drift Racing Online/kino/kino.log
+```
+
+The loader will generate the file automatically so you don't have to change any values.

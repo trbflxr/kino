@@ -14,14 +14,13 @@ We have some features reserved for our supporters as an appreciation for their s
 
 ### <img src="../img/icons/extras.png" style="height: 1.4rem" alt="Events Icon"/> Extras
 
-In the extras tab you can enable your custom nametag as well as select whether it will show in the front or after you nickname. Your tag can be set in the `tag.txt` file located at:  
-`../Carx Drift Racing Online/BepInEx/plugins/KN_Base/tag.txt`
+In this module you can create a custom **name tag** that can be shown before or after your nickname.
+
+You can also set up the colors for your tag, as well as your Steam nickname using a solid color, gradient or by coloring each letter separately.
+
+You are also able to save up to 3 presets for your name.
 
 ![extras_tut](../img/extras.png)
-
-Here's an example of how the file should look:
-
-![tag](../img/custom_tag.png)
 
 ### <img src="../img/icons/engine_swap.png" style="height: 1.4rem" alt="Swaps Icon" /> Swaps
 
@@ -97,21 +96,20 @@ To load your own skyboxes you need to have them in the following formats:
 ![graphics_fog](../img/graphics_fog.png)
 
 !!! example "For cubemaps"
-    nx = +x  
-    ny = -y  
-    nz = -z  
-    px = +x  
-    py = +y  
-    pz = +z
-
+nx = +x  
+ ny = -y  
+ nz = -z  
+ px = +x  
+ py = +y  
+ pz = +z
 
 `.png` and `.jpg` ^^only^^
 
 All the face images should be inside a folder.
 
 !!! example "For panoramas:"
-    Panoramas can be used in `.png` and `.jpg` formats. You can convert HDR and EXR skyboxes to .png or .jpg to use them with the mod.
-    
+Panoramas can be used in `.png` and `.jpg` formats. You can convert HDR and EXR skyboxes to .png or .jpg to use them with the mod.
+
 Skyboxes are installed into the following folder:
 
 ```
@@ -124,9 +122,9 @@ In the **players** tab you can teleport to a selected player by clicking on thei
 <kbd>S</kbd> button next to a players name allows you to check the selected players specs.
 
 !!! info "Supporter only"
-    <kbd>C</kbd> button disables selected player's collision.  
-    <kbd>H</kbd> button allows you to hide players.  
-    
+<kbd>C</kbd> button disables selected player's collision.  
+ <kbd>H</kbd> button allows you to hide players.
+
     These two buttons, as mentioned in [Supporter only features](#extra-player-options), are only available for supporters!
 
 ![players_tut](../img/players.png)
@@ -189,6 +187,21 @@ You replays are saved to:
 ![cinematic_tut](../img/cinematic_2.png)  
 On the timeline you can set the starting and ending point of your replay by dragging arrows at the start and the end of the timeline. You can also adjust the playback speed and loop your replay.
 ![timeline](../img/timeline.png)
+
+### <img src="../img/icons/custom_camera.png" style="height: 1.4rem" alt="Custom Camera Icon" /> Custom Camera
+
+The feature allows to adjust different camera parameters for the 3rd person cameras. The mod automatically forces dynamic camera setting for the better look. You can save and load custom camera presets from the file.
+
+```
+...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\cameras
+```
+
+Or save up to 3 presets inside the menu for quick application.
+
+![custom_camera](../img/custom_camera.png)
+
+Camera shake can also be turned on and off and adjusted to your taste.
+![custom_camera_shake](../img/custom_camera_shake.png)
 
 ### <img src="../img/icons/custom_hud.png" style="height: 1.4rem" alt="Custom HUD Icon" /> Custom HUD
 
