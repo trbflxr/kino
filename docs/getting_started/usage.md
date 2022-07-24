@@ -19,7 +19,7 @@ If you try to find quick links to all settings on the right sidebar.
 |    <kbd>F1</kbd> | toggle noclip/flymod (only works in modded/corrupted lobbies) |
 
 ???+ info "Noclip/Flymod Controls"
-Controlls are <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Q</kbd> <kbd>E</kbd> keys.
+    Controlls are <kbd>W</kbd> <kbd>A</kbd> <kbd>S</kbd> <kbd>D</kbd> / <kbd>Q</kbd> <kbd>E</kbd> keys.
 
     Speed can be adjusted in [settings](getting_started/usage.md#keybinds)
 
