@@ -14,10 +14,9 @@
 
 For more information on the mod features please visit the [feature guide](Help/Support/Guide.md).
 
-### Map creation documentation
-
-Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
-OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).  
+## Installation
+Installation is described [here](INSTALL.md).  
+If you have issues with the mod, refer to the [Troubleshooting guide](Help/Support/Troubleshooting.md)
 
 ## How to use
 **|** **F4** to bring up the menu.  
@@ -29,9 +28,11 @@ OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).
 Controlls are WASD/QE keys.   
 Speed can be adjusted in [settings](Help/Support/Guide.md#keybinds)
 
-## Installation
-Installation is described [here](INSTALL.md).  
-If you have issues with the mod, refer to the [Troubleshooting guide](Help/Support/Troubleshooting.md)
+### Map creation documentation
+
+Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
+OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).  
+
 
 ## Feedback
 Forward all the bugs to the issues tab or open a ticket in our Discord  
