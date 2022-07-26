@@ -1,16 +1,5 @@
 ## Does not work on Win 7
 
-- [Does not work on Win 7](#does-not-work-on-win-7)
-- [English:](#english)
-  - [**For kino mod loader**.](#for-kino-mod-loader)
-  - [**For ZML**](#for-zml)
-  - [A short description of the features can be found here](#a-short-description-of-the-features-can-be-found-here)
-  - [If the mod doesn't work, or you get `VCRUNTIME140.dll Is Missing` error, you might have to download and install the Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019. You will need the [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).](#if-the-mod-doesnt-work-or-you-get-vcruntime140dll-is-missing-error-you-might-have-to-download-and-install-the-visual-c-redistributable-for-visual-studio-2015-2017-and-2019-you-will-need-the-vcredist_x64exe)
-- [Русский:](#русский)
-  - [**Для загрузчиков модов Kino**.](#для-загрузчиков-модов-kino)
-  - [**Для ZML**](#для-zml)
-  - [Короткое описание фич доступно тут](#короткое-описание-фич-доступно-тут)
-  - [Если мод не работает или у вас вылазит ошибка `VCRUNTIME140.dll Is Missing`, вам может потребоваться скачать и установить Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019. Вам потребуется [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).](#если-мод-не-работает-или-у-вас-вылазит-ошибка-vcruntime140dll-is-missing-вам-может-потребоваться-скачать-и-установить-visual-c-redistributable-for-visual-studio-2015-2017-and-2019-вам-потребуется-vcredist_x64exe)
 
 ## English:
 Make sure you're on the moddable version of the game.  
