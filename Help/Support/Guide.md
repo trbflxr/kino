@@ -118,7 +118,11 @@ Panoramas can be used in .png and .jpg formats. You can convert HDR and EXR skyb
 
 Skyboxes are installed into the following folder: 
 ```
-CarX Drift Racing Online\BepInEx\plugins\KN_Base\sky
+...\CarX Drift Racing Online\kino\plugins\KN_Base\sky
+```
+or
+```
+...\CarX Drift Racing Online\ZML\mods\KN_Base\sky
 ```
 #
 ## Players
@@ -149,7 +153,11 @@ From here you can save and load your tunes, as well as enable suspension monitor
 The saved tunes can be found inside the **tunes** folder.
 It can be found at: 
 ```
-...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\visuals
+...\CarX Drift Racing Online\kino\plugins\KN_Base\visuals
+```
+or
+```
+...\CarX Drift Racing Online\ZML\mods\KN_Base\visuals
 ```
 To use a downloaded tune put it in this folder as well.
 ![tunes_tut](../../Images/tuning.png)
@@ -160,7 +168,11 @@ Kino features a custom maploader that allows you to load the maps in the .obj fo
 ![maps](../../Images/maps.png)
 Downloaded maps should be installed into:
 ```
-...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\maps
+...\CarX Drift Racing Online\kino\plugins\KN_Base\maps
+```
+or
+```
+...\CarX Drift Racing Online\ZML\mods\KN_Base\maps
 ```
 Kino supports two types of custom maps:
 1. Unity asset bundle scene loader.
@@ -191,7 +203,11 @@ From the playback tab you can load your replays and focus on cars from the repla
 
 You replays are saved to:
 ```
-...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\replays
+...\CarX Drift Racing Online\kino\plugins\KN_Base\replays
+```
+or
+```
+...\CarX Drift Racing Online\ZML\mods\KN_Base\replays
 ```
 ![cinematic_tut](../../Images/cinematic_2.png)  
 On the timeline you can set the starting and ending point of your replay by dragging arrows at the start and the end of the timeline. You can also adjust the playback speed and loop your replay.
@@ -200,7 +216,12 @@ On the timeline you can set the starting and ending point of your replay by drag
 ## Custom camera
 The feature allows to adjust different camera parameters for the 3rd person cameras. The mod automatically forces dynamic camera setting for the better look. You can save and load custom camera presets from the file.
 ```
-...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\cameras
+...\CarX Drift Racing Online\kino\plugins\KN_Base\cameras
+```
+or
+or
+```
+...\CarX Drift Racing Online\ZML\mods\KN_Base\cameras
 ```
 Or save up to 3 presets inside the menu for quick application.
 
@@ -221,7 +242,11 @@ In the visuals tab you can load and save your liveries. Additionally you have so
 The saved liveries can be found inside the **visuals** folder.  
 It can be found at: 
 ```
-...\CarX Drift Racing Online\BepInEx\plugins\KN_Base\visuals
+...\CarX Drift Racing Online\kino\plugins\KN_Base\visuals
+```
+or
+```
+...\CarX Drift Racing Online\ZML\mods\KN_Base\visuals
 ```
 To use a downloaded livery put it in this folder as well.
 ![visuals_tut](../../Images/visuals.png)

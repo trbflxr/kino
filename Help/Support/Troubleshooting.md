@@ -29,22 +29,6 @@ even if your installation 100% correct, this might be the cause. However only re
 > 📌**Note:** after installing **.NET Framework** and **Visual C++ Redistributable** you might have to restart your PC for it to work.
 
 ### **Still having issues? Get the log.**
-### **For BepInEx**
-
-**|** 1. Go to your CarX Drift Racing Online folder and find the file called `doorstop_config.ini`.  
-**|** 2. Open the file with any text editor and find a following line:  
-```
-redirectOutputLog=false
-```
-**|** 3. Change the value from **false** to **true** like in the example bellow:
-```
-redirectOutputLog=true
-```
- If it's already set to **true** then skip to the next step.  
-
-**|** 4. Start the game once. Close the game right after you load into the garage (or if you have an issue with a specific feature, close the game after trying to use the feature). You should have a file called `output_log.txt` generated inside the CarX Drift Racing Online folder.   
-**|** 5. Open a ticket in [our discord](https://discord.gg/WfHAp6UupP) and send the `output_log.txt` file along with detailed explanation of the issue.  
-> 📌 If the file isn't there you might have an issue with **BepInEx**, unfortunately we cannot provide support for that.
 
 ### **For Kino Loader**
 
@@ -54,7 +38,7 @@ redirectOutputLog=true
 
 **|** 3. Close the game normally
 
-**|** 4. The file will appear inside the following folder:
+**|** 4. The files will appear inside the following folder:
 ```
 CarX Drift Racing Online/kino/output.log
 CarX Drift Racing Online/kino/kino.log
