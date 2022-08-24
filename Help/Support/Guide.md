@@ -45,6 +45,8 @@
 > [Keybinds](#keybinds)
 
 > [Resource manger](#resource-manager)
+
+> [Theme editor](#theme-editor)
 #
 ## Extras
 ![extras](../../Images/icons/extras.png)  
@@ -289,3 +291,18 @@ Here you can bind shortcuts for some of the mod's features. Controller is suppor
 ![resource manager](../../Images/icons/resource_manager.png)  
 For some of the mod's features you might have to download an asset bundle containing resouces needed for the feartures to function. In this tab you can download and update the bundle.
 ![resouce manger_tut](../../Images/resource_manager.png)
+#
+## Theme editor
+![theme editor](../../Images/icons/puzzle.png)  
+Theme editor allows you to create and share your own themes for the mod's UI.
+The editor can be enabled from the [settings](#settings) tab in the DEV section or from the Active Modules tab.
+Themes are saved inside:
+```
+...\CarX Drift Racing Online\kino\plugins\KN_Base\themes
+```
+or
+```
+...\CarX Drift Racing Online\ZML\mods\KN_Base\themes
+```
+Downloaded themes go in the same folder and can be seletected from the [settings](#settings) tab.
+![theme editor_tut](../../Images/themes.png)
