@@ -24,7 +24,7 @@ If you have issues with the mod, refer to the [Troubleshooting guide](Help/Suppo
 **|** **PG UP** to enable hazard lights.  
 **|** **PG DN** to enable headlights.
 
-**|** **F1** to enable noclip/flymod (only works in modded/corrupted lobbies)
+**|** **F1** to enable noclip/flymod (only works in modded lobbies or singleplayer)
 Controlls are WASD/QE keys.   
 Speed can be adjusted in [settings](Help/Support/Guide.md#keybinds)
 
@@ -40,6 +40,5 @@ Suggestions can also be left in the dedicated channel in Discord
 
 ## Support the mod
 If you wish to support the development of the mod, there's a link at the top of this page.  
-All supporters get access to **Extras** which you can read about in the ***Features*** part of this page.  
-Thanks a lot to people who have already supported us!  
-For the list of supporters click [here](Supporters.md).
+All supporters get access to **Extras** which you can read about in the **Features** part of this page.  
+Thanks a lot to people who have already supported us!
