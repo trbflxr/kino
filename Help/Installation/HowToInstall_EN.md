@@ -8,6 +8,8 @@
 
 #### If you are on ZML, then download latest **Kino.ZML.zm** from [releases](https://github.com/trbflxr/kino/releases) page and put it to **ZML/mods**. That's it, now you can start the game.
 
+#### To fix Steam initialization error you can try to run Steam as administrator. Read more about it [here](SteamAdmin.md).
+
 ## Standalone installation:
 
 1. First you need to switch the game to the **[moddable]** version.  
