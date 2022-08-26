@@ -5,7 +5,7 @@ If the mod doesn't work there could be multiple reasons as to why that could be 
 Let's take a look at possible solutions:
 
 ### **|** Installation  
-If this is your first time installing the mod and it doesn't appear in the game, then the most common case is wrong installation. It could be either the improper installation of the BepInEx mod loader or the mod itself. Either way, if you're installing KiNO for the first time and it doesn't appear in the game, please refer to the [installation](../Installation/HowToInstall.md) and make sure you did everything right.
+If this is your first time installing the mod and it doesn't appear in the game, then the most common case is wrong installation. It could be either the improper installation of the BepInEx mod loader or the mod itself. Either way, if you're installing KiNO for the first time and it doesn't appear in the game, please refer to the [installation](../../INSTALL.md) and make sure you did everything right.
 
 ### **|** Use the correct branch. 
 Make sure you're on the moddable version of the game.  
