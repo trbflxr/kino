@@ -6,7 +6,9 @@
 
 1. Для работы загрузчика необходимо установить [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads), а именно [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
-### Установка
+#### Если у тебя установлен ZML, то скачай **Kino.ZML.zm** со страницы с [релизами](https://github.com/trbflxr/kino_loader/releases) и помести его **ZML/mods**. Это всё, можно запускать игру.
+
+## Установка
 
 1. Первым делом нужно переключить игру на **[moddable]** версию.  
    ![steam_game_props](../../Images/steam_game_props.png)  
