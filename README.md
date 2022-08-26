@@ -15,7 +15,7 @@
 For more information on the mod features please visit the [feature guide](Help/Support/Guide.md).
 
 ## Installation
-Installation is described [here](INSTALL.md).  
+Installation is described [here](Help/Installation/HowToInstall.md).  
 If you have issues with the mod, refer to the [Troubleshooting guide](Help/Support/Troubleshooting.md)
 
 ## How to use
