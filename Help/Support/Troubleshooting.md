@@ -31,7 +31,10 @@ even if your installation 100% correct, this might be the cause. However only re
 ### **|** Unable to fetch KinoMod info (404) 
 ![kino_404](../../Images/404_kino_error.png)
 
-To fix this error you simply have to reinstall the mod. Please refer to the [installation](../../INSTALL.md).
+To fix this error you simply have to **reinstall** the mod. Please refer to the [installation](../../INSTALL.md).
+
+### **|** KinoMod Update loop
+In that case **reinstall** will help. Happens on older 3.10.* and 3.11.* versions. Please refer to the [installation](../../INSTALL.md). 
 
 ### **Still having issues? Get the log.**
 
