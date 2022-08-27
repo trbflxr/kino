@@ -23,10 +23,15 @@ The mod uses the .NET Framework 4.6.2. Usually this is something you should alre
 ### **|** Visual C++ Redistributable
 This is described in the installation process, however if you for some reason missed it, this might be exactly the solution you are looking for.  
 The mod relies on the **Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019**. If the mod doesn't appear in game or you get the following error:  
-![vcredisterror](https://cdn.discordapp.com/attachments/561211887900033044/810289048018616370/redist.png)  
+![vcredisterror](../../Images/redist_kino_error.png)  
 even if your installation 100% correct, this might be the cause. However only resort to this if KiNO is the only mod that isn't working. You will need the x64 version of the VC Redist that you can also download from the [Miscrosoft website](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). Download and install the [vc_redist.x64.exe](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
 
 > 📌**Note:** after installing **.NET Framework** and **Visual C++ Redistributable** you might have to restart your PC for it to work.
+
+### **|** Unable to fetch KinoMod info (404) 
+![kino_404](../../Images/404_kino_error.png)
+
+To fix this error you simply have to reinstall the mod. Please refer to the [installation](../../INSTALL.md).
 
 ### **Still having issues? Get the log.**
 
