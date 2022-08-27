@@ -6,6 +6,6 @@
 
 > [Русский](Help/Installation/HowToInstall_RU.md)
 
-# Other mods / plugins installations
+# Other mods / plugins installation
 
-> [English](Help/MakeAMod.md)
+> [English](Help/InstallPlugins.md)
