@@ -37,12 +37,39 @@ Plugins creation guide can be found [here](Help/MakeAMod.md).
 Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
 OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).  
 
+## Loader configuration
+
+Kino loader can be configured in the **kino.ini** file (for now there is no UI interface for it).
+
+This file will be generated on first game start.
+
+```ini
+[kino]
+console = false   - enable console window
+gameLog = true    - write game log (can be found inside of the kino folder)
+mmLog = true      - write Kino loader log (also located in the kino folder)
+enabled = true    - enable or disable Kino loader
+```
+
+## Kino loader features
+
+- Loader auto update
+- Mod encryption (Kino team only for now)
+- Private / Team mods support (Kino team only for now)
+- Compatible with most **BepInEx** mods aside from the very outdated ones
+
+## Future Kino loader plans
+
+- In-game mod UI API
+- In-game updater for user mods (will be added after in-game UI, API is already done)
+- In-game mod database
+- Kino visuals / tunes database
 
 ## Feedback
 Forward all the bugs to the issues tab or open a ticket in our Discord  
 Suggestions can also be left in the dedicated channel in Discord
 
-## Support the mod
-If you wish to support the development of the mod, there's a link at the top of this page.  
+## Support the project
+If you wish to support the development of the project, there's a link at the top of this page.  
 All supporters get access to **Extras** which you can read about in the **Features** part of this page.  
 Thanks a lot to people who have already supported us!
