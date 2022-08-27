@@ -16,6 +16,7 @@ For more information on the mod features please visit the [feature guide](Help/S
 
 ## Installation
 Installation is described [here](INSTALL.md).  
+Plugins installation [guide](Help/InstallPlugins.md).  
 If you have issues with the mod, refer to the [Troubleshooting guide](Help/Support/Troubleshooting.md)
 
 ## How to use
@@ -25,10 +26,13 @@ If you have issues with the mod, refer to the [Troubleshooting guide](Help/Suppo
 **|** **PG DN** to enable headlights.
 
 **|** **F1** to enable noclip/flymod (only works in modded lobbies or singleplayer)
-Controlls are WASD/QE keys.   
+Controls are WASD/QE keys.   
 Speed can be adjusted in [settings](Help/Support/Guide.md#keybinds)
 
-### Map creation documentation
+## Plugins creation
+Plugins creation guide can be found [here](Help/MakeAMod.md).
+
+## Map creation documentation
 
 Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
 OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).  
