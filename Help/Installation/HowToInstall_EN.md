@@ -6,8 +6,6 @@
 
 1. You might have to download and install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). You will need the [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
-#### If you are on ZML, then download latest **Kino.ZML.zm** from [releases](https://github.com/trbflxr/kino/releases) page and put it to **ZML/mods**, and delete KinoMod.dll if you have one. That's it, now you can start the game.
-
 #### To fix Steam initialization error you can try to run Steam as administrator. Read more about it [here](SteamAdmin.md).
 
 ## Standalone installation:
