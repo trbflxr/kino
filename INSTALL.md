@@ -1,6 +1,10 @@
 # Kino installation guide
 
-# Select  your language
+# Video instruction
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/dmwJqAXRqPE/0.jpg)](https://www.youtube.com/watch?v=dmwJqAXRqPE)
+
+# Text version
 
 > [English](Help/Installation/HowToInstall_EN.md)
 
