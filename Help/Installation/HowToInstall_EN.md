@@ -19,3 +19,7 @@
 4. Unzip all the file from the archive to the game's directory.  
    ![loader_files_drag](../../Images/loader_files_drag.png)
 5. Launch the game.
+
+## The game doesn't start \ mod doesn't work
+
+In that case follow the **[Troubleshooting](../Support/Troubleshooting.md)** guide.

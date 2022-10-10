@@ -6,7 +6,7 @@
 
 1. Для работы загрузчика необходимо установить [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads), а именно [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
 
-#### Что бы пофиксить ошибку инициализации стима, нужно запустить стим с правами администратора. Подробнее о том, как это сделать можно прочитать [тут](SteamAdmin.md). 
+#### Что бы пофиксить ошибку инициализации стима, нужно запустить стим с правами администратора. Подробнее о том, как это сделать можно прочитать [тут](SteamAdmin.md).
 
 ## Установка
 
@@ -19,3 +19,7 @@
 4. Распакуй все файлы из архива в папку с игрой  
    ![loader_files_drag](../../Images/loader_files_drag.png)
 5. Запусти игру.
+
+## Игра не запускается \ мод не работает
+
+В этом случае воспользуйся **[Troubleshooting](../Support/Troubleshooting.md)** гайдом. 
