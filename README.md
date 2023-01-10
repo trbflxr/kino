@@ -1,6 +1,7 @@
 ![LOGO](Images/logo.png)
 #
-[![Releases](https://img.shields.io/github/v/release/trbflxr/kino?include_prereleases&label=DOWNLOAD&style=for-the-badge)](https://github.com/trbflxr/kino/releases) 
+[![Releases](https://img.shields.io/github/v/release/trbflxr/kino?include_prereleases&label=DOWNLOAD&style=for-the-badge)](https://github.com/trbflxr/kino/releases)
+![GitHub all releases](https://img.shields.io/github/downloads/trbflxr/kino/total?label=TOTAL%20DOWNLOADS&style=for-the-badge)
 [![KiNO Discord](https://img.shields.io/discord/716264804498538516?label=DISCORD&style=for-the-badge)](https://discord.gg/xvGMEEcEEp)
 [![donation](https://img.shields.io/badge/patreon-support-ff424d?style=for-the-badge)](https://www.patreon.com/kinomod)
 
