@@ -20,25 +20,7 @@ This is one of the obvious solutions a lot of people seem to look over. If none 
 ### **|** .NET Framework
 The mod uses the .NET Framework 4.6.2. Usually this is something you should already have installed. However it won't hurt to try. Download it from the [Microsoft website](https://dotnet.microsoft.com/download/dotnet-framework/net462). You will need the [.NET Framework 4.6.2 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
 
-### **|** Visual C++ Redistributable
-This is described in the installation process, however if you for some reason missed it, this might be exactly the solution you are looking for.  
-The mod relies on the **Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019**. If the mod doesn't appear in game or you get the following error:  
-![vcredisterror](../../Images/redist_kino_error.png)  
-even if your installation 100% correct, this might be the cause. However only resort to this if KiNO is the only mod that isn't working. You will need the x64 version of the VC Redist that you can also download from the [Miscrosoft website](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). Download and install the [vc_redist.x64.exe](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads).
-
-> 📌**Note:** after installing **.NET Framework** and **Visual C++ Redistributable** you might have to restart your PC for it to work.
-
-### **|** Unable to fetch KinoMod info (404) 
-![kino_404](../../Images/404_kino_error.png)
-
-To fix this error you simply have to **reinstall** the mod. Please refer to the [installation](../../INSTALL.md).
-
-### **|** KinoMod Update loop
-In that case **reinstall** will help. Happens on older 3.10.* and 3.11.* versions. Please refer to the [installation](../../INSTALL.md). 
-
-### **Still having issues? Get the log.**
-
-### **For Kino Loader**
+### **Still having issues? Get the log (only available for native kino loader).**
 
 **|** 1. Start the game
 
