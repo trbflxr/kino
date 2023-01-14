@@ -2,10 +2,6 @@
 
 ### The mod does not work on win7
 
-### Required components
-
-1. You might have to download and install the [Visual C++ Redistributable for Visual Studio 2015, 2017 and 2019](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads). You will need the [vcredist_x64.exe](https://aka.ms/vs/16/release/vc_redist.x64.exe).
-
 #### To fix Steam initialization error you can try to run Steam as administrator. Read more about it [here](SteamAdmin.md).
 
 ## Standalone installation:
