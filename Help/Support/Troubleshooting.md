@@ -20,17 +20,25 @@ This is one of the obvious solutions a lot of people seem to look over. If none 
 ### **|** .NET Framework
 The mod uses the .NET Framework 4.6.2. Usually this is something you should already have installed. However it won't hurt to try. Download it from the [Microsoft website](https://dotnet.microsoft.com/download/dotnet-framework/net462). You will need the [.NET Framework 4.6.2 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
 
-### **Still having issues? Get the log (only available for native kino loader).**
+(only available for native kino loader)
 
-**|** 1. Start the game
+### **Get the log**
 
-**|** 2. If you have an issue with a specific feature make sure to reproduce it
+1. Start the game
 
-**|** 3. Close the game normally
+2. If you have an issue with a specific feature make sure to reproduce it
 
-**|** 4. The files will appear inside the following folder:
+3. Close the game normally
+
+4. The files will appear inside the following folder:
+
+##### **For Kino native loader:**
 ```
 CarX Drift Racing Online/kino/output.log
-CarX Drift Racing Online/kino/kino.log
 ```
+##### **For third party loaders:**
+```
+<...>/KN_Base/kino.log
+```
+
 The loader will generate the file automatically so you don't have to change any values.
