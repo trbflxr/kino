@@ -93,11 +93,11 @@ In the graphics tab you can adjust in-game lighting, enable the fog and use cust
 
 ![graphics_sky](../../Images/graphics_sky.png)
 
+![graphics_fog](../../Images/graphics_fog.png)
+
 To load your own skyboxes you need to have them in the following formats: 
 
 ![tut_skyboxes](/Images/tut_skyboxes.png)
-
-![graphics_fog](../../Images/graphics_fog.png)
 
 **For cubemaps:**
 >**nx = +x  
