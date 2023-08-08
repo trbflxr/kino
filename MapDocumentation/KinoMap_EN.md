@@ -115,6 +115,9 @@ Then you need to select an emtpy scene **Empty (Built-in)** and press **Create**
 Empty scene is created, now save it using **File** and then **Save**.  
 Or use `Ctrl + S` shortcut for **Windows** and `Command + S` for **OSX**.  
 We saved the scene in the folder **Assets/Scenes**, however you can save it in any folder in the project that works for you.
+
+> **Important:** Make sure that your scene name ends with **\_map** suffix. 
+
 ![sdk_new_scene](images/sdk_new_scene_save.png)  
 
 <a name="kino_map_model"></a> 
