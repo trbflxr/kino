@@ -26,6 +26,8 @@ For more information on the mod features please visit the [feature guide](Help/S
 Installation is described [here](INSTALL.md).  
 If you have issues with the mod, refer to the [troubleshooting guide](Help/Support/Troubleshooting.md).
 
+Other mods installation [guide](https://github.com/trbflxr/ksl/blob/master/doc/guide/install_content.md).
+
 ## Mods creation
 
 If you are interested in creating mods and plugins, please visit the [KSL](https://github.com/trbflxr/ksl) repository.
