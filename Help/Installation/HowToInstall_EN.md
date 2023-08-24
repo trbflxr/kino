@@ -18,4 +18,4 @@
 
 ## The game doesn't start \ mod doesn't work
 
-In that case follow the **[Troubleshooting](../Support/Troubleshooting.md)** guide.
+In that case follow the **[troubleshooting](../Support/Troubleshooting.md)** guide.

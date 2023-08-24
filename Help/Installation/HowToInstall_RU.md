@@ -18,4 +18,4 @@
 
 ## Игра не запускается \ мод не работает
 
-В этом случае воспользуйся **[Troubleshooting](../Support/Troubleshooting.md)** гайдом. 
+В этом случае воспользуйся **[troubleshooting](../Support/Troubleshooting.md)** гайдом. 

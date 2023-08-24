@@ -5,11 +5,11 @@ If the mod doesn't work there could be multiple reasons as to why that could be 
 Let's take a look at possible solutions:
 
 ### **|** Installation  
-If this is your first time installing the mod and it doesn't appear in the game, then the most common case is wrong installation. It could be either the improper installation of the BepInEx mod loader or the mod itself. Either way, if you're installing KiNO for the first time and it doesn't appear in the game, please refer to the [installation](../../INSTALL.md) and make sure you did everything right.
+If this is your first time installing the mod and it doesn't appear in the game, then the most common case is wrong installation. It could be either the improper installation of the BepInEx mod loader or the mod itself. Either way, if you're installing Kino for the first time and it doesn't appear in the game, please refer to the [installation](../../INSTALL.md) and make sure you did everything right.
 
 ### **|** Use the correct branch. 
 Make sure you're on the moddable version of the game.  
-Go to Steam and right click on **CarX Drift Racing Online**. Go to **`Properties...`**, then click on **`BETAS`** and select a version of the game that has **(moddable)** next to the version name.
+Go to Steam and right click on **CarX Drift Racing Online**. Go to **`Properties...`**, then click on **`BETAS`** and select a version of the game that has **[moddable]** next to the version name.
 
 ### **|** Update to the latest version
 A lot of fixes are posted as patches instead of releases, so you won't find them on the list of releases. Make sure you have the latest version. Reinstall the latest release manually if needed.
@@ -19,8 +19,6 @@ This is one of the obvious solutions a lot of people seem to look over. If none 
 
 ### **|** .NET Framework
 The mod uses the .NET Framework 4.6.2. Usually this is something you should already have installed. However it won't hurt to try. Download it from the [Microsoft website](https://dotnet.microsoft.com/download/dotnet-framework/net462). You will need the [.NET Framework 4.6.2 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
-
-(only available for native kino loader)
 
 ### **Get the log**
 
