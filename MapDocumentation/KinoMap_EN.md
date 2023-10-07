@@ -1,6 +1,6 @@
 # Map creation for Kino  (WIP)
 
-## Tnis guide will help you set up the enviroment and start creation custom maps for KINO bundle map loader.
+## This guide will help you set up the environment and start creation custom maps for KINO bundle map loader.
 
 ## List of contents:
 
@@ -27,52 +27,17 @@
   * [Building the map asset bundle](#kino_map_build) 
 
 
-#
 <a name="req"></a> 
 ## Requirements
 * Unity editor `2020.3.25f1`
 * 3D modeling software
 
-#
 <a name="prep"></a> 
 ## Preparation
 <a name="unity_install"></a> 
 ### Unity installation.
-First of all you need to install Unity Hub. You can download it using the following link:  
-https://unity3d.com/get-unity/download  
-Then click on the **Download Unity Hub** button, download and install it.
-![unity_hub](images/unity_hub.png)  
 
-#
-
-Now let's get to Unity installation. Currently the game uses `2020.3.25f1` version of Unity Editor.  
-You can download it using the following link:  
-https://unity3d.com/get-unity/download/archive
-
-Here you need to choose the required version. Currently that is `2020.x`
-![unity_header](images/unity_header.png)  
-Then find `Unity 2020.3.25f1` in the list and click on the **Unity Hub** button.
-
-![unity_download](images/unity_download.png)  
-
-After the installation the required editor should appear in the list.  
-
-![unity_hub_installs](images/unity_hub_installs.png)  
-
-Then you need to install additional modules for building the asset bundle for **Windows** and optionally for **OSX**  
-To do that select the required editor and click on the **gear** then click on **Add modules**.
-
-![unity_hub_add](images/unity_hub_add.png)  
-
-Remove the check mark from **Visual Studio**, if you don't need it.
-
-![unity_hub_vs](images/unity_hub_vs.png)  
-
-Then add the **Windows Build Support** and optionally **Mac Build Support** components, then click on **Install**.
-
-![unity_hub_modules](images/unity_hub_modules.png)  
-
-Unity installation is complete!
+Install the Unity Editor following this [guide](https://github.com/trbflxr/kino/blob/master/Help/UnityInstallation.md).
 
 <a name="kino_map_sdk"></a> 
 ### KinoMap SDK installation  
@@ -173,7 +138,7 @@ First you need to **unpack** the prefab. To do that right click on the prefab th
 ### Map structure
 Let's get to setting up the map's structure.  
 This part is very easy. Road surfaces go to the **road** object, grass in the **grass** object and so on.  
-Add the object to the scene and name it [surfaces](#kino_map_surfaces).
+Add the object to the scene and name it [surfaces](#surfaces).
 ![sdk_new_road](images/sdk_new_road.png)  
 
 In the example we created **Empty** objects **road** and **grass**. Then we moved all the surfaces that the game should treat as **road** and as **grass**.  

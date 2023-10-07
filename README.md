@@ -37,6 +37,12 @@ If you are interested in creating mods and plugins, please visit the [KSL](https
 Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
 OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).
 
+## Resource packs creation documentation
+
+Read more about resource packs [here](https://github.com/trbflxr/kino/blob/master/Help/ResourcePacksInfo.md).
+
+Learn how to [create resource packs](https://github.com/trbflxr/kino/blob/master/Help/ResourcePackCreation.md) for Kino.
+
 ## Feedback
 
 Forward all the bugs to the issues tab or open a ticket in our Discord  

@@ -27,51 +27,17 @@
   * [Сборка карты](#kino_map_build) 
 
 
-#
 <a name="req"></a> 
 ## Требования
 * Редактор Unity `2020.3.25f1`
 * Софт для 3D моделиорвания
 
-#
 <a name="prep"></a> 
 ## Подготовка
 <a name="unity_install"></a> 
 ### Установка Unity
-В первую очередь необходимо установить Unity Hub, скачать его можно по ссылке:  
-https://unity3d.com/get-unity/download
-Далее нажмите на кнопку **Download Unity Hub**, скачайте и установите его.
-![unity_hub](images/unity_hub.png)  
 
-#
-
-Теперь приступим к установке Unity. В данный момент используется версия `2020.3.25f1`. Скачать редактор можно по ссылке:  
-https://unity3d.com/get-unity/download/archive
-
-Тут нужно выбрать нужную нам версию в данный момент это `2020.x`
-![unity_header](images/unity_header.png)  
-После найди в списке `Unity 2020.3.25f1` и нажми на кнопку **Unity Hub**
-
-![unity_download](images/unity_download.png)  
-
-После загрузки и установки в списке появится нужный редактор  
-
-![unity_hub_installs](images/unity_hub_installs.png)  
-
-Далее необходимо установить дополнительные пакеты для сборки карт как для **Windows** так и для **OSX**  
-Для этого выбери нужный редактор, нажми на **шестеренку** затем на  **Add modules**
-
-![unity_hub_add](images/unity_hub_add.png)  
-
-В окне сними флажок с **Visual Studio**, если она тебе не нужна.
-
-![unity_hub_vs](images/unity_hub_vs.png)  
-
-Далее добавь компоненты **Mac Build Support** и **Windows Build Support**, после чего нажми **Install**
-
-![unity_hub_modules](images/unity_hub_modules.png)  
-
-Установка Unity завершена!
+Установиите Unity используя [этот гайд](https://github.com/trbflxr/kino/blob/master/Help/UnityInstallation.md).
 
 <a name="kino_map_sdk"></a> 
 ### Установка KinoMap SDK  
@@ -169,7 +135,7 @@ https://github.com/trbflxr/kino_map_sdk
 ### Структура карты
 Приступим к настройке структуры карты.  
 Логика тут очень простая, поверхности с асфальтом необходимо перенести в объект **road** траву в **grass** и т.д.  
-Добавь объект на сцену и назови его по типу [поверхности](#kino_map_surfaces).
+Добавь объект на сцену и назови его по типу [поверхности](#поверхности).
 ![sdk_new_road](images/sdk_new_road.png)  
 
 В примере я создал **Empty** объекты **road** и **grass**. И перетащил в них все поверхности, которые должны восприниматся игрой как **асфальт** и как **трава**.  
