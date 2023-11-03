@@ -111,11 +111,21 @@ After that adjust the material settings and assign the textures if needed. All o
 ![unity_object_on_scene.png](../Images/guide/resources/unity_object_on_scene.png)
 
 > [!NOTE]
-> **[Optional]** IN case you want to make the object paintable add ```car_paint_``` at the start of the paintable object's name
+> **[Optional]** In case you want to make the object paintable add ```car_paint_``` at the start of the paintable object's name
 
 ![unity_car_paint.png](../Images/guide/resources/unity_car_paint.png)
 
 ![carx_car_paint.png](../Images/guide/resources/carx_car_paint.png)
+
+> [!NOTE]  
+> **[Optional]** You can also create a custom **exhaust / wastegate**. To do that put empty objects in places where the backfire is supposed to be and add ```flames_root``` at the start of the object's name for every object that needs it.
+
+![carx_car_paint.png](../Images/guide/resources/flames_root_model.png)
+
+![carx_car_paint.png](../Images/guide/resources/flames_root_hierarchy.png)
+
+> [!IMPORTANT]  
+> Keep in mind that the direction of the flames depends on the rotation of the ```flames_root``` objects. Make sure to test it properly before publishing.
 
 3. Then drag an object from the scene back to the **Assets** tab and select **Original Prefab** in the dialog box.
 
