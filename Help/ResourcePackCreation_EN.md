@@ -154,6 +154,9 @@ You already installed [AssetBundles Browser](#installing-the-tools-for-the-resou
 
 3. Then specify the name of the bundle
 
+> [!WARNING]  
+> The name should only contain latin letters and numbers **without any** spaces. Spaces can be replaced with **_**.
+
 ![unity_name_bundle.png](../Images/guide/resources/unity_name_bundle.png)
 
 4. Bundle is created. Now you can [add](#adding-an-object-to-a-bundle) objects to it.
