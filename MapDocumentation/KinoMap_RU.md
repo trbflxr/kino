@@ -37,7 +37,7 @@
 <a name="unity_install"></a> 
 ### Установка Unity
 
-Установиите Unity используя [этот гайд](https://github.com/trbflxr/kino/blob/master/Help/UnityInstallation.md).
+Установиите Unity используя [этот гайд](https://github.com/trbflxr/kino/blob/master/ContentCreation/UnityInstallation/UnityInstallation.md).
 
 <a name="kino_map_sdk"></a> 
 ### Установка KinoMap SDK  

@@ -37,7 +37,7 @@
 <a name="unity_install"></a> 
 ### Unity installation.
 
-Install the Unity Editor following this [guide](https://github.com/trbflxr/kino/blob/master/Help/UnityInstallation.md).
+Install the Unity Editor following this [guide](https://github.com/trbflxr/kino/blob/master/ContentCreation/UnityInstallation/UnityInstallation.md).
 
 <a name="kino_map_sdk"></a> 
 ### KinoMap SDK installation  

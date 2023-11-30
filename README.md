@@ -32,16 +32,18 @@ Other mods installation [guide](https://github.com/trbflxr/ksl/blob/master/doc/g
 
 If you are interested in creating mods and plugins, please visit the [KSL](https://github.com/trbflxr/ksl) repository.
 
+## Content creation
+
+If you're interested in creating content for the game, you can learn how to do that [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/ContentInfo.md).
+
+A guide on creation of resourcepacks for cars and maps is available [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/ResourcePackCreation.md).
+
+Learn more about creating custom parts for cars such as wheels, steering wheels, body kits and more [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsCreation.md).
+
 ## Map creation documentation
 
 Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
 OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).
-
-## Resource packs creation documentation
-
-Read more about resource packs [here](https://github.com/trbflxr/kino/blob/master/Help/ResourcePacksInfo.md).
-
-Learn how to [create resource packs](https://github.com/trbflxr/kino/blob/master/Help/ResourcePackCreation.md) for Kino.
 
 ## Feedback
 

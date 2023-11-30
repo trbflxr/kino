@@ -8,7 +8,7 @@ First of all you need to install Unity Hub. You can download it using the follow
 https://unity3d.com/get-unity/download  
 Then click on the **Download Unity Hub** button, download and install it.
 
-![unity_hub](../Images/guide/unity_hub.png)
+![unity_hub](../Images/Unity/unity_hub.png)
 
 ## Unity Editor installation
 
@@ -17,14 +17,14 @@ You can download it using the following link:
 https://unity3d.com/get-unity/download/archive
 
 Here you need to choose the required version. Currently that is `2020.x`
-![unity_header](../Images/guide/unity_header.png)  
+![unity_header](../Images/Unity/unity_header.png)  
 Then find `Unity 2020.3.25f1` in the list and click on the **Unity Hub** button.
 
-![unity_download](../Images/guide/unity_download.png)
+![unity_download](../Images/Unity/unity_download.png)
 
 After the installation the required editor should appear in the list.
 
-![unity_hub_installs](../Images/guide/unity_hub_installs.png)
+![unity_hub_installs](../Images/Unity/unity_hub_installs.png)
 
 ## [Optional] modules installation for OSX support
 
@@ -32,14 +32,14 @@ In case if you want to build maps or resource packs not just for **Windows** but
 
 To do that select the required editor and click on the **gear** then click on **Add modules**.
 
-![unity_hub_add](../Images/guide/unity_hub_add.png)
+![unity_hub_add](../Images/Unity/unity_hub_add.png)
 
 Remove the check mark from **Visual Studio**, if you don't need it.
 
-![unity_hub_vs](../Images/guide/unity_hub_vs.png)
+![unity_hub_vs](../Images/Unity/unity_hub_vs.png)
 
 Then add the **Mac Build Support** component and click on **Install**.
 
-![unity_hub_modules](../Images/guide/unity_hub_modules.png)
+![unity_hub_modules](../Images/Unity/unity_hub_modules.png)
 
 Unity installation is complete!
