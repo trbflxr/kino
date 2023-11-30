@@ -1,16 +1,16 @@
 # Custom wheels creation
 
-[!IMPORTANT]
-> Before you begin, make sure you have `kino_content_sdk` installed. More about it [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsCreation_RU.md).
+> [!IMPORTANT]
+> Before you begin, make sure you have `kino_content_sdk` installed. More about it [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsCreation_EN.md).
 
 ## Bundle preparation
 
 If you have already created a bundle you can skip this step.
 
-[!NOTE]
+> [!NOTE]
 > It recommended to create a separate folder for each pack for a proper project organization.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > You can and should add **multiple** wheels to a **single** pack. That way the wheels will be in their own group inside the menu and will make navigation easier.
 
 First you need to create a folder inside a project. The folder should be located inside the `📁 Assets` folder. To do that right click on an empty space inside of the **Project** window and create a folder:
@@ -21,7 +21,7 @@ Name the folder whatever you want (for an example **Wheels**) and open it.
 
 ![create_folder](../Images/CarParts/create_folder.png)
 
-[!NOTE]
+> [!NOTE]
 > If you intend on creating multiple wheels packs it is recommended to create a separate folder for each one.
 
 Then create the folder for the pack (for an example **wheels_pack1**) and open it.
@@ -30,7 +30,7 @@ Then create the bundle metadata by right clicking on an empty space and going to
 > `Kino`  
 > └ `Create car parts meta`
 
-[!WARNING]
+> [!WARNING]
 > Metadata file absolutely must have to be named `__meta`. Otherwise it won't be recognized by the mod.
 
 After fill out the basic pack metadata. Each fild has a tooltip that you can see by hovering a cursor over it to access a more detailed explanation.
@@ -48,22 +48,22 @@ Bundle preparation is ready, now you can [create](#wheel-model-creation) and [im
 
 ## Wheel model creation
 
-[!NOTE]
+> [!NOTE]
 > If you created wheels for the workshop before you can skip this step and get to [importing in Unity](#unity-model-import)
 
 The guide uses `Blender` for the examples. If you're using a different 3D modelling software the steps will be roughly the same.
 
 After creating the model you can prepare it for export.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > The wheel has to be facing `X` axis.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > The wheel has to have at least 2 pieces: `rim` and `spokes`. **The names need to be exactly as mentioned**. Also these parts should not contain textures. However the wheel can have more than two components and they can be named whatever you want. You can also put textures on them.
 
 In the example bellow the wheel has `wheel_nuts` component.
 
-[!IMPORTANT]
+> [!IMPORTANT]
 > Also be vary of the wheel offset relatively to the absolute zero. The wheel will be attached to the car at the central point of the `spokes` component. Keep that in mind and if necessary the wheel can be moved in the needed direction of the `X` axis.
 
 ![blender_wheel_info](../Images/CarParts/blender_wheel_info.png)
@@ -113,7 +113,7 @@ To do so by following these steps:
 
 ## Adding wheels to the pack
 
-[!WARNING]
+> [!WARNING]
 > If at this stage you still haven't created the metadata for the pack, do it now by following [the guide above](#bundle-preparation)
 
 To make the wheels available in game all you have to do is add them to the pack.
@@ -127,7 +127,7 @@ To make the wheels available in game all you have to do is add them to the pack.
 
 ![fill_part_meta](../Images/CarParts/fill_part_meta.gif)
 
-[!NOTE]
+> [!NOTE]
 > Take note that in the `Replacement Id` I specified the value `111` which is an ID of **a vanilla CarX wheel** that looks the most similar to the one I've added.
 
 ![similar_part_id](../Images/CarParts/similar_part_id.png)
@@ -140,7 +140,7 @@ Optionally, however highly recommended field to fill out. It's needed so that th
 
 An important step is building the pack.
 
-The building process for all bundle types is described [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsCreation_RU.md).
+The building process for all bundle types is described [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsCreation_EN.md).
 
 ---
 
@@ -165,7 +165,7 @@ However if the value is less than one then set the values in the `Scale` fields 
 
 This way you can attempt to get the scale right.
 
-[!NOTE]
+> [!NOTE]
 > If you're using 3Ds Max and the source model is in .obj you might have to convert the units to **meters** on import, otherwise the model may appear too small.
 
 ### The wheel is facing the wrong direction

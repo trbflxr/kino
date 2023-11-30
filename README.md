@@ -36,9 +36,9 @@ If you are interested in creating mods and plugins, please visit the [KSL](https
 
 If you're interested in creating content for the game, you can learn how to do that [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/ContentInfo.md).
 
-A guide on creation of resourcepacks for cars and maps is available [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/ResourcePackCreation.md).
+A guide on creation of resourcepacks for cars and maps is available [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/ResourcePackInfo.md).
 
-Learn more about creating custom parts for cars such as wheels, steering wheels, body kits and more [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsCreation.md).
+Learn more about creating custom parts for cars such as wheels, steering wheels, body kits and more [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsInfo.md).
 
 ## Map creation documentation
 

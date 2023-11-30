@@ -42,7 +42,7 @@ Bundle building happens using the **PacksTool**. To open it go to:
 
 On the first start you might have some data missing and SDK will offer you to generate it.
 
-[!NOTE]
+> [!NOTE]
 > If you already have set up the tools before, you can skip this step.
 
 At the moment the building tools window looks like this.
