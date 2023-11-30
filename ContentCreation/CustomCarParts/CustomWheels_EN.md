@@ -26,7 +26,7 @@ Name the folder whatever you want (for an example **Wheels**) and open it.
 
 Then create the folder for the pack (for an example **wheels_pack1**) and open it.
 
-Then create the bundle metadata by right clicking on an empty space and going to 
+Then create the bundle metadata by right clicking on an empty space and going to
 > `Kino`  
 > └ `Create car parts meta`
 
@@ -39,9 +39,9 @@ After fill out the basic pack metadata. Each fild has a tooltip that you can see
 
 1. **`Pack type.`** In this case `Wheels`
 2. **`Pack name.`** It has to be in lower case, lating letters only, you're allowed to use numbers and `_`. **No spaces allowed.**
-3. **`Category name`**. Optionally you can specify the name that will be displayed in game on the pack label. 
+3. **`Category name`**. Optionally you can specify the name that will be displayed in game on the pack label.
 4. **`Pack description`**.
-5. **`Icon`**. Optional field, however we recommend to have an icon made. 
+5. **`Icon`**. Optional field, however we recommend to have an icon made.
 6. **`Pack version`**. Not in use at the moment. Leave as is.
 
 Bundle preparation is ready, now you can [create](#wheel-model-creation) and [import](#unity-model-import) models.
@@ -69,11 +69,13 @@ In the example bellow the wheel has `wheel_nuts` component.
 ![blender_wheel_info](../Images/CarParts/blender_wheel_info.png)
 
 Now the wheel needs to be fitted to the game's scale. To do that import the fitment model to the scene. It's located inside:
+
 ```
 📂 kino_content_sdk
  └ 📁 FitmentModels
 ```
-Then fit your wheel to the scale of the fitment model. 
+
+Then fit your wheel to the scale of the fitment model.
 
 ![blender_wheel_fit](../Images/CarParts/blender_wheel_fit.png)
 
@@ -91,7 +93,7 @@ To import models in Unity you can drag and drop the needed files to the `Project
 
 After importing select the needed model and in the `Inspector` window switch to the `Materials` tab.
 
-If `Extract textures` and `Extract Materials` buttons are grayed out and unclickable you can just go to the next step. 
+If `Extract textures` and `Extract Materials` buttons are grayed out and unclickable you can just go to the next step.
 
 If the buttons are active, first extract the textures and then the materials.
 
@@ -184,7 +186,7 @@ In our case rotation the wheel by `-90` on the `Y` axis fixed the issue.
 
 ### The wheel has a wrong offset
 
-if the wheel has a wrong offset or it is off-center on one of the axes it can be easily fixed. 
+if the wheel has a wrong offset or it is off-center on one of the axes it can be easily fixed.
 
 ![bad_wheel_offset](../Images/CarParts/bad_wheel_offset.png)
 
@@ -194,10 +196,30 @@ Select the needed prefab and double click to enter the editing mode. Then select
 
 The game will attach the wheel to the wheel hub using the center point of the `spokes` object. On the screenshot above you can see how far off-center it is.
 
-Move all the objects inside of the root object to enough to compensate for the offset. 
+Move all the objects inside of the root object to enough to compensate for the offset.
 
 ![wheel_offset_fix](../Images/CarParts/wheel_offset_fix.png)
 
 In this case the setting the value `0.071` for the `X` axis fixed the issue.
 
-Then save the prefab and rebuid the pack.
+Then save the prefab and rebuild the pack.
+
+### Wheel is still offset or clipping though the brakes
+
+If even after setting the offset for the wheel components its position is still off you need to fix it in your 3D software (in our case Blender).
+
+On the screenshots provided you can see that the origin of the `spokes` component is located at the center of the object. That’s the point that wheel will be attached at.
+
+![wheel_spokes_bad_offset](../Images/CarParts/wheel_spokes_bad_offset.png)
+
+![wheel_spokes_bad_offset_unity](../Images/CarParts/wheel_spokes_bad_offset_unity.png)
+
+In order to fix that follow the steps provided:
+
+1. Open the model in your 3D software of choice (in our case Blender)
+2. Go to the `Object mode`
+3. Put the 3D cursor at the point where the `origin` is supposed to be
+4. Press `Object -> Set origin -> Origin to 3D Cursor`
+5. Then export the model and [import](#unity-model-import) it in Unity
+
+![wheel_spokes_offset_fix](../Images/CarParts/wheel_spokes_offset_fix.png)
