@@ -223,3 +223,35 @@ In order to fix that follow the steps provided:
 5. Then export the model and [import](#unity-model-import) it in Unity
 
 ![wheel_spokes_offset_fix](../Images/CarParts/wheel_spokes_offset_fix.png)
+
+### Wheel has incorrect shadowing or is completely black
+
+This issue is related to incorrect UV-map of the wheel and is easy to fix.
+
+Solution is provided by @Jeefrect (Discord: @jeefrect)
+
+UV-map should be exactly as shown in the example bellow. Spokes and rim faces must be in the **right half** of the UV map.
+
+![wheel_uv_fix](../Images/CarParts/wheel_uv_fix.gif)
+
+* The **blue zone** (for spokes) should contain the UV unwrap of the wheel's spokes
+* The **yellow zone** (for rims) should contain the UV unwrap of the wheel's rim
+* [Optional] The **red zone** (for backface) should contain the backface of the wheel if it has one. In game they will appear darkened.
+
+![wheel_uv_back](../Images/CarParts/wheel_uv_back.png)
+
+* In **green zone** (for backface spoke), put the UV unwrap of the spokes' backface
+* In **blue zone** (for backface spoke), put the UV unwrap of the rim's backface
+
+> [!NOTE]
+> In order to quickly make a UV-unwrap of the selected object in Blender you need to press `U -> Unwrap`
+
+![wheel_uv_unwrap](../Images/CarParts/wheel_uv_unwrap.png)
+
+Correct UV map should look like this:
+
+![wheel_uv_both_sides](../Images/CarParts/wheel_uv_both_sides.png)
+
+Or like this, if you've only made it for the **front face** of the wheel:
+
+![wheel_uv_front](../Images/CarParts/wheel_uv_front.png)
