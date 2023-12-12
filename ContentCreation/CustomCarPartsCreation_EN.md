@@ -10,7 +10,7 @@ Install the Unity editor by following [this guide](https://github.com/trbflxr/ki
 
 If you already have `kino_content_sdk` installed then you can skip this step.
 
-1. Donwload and unpack anywhere you want [kino_content_sdk](https://github.com/trbflxr/kino_content_sdk/releases).
+1. Download and unpack anywhere you want [kino_content_sdk](https://github.com/trbflxr/kino_content_sdk/releases).
 
 2. Add `kino_content_sdk` to UnityHub
 
@@ -28,7 +28,9 @@ Now get to creating custom parts.
 
 > [Rims](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarParts/CustomWheels_EN.md)
 
-> [Steering wheels (TBA)]()
+> [Body parts](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarParts/CustomExterior_EN.md)
+
+> [Interior parts](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarParts/CustomInterior_EN.md)
 
 ## Building the bundle
 

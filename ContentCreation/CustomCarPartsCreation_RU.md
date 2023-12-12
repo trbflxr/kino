@@ -28,7 +28,9 @@
 
 > [Диски](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarParts/CustomWheels_RU.md)
 
-> [Рули (TBA)]()
+> [Обвесы](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarParts/CustomExterior_RU.md)
+
+> [Интерьер](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarParts/CustomInterior_RU.md)
 
 ## Сборка паков
 
