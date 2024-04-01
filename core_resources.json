@@ -1,0 +1,29 @@
+{
+  "Bundles": [
+    {
+      "Id": "core",
+      "Path": "CoreResources/Bundles",
+      "Version": "3.27.0"
+    },
+    {
+      "Id": "sky",
+      "Path": "CoreResources/Bundles",
+      "Version": "1.0.1"
+    },
+    {
+      "Id": "rain",
+      "Path": "CoreResources/Bundles",
+      "Version": "1.0.2"
+    },
+    {
+      "Id": "plates",
+      "Path": "CoreResources/Bundles",
+      "Version": "1.0.5"
+    },
+    {
+      "Id": "drone",
+      "Path": "CoreResources/Bundles",
+      "Version": "1.0.1"
+    }
+  ]
+}
