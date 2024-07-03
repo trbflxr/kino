@@ -28,22 +28,13 @@ If you have issues with the mod, refer to the [troubleshooting guide](Help/Suppo
 
 Other mods installation [guide](https://github.com/trbflxr/ksl/blob/master/doc/guide/install_content.md).
 
+## Content creation
+
+If you're interested in creating content for the game, such as **maps**, **body kits**, **wheels**, etc., you can learn how to do that [here](ContentCreation/ContentInfo.md).
+
 ## Mods creation
 
 If you are interested in creating mods and plugins, please visit the [KSL](https://github.com/trbflxr/ksl) repository.
-
-## Content creation
-
-If you're interested in creating content for the game, you can learn how to do that [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/ContentInfo.md).
-
-A guide on creation of resourcepacks for cars and maps is available [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/ResourcePackInfo.md).
-
-Learn more about creating custom parts for cars such as wheels, steering wheels, body kits and more [here](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsInfo.md).
-
-## Map creation documentation
-
-Unity asset map creation [guide](MapDocumentation/KinoMapDoc.md).  
-OBJ map creation [guide](MapDocumentation/ObjMapDoc.md).
 
 ## Feedback
 
@@ -52,6 +43,7 @@ Suggestions can also be left in the dedicated channel in Discord
 
 ## Support the project
 
-If you wish to support the development of the project, there's a link at the top of this page.  
+If you want to support the development of the project, you can do so on our [Patreon](https://www.patreon.com/kinomod).
 All supporters get access to **Extras** which you can read about in the **Features** part of this page.  
+Tier 2 supporters will also have access to **Air** and **Hydraulic** suspension.
 Thanks a lot to people who have already supported us!

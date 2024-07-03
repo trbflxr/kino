@@ -1,47 +1,12 @@
 ﻿# Создание кастомных дисков
 
-> [!IMPORTANT]
-> Перед началом, убедитесь, что у вас установлен и настроен `kino_content_sdk`, подробнее по [ссылке](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsCreation_RU.md).
+## Подготовка и создание пака
 
-## Подготовка пака
+Если вы уже создали пак и хотите добавить в него новые диски, то этот шаг можно пропустить.
 
-Если вы уже создали пак, то этот шаг можно пропустить.
+Не нужно создавать для каждого диска отдельный пак, группируйте их по типам, производителям и т.д.
 
-> [!NOTE]
-> Рекомендуется создавать папку для каждого пака, для нормальной организации проекта.
-
-
-> [!IMPORTANT]
-> В пак можно и даже нужно добавлять несколько дисков. Тогда эти диски будут сгруппированы в своей категории в меню игры и пользователям будет удобнее их использовать.
-
-Первым делом нужно создать папку внутри проекта. Папка должна находится внутри папки `Assets`. Для этого кликните правой кнопкой по пустому месту в окне **Project**, и создайте папку `Create -> Folder`.
-
-Назовите папку как вам угодно, на пример **Wheels**, и перейдите в неё.
-
-![create_folder](../Images/CarParts/create_folder.png)
-
-> [!NOTE]
-> Если вы планируете создавать несколько паков с дисками, то рекомендуется для каждого из них создавать свою папку.
-
-Далее создайте папку для пака, на пример **wheels_pack1** и перейдите в неё.
-
-Затем создайте метаданные для пака, нажав ПКМ по пустой области и выбрав `Kino -> Cerate car parts meta`.
-
-> [!WARNING]
-> Файл метаданных обязательно должен называтся `__meta` и никак иначе.
-
-После заполните базовые метаданные пака. У каждого поля есть тултип, наведите курсор на него, что бы узнать более подробную информацию.
-
-![parts_pack_meta](../Images/CarParts/parts_pack_meta.png)
-
-1. Тип пака, в данном случае `Wheels`
-2. Название пака, имя должно быть в нижнем регистре, только латиницей, допускаются цифры и `_`, имя должно быть **без пробелов**.
-3. Название категории. Опционально можно указать название, которое будет отображаться в интерфейсе игры, на карточке пака.
-4. Описание пака.
-5. Иконка. Поле опциональное, однако мы рекомендуем не оставлять его пустым.
-6. Версия пака. Пока что не используется, оставьте как есть.
-
-Подготовка пака завершена, можно [создавать](#создание-модели-диска) и [импортировать](#импорт-моделей-в-unity) модели.
+Для создания пака воспользуйтесь [этим гайдом](CustomPartsPackCreation_RU.md). 
 
 ## Создание модели диска
 
@@ -58,24 +23,24 @@
 > [!IMPORTANT]
 > Диск должен состоять минимум из двух частей: `rim` и `spokes`, названия должны быть именно такими. А так же эти части не должны иметь текстур.
 
-Однако у диска может быть более двух компонентов, и их уже можно называть как угодно. также их можно текстурировать.
+Однако у диска может быть более двух компонентов, и их уже можно называть как угодно. Также их можно текстурировать.
 
 В примере ниже у диска есть компонент `wheel_nuts`.
 
 > [!IMPORTANT]
 > Так же обратите внимание на смещение диска относительно нулевых координат. Диск будет установлен на ступицу точкой центральной точкой части `spokes`. Имейте это ввиду и при необходимости диск можно подвинуть в том или ином направлении по оси `X`.
 
-![blender_wheel_info](../Images/CarParts/blender_wheel_info.png)
+![parts_wheel_blender_info](../Images/CarParts/parts_wheel_blender_info.png)
 
 Теперь диск нужно подогнать под игровые размеры. Для этого импортируйте на сцену модель для фитмента, которая находится в папке `kino_content_sdk/FitmentModels` и подгоните размеры вашего диска под размер примерочной модели.
 
-![blender_wheel_fit](../Images/CarParts/blender_wheel_fit.png)
+![parts_wheel_blender_fit](../Images/CarParts/parts_wheel_blender_fit.png)
 
-После чего диск можно экспортировать. Убедитесь, что параметры для секции `Transform` указаны такие же как и на изображении.
+После чего диск можно экспортировать. Убедитесь, что параметры для секции `Transform` указаны такие же, как и на изображении.
 
 Так же, если на сцене есть сторонние объекты, и вы не хотите что бы они попали в модель, вы можете выбрать одну из опций `Limit to`. Однако лишние компоненты можно будет уже в Unity после создания префаба.
 
-![blender_export](../Images/CarParts/blender_export.png)
+![parts_blender_export](../Images/CarParts/parts_blender_export.png)
 
 По завершению экспорта можно приступать к импорту модели в Unity.
 
@@ -85,45 +50,32 @@
 
 После импорта выберите нужную модель и в окне `Inspector` перейдите на вкладку `Materials`.
 
-Если кнопки `Extract Textures` и `Extract Materials` серые и некликабельные, то ничего делать не нужно.
+Если кнопки `Extract Textures` и `Extract Materials` серые и не кликабельные, то ничего делать не нужно.
 
 Если же они активны, то сперва извлеките текстуры, а после материалы.
 
-![unity_import_model](../Images/CarParts/unity_import_model.png)
-
-Теперь вам необходимо создать `префаб (prefab)` из этой модели. Для этого выполните следующие действия:
-
-1. Перетащите модель в иерархию сцены (`Hierarchy`)
-2. Убедитесь что у компонента `Transform` установлены значения такие же как и на скрине ниже
-
-![add_model_on_scene](../Images/CarParts/add_model_on_scene.png)
-
-3. Теперь для создания префаба перетащите модель из окна `Herarchy` а окно `Project`, к исходной модели и выберите `Original Prefab`
-
-![create_prefab](../Images/CarParts/create_prefab.gif)
-
-4. Префаб готов к использованию
+![parts_unity_import_model](../Images/CarParts/parts_unity_import_model.png)
 
 ## Добавление дисков в пак
 
 > [!WARNING]
-> Если на этом этапе вы всё ещё не создали метаданные для пака, то сделайте это по [инструкции выше](#подготовка-пака).
+> Если на этом этапе вы всё ещё не создали метаданные для пака, то сделайте это по [инструкции выше](#подготовка-и-создание-пака).
 
 Для того что бы диски стали доступны в игре их нужно добавить в пак. Сделать это очень просто.
 
 1. В окне `Project` выберите ранее файл `__meta`
 
-![select_pack_meta](../Images/CarParts/select_pack_meta.png)
+![parts_select_pack_meta](../Images/CarParts/parts_select_pack_meta.png)
 
 2. После чего добавьте слот под диск в список нажав на `+`
 3. Заполните поля, как на примере ниже
 
-![fill_part_meta](../Images/CarParts/fill_part_meta.gif)
+![parts_fill_part_meta](../Images/CarParts/parts_fill_part_meta.gif)
 
 > [!NOTE]
 > Обратите внимание, что в поле `Replacement Id` я указал значение `111`, так как именно этот диск **из стандартного набора** игры максимально похож на тот, который я добавил.
 
-![similar_part_id](../Images/CarParts/similar_part_id.png)
+![parts_similar_part_id](../Images/CarParts/parts_similar_part_id.png)
 
 ### Replacement Id
 
@@ -133,7 +85,7 @@
 
 Заключительным этапом является сборка пака.
 
-Процесс сборки описан для всех типов паков [тут](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsCreation_RU.md).
+Процесс сборки описан для всех типов паков [тут](CustomPartsCreation_RU.md#сборка-паков).
 
 ---
 
@@ -141,9 +93,17 @@
 
 Если после загрузки дисков в игру их не видно, или они повернуты неверно, то это очень просто исправить.
 
-Перейдите в режим редактирования дважды кликнув по необходимому префабу в окне `Project`.
+Сперва нужно создать префаб диска. Для этого нажмите правой кнопкой по модели диска в окне **Project**, затем выберите `Create -> Prefab Variant`.
 
-![edit_prefab](../Images/CarParts/edit_prefab.png)
+![parts_create_prefab](../Images/CarParts/parts_create_prefab.png)
+
+После чего в файле метаданных замените префаб диска на только что созданный.
+
+![parts_meta_replace_prefab](../Images/CarParts/parts_meta_replace_prefab.png)
+
+Перейдите в режим редактирования дважды кликнув по новому префабу в окне `Project`.
+
+![parts_wheels_edit_prefab](../Images/CarParts/parts_wheels_edit_prefab.png)
 
 ### Проблемы с масштабом (не видно диск)
 
@@ -151,7 +111,7 @@
 
 После чего выделите все объекты внутри корневого и обратите внимание на параметр `Scale` у компонента `Transform`.
 
-![select_childs](../Images/CarParts/select_childs.png)
+![parts_wheel_select_childs](../Images/CarParts/parts_wheel_select_childs.png)
 
 Если выделали всё по гайду, то в поле масштаб у вас будет значение больше или равно единицы (1).
 Однако если вы видите значения ниже единицы, то установите в поля `Scale` значение **1**, сохраните префаб, пересоберите пак и проверьте в игре.
@@ -163,31 +123,31 @@
 Перейдите в редактирование префаба, и обратите внимание в какую сторону направлен диск.
 Правильное положение диска должно выглядеть так. Диск должен смотреть в обратном направлении по оси `X`, как это показано ниже.
 
-![correct_wheel_rotation](../Images/CarParts/correct_wheel_rotation.png)
+![parts_wheel_correct_rotation](../Images/CarParts/parts_wheel_correct_rotation.png)
 
 Если у вас диск расположен иначе, то выберите все объекты внутри корневого и поверните их правильно.
 
-![select_childs](../Images/CarParts/select_childs.png)
+![parts_wheel_select_childs](../Images/CarParts/parts_wheel_select_childs.png)
 
 В данном случае значение `-90` по оси `Y` исправили проблему.
 
-![correct_wheel_rotation_transform](../Images/CarParts/correct_wheel_rotation_transform.png)
+![parts_wheel_correct_wheel_rotation_transform](../Images/CarParts/parts_wheel_correct_wheel_rotation_transform.png)
 
 ### Диск имеет неверное смещение
 
 Если у диска в игре некорректный вылет или он смещён по какой-то оси, то это очень просто исправить.
 
-![bad_wheel_offset](../Images/CarParts/bad_wheel_offset.png)
+![parts_wheel_bad_offset](../Images/CarParts/parts_wheel_bad_offset.png)
 
 Выберите нужный префаб и даблкликом перейдите в режим редактирования. Затем выберите все объекты внутри корневого и обратите внимание на параметр `Position` у компонента `Transform`.
 
-![wheel_offset_info](../Images/CarParts/wheel_offset_info.png)
+![parts_wheel_offset_info](../Images/CarParts/parts_wheel_offset_info.png)
 
 Игра будет крепить диск к ступице (wheel hub) точкой, которая установлена в объекте `spokes`. На скрине выше видно, насколько эта точка выдвинута, от того в игре посадка у диска некорректная.
 
-Подвиньте все объекты внутри корневого что бы на расстояние нужное для компенсации смещения.
+Подвиньте все объекты внутри корневого, что бы на расстояние нужное для компенсации смещения.
 
-![wheel_offset_fix](../Images/CarParts/wheel_offset_fix.png)
+![parts_wheel_offset_fix](../Images/CarParts/parts_wheel_offset_fix.png)
 
 В данном случае значение `0.071` по оси `X` исправило ситуацию.
 
@@ -199,9 +159,9 @@
 
 На изображениях видно что *ориджин* у компонента `spokes` находится в центре самого объекта. Именно этой точкой колесо и будет прикреплено к ступице.
 
-![wheel_spokes_bad_offset](../Images/CarParts/wheel_spokes_bad_offset.png)
+![parts_wheel_spokes_bad_offset](../Images/CarParts/parts_wheel_spokes_bad_offset.png)
 
-![wheel_spokes_bad_offset_unity](../Images/CarParts/wheel_spokes_bad_offset_unity.png)
+![parts_wheel_spokes_bad_offset_unity](../Images/CarParts/parts_wheel_spokes_bad_offset_unity.png)
 
 Для того что бы это исправить выполните следующие действия:
 
@@ -211,7 +171,7 @@
 4. Нажмите `Object -> Set Origin -> Origin to 3D Cursor`
 5. После экспортируйте модель и [импортируйте](#импорт-моделей-в-unity) её в Unity
 
-![wheel_spokes_offset_fix](../Images/CarParts/wheel_spokes_offset_fix.png)
+![parts_wheel_spokes_offset_fix](../Images/CarParts/parts_wheel_spokes_offset_fix.png)
 
 ### Диск имеет некорректное затенение, или он просто черный
 
@@ -221,26 +181,26 @@
 
 UV-развертка диска должна строго соответствовать примеру. Передняя сторона спиц и обода обязательно должны находиться в **правой половине** развертки.
 
-![wheel_uv_fix](../Images/CarParts/wheel_uv_fix.gif)
+![parts_wheel_uv_fix](../Images/CarParts/parts_wheel_uv_fix.gif)
 
 * В **синей зоне** (for spokes) следует разместить UV-развертку спиц диска
 * В **жёлтой зоне** (for rims) нужно разместить UV-развертку обода диска
 * [Опционально] В **красной зоне** (for backface) нужно разместить задние стороны диска, если они у вас есть. В игре эти зоны будут иметь затемнение
 
-![wheel_uv_back](../Images/CarParts/wheel_uv_back.png)
+![parts_wheel_uv_back](../Images/CarParts/parts_wheel_uv_back.png)
 
 * **Зелёная зона** (for backface spoke), разместить UV-развертку задней стороны спиц
 * **Синяя зона** (for backface spoke), разместить UV-развертку задней стороны обода диска
 
 > [!NOTE]
-> Чтобы быстро сделать UV-развертку разветрку выбранного объекта в Blender, необходимо нажать `U -> Unwrap`.
+> Чтобы быстро сделать UV-развертку развёртку выбранного объекта в Blender, необходимо нажать `U -> Unwrap`.
 
-![wheel_uv_unwrap](../Images/CarParts/wheel_uv_unwrap.png)
+![parts_wheel_uv_unwrap](../Images/CarParts/parts_wheel_uv_unwrap.png)
 
 Правильная UV-развертка должна выглядить так:
 
-![wheel_uv_both_sides](../Images/CarParts/wheel_uv_both_sides.png)
+![parts_wheel_uv_both_sides](../Images/CarParts/parts_wheel_uv_both_sides.png)
 
-Или же так, если вы делали её только для **прередней части** диска:
+Или же так, если вы делали её только для **передней части** диска:
 
-![wheel_uv_front](../Images/CarParts/wheel_uv_front.png)
+![parts_wheel_uv_front](../Images/CarParts/parts_wheel_uv_front.png)

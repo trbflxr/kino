@@ -1,161 +1,132 @@
-﻿# Kino Content SDK
+﻿# Creating Car Body Kit Parts
 
-Make sure you have the latest version of [Kino Content SDK](https://github.com/trbflxr/kino_content_sdk/releases) installed.
+## Preparation and Pack Creation
 
-If you already had the Kino Content SDK installed then make sure to update it by unpacking teh archive to the same folder with file replacement.
+If you have already created a pack and want to add parts to it, you can skip this step.
 
-![sdk_update](../Images/sdk_update.gif)
+There's no need to create a separate pack for each part; group them by type, manufacturers, etc.
 
-# Model creation
+To create a pack, refer to [this guide](CustomPartsPackCreation_EN.md).
 
-> [!NOTE]
-> The model can be created in any 3D software you're accustomed with.
-
-To make the process easier you can dump the CarX car model or the specific parts. Here's how you can do that:
-
-1. Go to the car dump menu: `Tools -> Car dumper -> Dump model`
-2. Disable the parts you don't need, or press deselect all and select the ones you want.
-3. Dump the model by pressing `Dump selected parts`
-
-![model_dumper](../Images/CarParts/model_dumper.png)
-
-# Parts pack creation
-
-If you've already created the pack you can skip this step.
-
-> [!IMPORTANT]
-> You can and should add more parts to the same pack. The parts will be grouped inside their own category within the game's manu making them easier to use.
-
-First of all you need to create a folder inside of the project. The folder must be inside the `Assets` folder. You can do it by clicking on an empty space in the **Project** window and going to `Create -> Folder`
-
-Name the folder however you want, for an example **ExteriorParts**, then open it.
-
-![create_folder](../Images/CarParts/create_folder.png)
+# Model Creation
 
 > [!NOTE]
-> It is recommended to create a dedicated folder for each pack so that your project would be better organized and easier to work with
+> You can create the model in any 3D software that is convenient for you.
 
-Then create a folder for the pack, for an example **190e_body_parts** and open it.
+For convenience, you can dump the car model, excluding the part you want to create. Follow these steps to do so:
 
-Then create metadata for the pack by clicking RMB on an empty space and going to `Kino -> Create car parts meta`
+1. Go to the car dumping menu: `Tools -> Car dumper -> Dump model`
+2. Disable the parts in the list that you do not need.
+3. Dump the model by clicking `Dump selected parts`.
 
-> [!WARNING]
-> Metadata file has to be be named `__meta` (exactly)
+![parts_model_dumper](../Images/CarParts/parts_model_dumper.png)
 
-Then fill out the base pack metadata. Each field has a tooltip, hover over it to get additonal information. 
+## Importing Models into Unity
 
-> [!IMPORTANT]
-> To create a pack with body kit parts you need to select `Car Parts` type. You **must** specify the car ID that the pack is intended for in the `Target car ID`.
-> 
-> You can check the ID of the currently selected car in the Kino menu: `Tools -> Developer tools`
+To import models into Unity, you can drag the necessary files into the `Project` window or manually place them there via File Explorer.
 
-## Unity model import
+After importing, select the desired model and navigate to the `Materials` tab in the `Inspector` window.
 
-To import models in Unity you can drag and drop the needed files to the `Project` window or put manually put them there using the windows explorer.
+If the `Extract Textures` and `Extract Materials` buttons are grayed out and inactive, no action is needed.
 
-After importing select the needed model and in the `Inspector` window switch to the `Materials` tab.
+If they are active, first extract the textures and then the materials.
 
-If `Extract textures` and `Extract Materials` buttons are grayed out and unclickable you can just go to the next step.
-
-If the buttons are active, first extract the textures and then the materials.
-
-![model_import](../Images/CarParts/model_import.png)
+![parts_unity_import_model](../Images/CarParts/parts_unity_import_model.png)
 
 > [!IMPORTANT]
-> If you want to be able to put stickers on the part select `Red/Write Enabled` in the `Model` tab.
+> If you want to enable the ability to apply liveries to the object, in the `Model` tab, enable `Read/Write Enabled`.
 
-![model_import_read_write](../Images/CarParts/model_import_read_write.png)
+![parts_model_import_read_write](../Images/CarParts/parts_model_import_read_write.png)
 
-Now you need to create a `prefab` from this model.
-You can do so by following these steps:
+Next, create a prefab by following these steps:
 
-1. Create an empty object in the scene
-2. Reset its `Transform`
-3. Add the model to the created object
-4. Save the prefab and delete it from the scene
-5. Select the prefab in the `Project` windows and double click it to enter editing mode
+1. Create an empty object in the scene.
+2. Reset its `Transform`.
+3. Add the model to the newly created object.
+4. Save the prefab and remove it from the scene.
+5. Select the prefab in the `Project` window and double-click to enter editing mode.
 
-![create_prefab_full](../Images/CarParts/create_prefab_full.gif)
+![parts_create_prefab_full](../Images/CarParts/parts_create_prefab_full.gif)
 
-Now you can get to creating the part
+Now you can proceed with creating the part.
 
-# Body kit parts creation
+## Creating Car Body Kit Parts
 
 > [!NOTE]
-> Kino Content SDK has examples of each part in the `Assets/Examples/ExteriorParts` folder. Make sure to examine them for a better understanding of the creation process.
+> Kino Content SDK includes examples of all parts in the `Examples/ExteriorParts` folder. Be sure to review them for a better understanding of the process.
 
-Available parts:
+Available parts include:
 
 * Front bumper
 * Rear bumper
-* Skirts
+* Side skirts
 * Doors
 * Mirrors
 * Hood
 * Trunk
 * Spoiler
 * Roof
-* Rollcage
+* Frame
 * Exhaust
 
-All the parts are created using the same pattern. You need to import the model in Unity, create the prefab and set up the hierachy.
+All parts are created using the same principle. Import the model into Unity, create a prefab, and configure the hierarchy.
 
-Some parts might have additional component. Morea bout it [bellow](#prefab-setup)
+Some parts may have additional components, as discussed [below](#configuring-the-prefab).
 
-## Prefab setup
+## Configuring the Prefab
 
 > [!NOTE]
-> It's very important to use the correct naming for the prefab components as they will impact how it shows up in the game.
+> It's crucial to set correct component names for the prefab, as this affects how it appears in the game.
 
-Parts materials:
+Materials for the part:
 
-* `body` - components using this name will be paintable and will have support for liveries (with the [correct setup](#setting-up-the-uvs))
-* `body_nolivery` - these component will only be paintable.
+* `body` - components with this name can be painted and will receive liveries (when [properly configured](#configuring-uv-mapping))
+* `body_nolivery` - these components can only be painted
 
-![body_part_hierarchy](../Images/CarParts/body_part_hierarchy.png)
+![parts_body_part_hierarchy](../Images/CarParts/parts_body_part_hierarchy.png)
 
-Additional components and materials
+Additional components and materials:
 
-* `mirrors` - reflective surface for the *mirrors*
-* `Exhaust_root` - exhaust attachment root. Only available for the **rear bumper**
-* `Flame_root_<N>` - backfire root. Only available for the **exhaust**. Replace the `N` with the number `0-inf`. Name the points in chronological order.
+* `mirrors` - name surfaces on **mirrors** that should reflect
+* `Exhaust_root` - attachment point for exhaust, available only for **rear bumper**
+* `Flame_root_<N>` - firing point, available only for **exhaust**. Replace `N` with a number `0-inf`, name the points sequentially.
 
-![mirrors_prefab](../Images/CarParts/mirrors_prefab.png)
-![bumper_rear_prefab](../Images/CarParts/bumper_rear_prefab.png)
-![exhaust_prefab](../Images/CarParts/exhaust_prefab.png)
+![parts_mirrors_prefab](../Images/CarParts/parts_mirrors_prefab.png)
+![parts_bumper_rear_prefab](../Images/CarParts/parts_bumper_rear_prefab.png)
+![parts_exhaust_prefab](../Images/CarParts/parts_exhaust_prefab.png)
 
-## Setting up the UVs
+## Configuring UV Mapping
 
-For an easier set up of the UVs it is recommended to prepare the template. To do that follow the steps bellow:
+For convenient UV mapping configuration, prepare a template by following these steps:
 
-1. Create a new livery slot
-2. Put some stickers to fully cover the paintable surface
-3. Dump the livery using Kino: `Tools -> Car dumper -> Dump livery`
+1. Create a new livery in the game.
+2. Apply several stickers to completely cover the car from all sides.
+3. Dump the resulting livery using Kino: `Tools -> Car dumper -> Dump livery`.
 
-You should end up with something like this:
+You will get something similar to this:
 
-![190e_body_uv](../Images/CarParts/190e_body_uv.png)
+![parts_190e_body_uv](../Images/CarParts/parts_190e_body_uv.png)
 
-Now you can get with setting up of the UVs.
+Now you can proceed to configure the UV mapping.
 
-Create a material and assign a texture to it as a `Base Color`
+Create a material and set the texture as `Base Color`.
 
-![blender_set_texture](../Images/CarParts/blender_set_texture.png)
+![parts_blender_set_texture](../Images/CarParts/parts_blender_set_texture.png)
 
-Specify the path to the template texture
+Specify the path to the UV texture.
 
-![blender_open_texture](../Images/CarParts/blender_open_texture.png)
+![parts_blender_open_texture](../Images/CarParts/parts_blender_open_texture.png)
 
-Go to the `UV Editor` and select the texture you've just added
+Navigate to `UV Editor` and select the newly added texture.
 
-![blender_uv_editor](../Images/CarParts/blender_uv_editor.png)
+![parts_blender_uv_editor](../Images/CarParts/parts_blender_uv_editor.png)
 
-Then go to the `Edit Mode` and select the desired geometry
+Switch to `Edit Mode` and select the desired geometry.
 
-![blender_edit_mode_model](../Images/CarParts/blender_edit_mode_model.png)
+![parts_blender_edit_mode_model](../Images/CarParts/parts_blender_edit_mode_model.png)
 
-Place the geometry on the UV map properly
+Arrange the geometry on the UV map correctly.
 
-![blender_uv_editor_position](../Images/CarParts/blender_uv_editor_position.png)
+![parts_blender_uv_editor_position](../Images/CarParts/parts_blender_uv_editor_position.png)
 
-Then export the model in an `.fbx` or `.blend` format and [import](#unity-model-import) it into Unity
+Finally, export the model in `.FBX` or `.blend` format and [import](#importing-models-into-unity) it into Unity.

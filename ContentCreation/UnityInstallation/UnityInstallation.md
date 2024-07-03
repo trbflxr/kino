@@ -1,5 +1,5 @@
 ﻿# Select language
 
-> [English](https://github.com/trbflxr/kino/blob/master/ContentCreation/UnityInstallation/UnityInstallation_EN.md)
+> [English](UnityInstallation_EN.md)
 
-> [Русский](https://github.com/trbflxr/kino/blob/master/ContentCreation/UnityInstallation/UnityInstallation_RU.md)  
+> [Русский](UnityInstallation_RU.md)

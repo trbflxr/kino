@@ -1,10 +1,12 @@
-﻿# Kino Content SDK
+﻿# Создание деталей обвеса авто
 
-Убедитесь, что у вас установлена последняя версия [Kino Content SDK](https://github.com/trbflxr/kino_content_sdk/releases).
+## Подготовка и создание пака
 
-Если у вас уже был установлен Kino Content SDK, то обновите его, распаковав содержимое архива в ту же папку, с заменой файлов.
+Если вы уже создали пак и хотите добавить в него детали, то этот шаг можно пропустить.
 
-![sdk_update](../Images/sdk_update.gif)
+Не нужно создавать для каждой детали отдельный пак, группируйте их по типам, производителям и т.д.
+
+Для создания пака воспользуйтесь [этим гайдом](CustomPartsPackCreation_RU.md).
 
 # Создание модели
 
@@ -13,61 +15,28 @@
 
 Для большего удобства можно сдампить модель авто, исключив из неё часть, которую вы хотите создать, для этого выполните следующие действия:
 
-1. перейтиде в меню дампа авто: `Tools -> Car dumper -> Dump model`
+1. перейдите в меню дампа авто: `Tools -> Car dumper -> Dump model`
 2. в списке отключите части, которые вам не нужны
 3. сдампите модель нажав `Dump selected parts`
 
-![model_dumper](../Images/CarParts/model_dumper.png)
+![parts_model_dumper](../Images/CarParts/parts_model_dumper.png)
 
-# Создание пака с деталями
-
-Если вы уже создали пак, то этот шаг можно пропустить.
-
-> [!NOTE]
-> Рекомендуется создавать папку для каждого пака, для нормальной организации проекта.
-
-> [!IMPORTANT]
-> В пак можно и даже нужно добавлять несколько деталей. Тогда эти детали будут сгруппированы в своей категории в меню игры и пользователям будет удобнее их использовать.
-
-Первым делом нужно создать папку внутри проекта. Папка должна находится внутри папки `Assets`. Для этого кликните правой кнопкой по пустому месту в окне **Project**, и создайте папку `Create -> Folder`.
-
-Назовите папку как вам угодно, на пример **ExteriorParts**, и перейдите в неё.
-
-![create_folder](../Images/CarParts/create_folder.png)
-
-> [!NOTE]
-> Если вы планируете создавать несколько паков с деталями, то рекомендуется для каждого из них создавать свою папку.
-
-Далее создайте папку для пака, на пример **190e_body_parts** и перейдите в неё.
-
-Затем создайте метаданные для пака, нажав ПКМ по пустой области и выбрав `Kino -> Cerate car parts meta`.
-
-> [!WARNING]
-> Файл метаданных обязательно должен называтся `__meta` и никак иначе.
-
-После заполните базовые метаданные пака. У каждого поля есть тултип, наведите курсор на него, что бы узнать более подробную информацию.
-
-> [!IMPORTANT]
-> Для создания пака с деталями обвеса нужно выбрать тип `Car Parts`. **Обязательно** укажите ID авто, для которого предназначен этот пак, в поле `Target car ID`.
->
-> Узнать ID текущего авто можно в меню Kino: `Tools -> Developer tools`
-
-# Импорт моделей в Unity
+## Импорт моделей в Unity
 
 Для импорта моделей в Unity вы можете перетащить нужные файлы в окно `Project` или поместить их туда вручную, через проводник.
 
 После импорта выберите нужную модель и в окне `Inspector` перейдите на вкладку `Materials`.
 
-Если кнопки `Extract Textures` и `Extract Materials` серые и некликабельные, то ничего делать не нужно.
+Если кнопки `Extract Textures` и `Extract Materials` серые и не кликабельные, то ничего делать не нужно.
 
 Если же они активны, то сперва извлеките текстуры, а после материалы.
 
-![model_import](../Images/CarParts/model_import.png)
+![parts_unity_import_model](../Images/CarParts/parts_unity_import_model.png)
 
 > [!IMPORTANT]
 > Если вы хотите добавить возможность наложения ливрей на объект, то во вкладке `Model` включите оацию `Read/Write Enabled`.
 
-![model_import_read_write](../Images/CarParts/model_import_read_write.png)
+![parts_model_import_read_write](../Images/CarParts/parts_model_import_read_write.png)
 
 Далее создайте префаб, для этого выполните следующие действия:
 
@@ -77,14 +46,14 @@
 4. Сохраните префаб и удалите его со сцены
 5. Выберите префаб в окне `Project` и двойным кликом перейдите в режим редактирования
 
-![create_prefab_full](../Images/CarParts/create_prefab_full.gif)
+![parts_create_prefab_full](../Images/CarParts/parts_create_prefab_full.gif)
 
 После можно приступать к созданию детали.
 
-# Создание деталей обвеса
+## Создание деталей обвеса
 
 > [!NOTE]
-> В Kino Content SDK есть примеры всех деталей в папке `Assets/Examples/ExteriorParts`. Обязательно ознакомтесь с ними, для большего понимания процесса.
+> В Kino Content SDK есть примеры всех деталей в папке `Examples/ExteriorParts`. Обязательно ознакомитесь с ними, для большего понимания процесса.
 
 Доступные детали:
 
@@ -107,14 +76,14 @@
 ## Настройка префаба
 
 > [!NOTE]
-> Очень важно установить правильные имена для компонентов префаба, так как будет зависить его отображение в игре.
+> Очень важно установить правильные имена для компонентов префаба, так как будет зависеть его отображение в игре.
 
 Материалы детали:
 
 * `body` - компоненты с таким названием можно будет красить и на них будет нанесена ливрея (при [правильной настройке](#настройка-uv-развертки))
 * `body_nolivery` - такие компоненты можно будет только красить
 
-![body_part_hierarchy](../Images/CarParts/body_part_hierarchy.png)
+![parts_body_part_hierarchy](../Images/CarParts/parts_body_part_hierarchy.png)
 
 Дополнительные компоненты и материалы:
 
@@ -122,9 +91,9 @@
 * `Exhaust_root` - точка крепления выхлопа, доступно только для **заднего бампера**
 * `Flame_root_<N>` - точка для отстрелов, доступно только для **выхлопа**. Замените `N` на число `0-inf`, называйте точки по порядку.
 
-![mirrors_prefab](../Images/CarParts/mirrors_prefab.png)
-![bumper_rear_prefab](../Images/CarParts/bumper_rear_prefab.png)
-![exhaust_prefab](../Images/CarParts/exhaust_prefab.png)
+![parts_mirrors_prefab](../Images/CarParts/parts_mirrors_prefab.png)
+![parts_bumper_rear_prefab](../Images/CarParts/parts_bumper_rear_prefab.png)
+![parts_exhaust_prefab](../Images/CarParts/parts_exhaust_prefab.png)
 
 ## Настройка UV-развертки
 
@@ -136,28 +105,28 @@
 
 После вы получите что-то похожее на это:
 
-![190e_body_uv](../Images/CarParts/190e_body_uv.png)
+![parts_190e_body_uv](../Images/CarParts/parts_190e_body_uv.png)
 
 После чего можно приступать к настройке UV-развертки.
 
 Создайте материал и установите ему текстуру в качестве `Base Color`
 
-![blender_set_texture](../Images/CarParts/blender_set_texture.png)
+![parts_blender_set_texture](../Images/CarParts/parts_blender_set_texture.png)
 
 Укажите путь к текстуре развёртки
 
-![blender_open_texture](../Images/CarParts/blender_open_texture.png)
+![parts_blender_open_texture](../Images/CarParts/parts_blender_open_texture.png)
 
 Перейдите в `UV Editor` и выберите только что добавленную текстуру
 
-![blender_uv_editor](../Images/CarParts/blender_uv_editor.png)
+![parts_blender_uv_editor](../Images/CarParts/parts_blender_uv_editor.png)
 
 Далее перейдите в `Edit Mode` и выберите нужную геометрию
 
-![blender_edit_mode_model](../Images/CarParts/blender_edit_mode_model.png)
+![parts_blender_edit_mode_model](../Images/CarParts/parts_blender_edit_mode_model.png)
 
 Расположите геометрию на UV-карте правильным образом
 
-![blender_uv_editor_position](../Images/CarParts/blender_uv_editor_position.png)
+![parts_blender_uv_editor_position](../Images/CarParts/parts_blender_uv_editor_position.png)
 
 После чего экспортируйте модель в формате `.FBX` или же `.blend` и [импортируйте](#импорт-моделей-в-unity) её в Unity

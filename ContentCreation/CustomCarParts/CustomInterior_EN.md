@@ -1,176 +1,130 @@
-﻿# Kino Content SDK
+﻿# Creating Interior Parts
 
-Make sure you have the latest version of [Kino Content SDK](https://github.com/trbflxr/kino_content_sdk/releases) installed.
+## Preparing and Creating a Pack
 
-If you already had the Kino Content SDK installed then make sure to update it by unpacking teh archive to the same folder with file replacement.
+If you have already created a pack and want to add new parts to it, you can skip this step.
 
-![sdk_update](../Images/sdk_update.gif)
+There's no need to create a separate pack for each part; group them by type, manufacturer, etc.
 
-# Model creation
+To create a pack, use [this guide](CustomPartsPackCreation_EN.md).
 
-> [!NOTE]
-> The model can be created in any 3D software you're accustomed with.
+## Importing Models into Unity
 
-To make the process easier you can dump the CarX car model or the specific parts. Here's how you can do that:
+To import models into Unity, you can drag the necessary files into the `Project` window or manually place them there through the file explorer.
 
-1. Go to the car dump menu: `Tools -> Car dumper -> Dump model`
-2. Disable the parts you don't need, or press deselect all and select the ones you want.
-3. Dump the model by pressing `Dump selected parts`
+After importing, select the desired model and navigate to the `Materials` tab in the `Inspector` window.
 
-![model_dumper](../Images/CarParts/model_dumper.png)
+If the `Extract Textures` and `Extract Materials` buttons are grayed out and inactive, there's nothing further to do.
 
-# Parts pack creation
+If they are active, first extract the textures and then the materials.
 
-If you've already created the pack you can skip this step.
+![parts_unity_import_model](../Images/CarParts/parts_unity_import_model.png)
 
-> [!IMPORTANT]
-> You can and should add more parts to the same pack. The parts will be grouped inside their own category within the game's manu making them easier to use.
+Next, create a prefab by following these steps:
 
-First of all you need to create a folder inside of the project. The folder must be inside the `Assets` folder. You can do it by clicking on an empty space in the **Project** window and going to `Create -> Folder`
+1. Create an empty object in the scene.
+2. Reset its `Transform`.
+3. Add the model to the newly created object.
+4. Save the prefab and remove it from the scene.
+5. Select the prefab in the `Project` window and double-click to enter edit mode.
 
-Name the folder however you want, for an example **InteriorParts**, then open it.
+![parts_create_prefab_full](../Images/CarParts/parts_create_prefab_full.gif)
 
-![create_folder](../Images/CarParts/create_folder.png)
+You can now proceed with creating your part.
 
-> [!NOTE]
-> It is recommended to create a dedicated folder for each pack so that your project would be better organized and easier to work with
-
-Then create a folder for the pack, for an example **custom_interior_parts** and open it.
-
-Then create metadata for the pack by clicking RMB on an empty space and going to `Kino -> Create car parts meta`
-
-> [!WARNING]
-> Metadata file has to be be named `__meta` (exactly)
-
-Then fill out the base pack metadata. Each field has a tooltip, hover over it to get additonal information. 
-
-> [!IMPORTANT]
-> To create a pack with interior parts you need to select `Interior Parts` type.
-
-## Unity model import
-
-To import models in Unity you can drag and drop the needed files to the `Project` window or put manually put them there using the windows explorer.
-
-After importing select the needed model and in the `Inspector` window switch to the `Materials` tab.
-
-If `Extract textures` and `Extract Materials` buttons are grayed out and unclickable you can just go to the next step.
-
-If the buttons are active, first extract the textures and then the materials.
-
-![model_import](../Images/CarParts/model_import.png)
-
-> [!IMPORTANT]
-> If you want to be able to put stickers on the part select `Red/Write Enabled` in the `Model` tab.
-
-![model_import_read_write](../Images/CarParts/model_import_read_write.png)
-
-Now you need to create a `prefab` from this model.
-You can do so by following these steps:
-
-1. Create an empty object in the scene
-2. Reset its `Transform`
-3. Add the model to the created object
-4. Save the prefab and delete it from the scene
-5. Select the prefab in the `Project` windows and double click it to enter editing mode
-
-![create_prefab_full](../Images/CarParts/create_prefab_full.gif)
-
-Now you can get to creating the part
-
-# Interior parts creation
+## Creating Interior Parts
 
 > [!NOTE]
-> Kino Content SDK has examples of each part in the `Assets/Examples/InteriorParts` folder. Make sure to examine them for a better understanding of the creation process.
+> Kino Content SDK provides examples of all parts in the `Examples/InteriorParts` folder. Make sure to review them for a better understanding of the process.
 
 Available parts:
 
-* [Steering wheels](#custom-steering-wheel-creation)
-* [Hand brakes](#custom-hand-brake-creation)
-* [Shifters](#custom-shifter-creation)
-* [Seats](#custom-seat-creation)
+* [Steering Wheels](#creating-custom-steering-wheels)
+* [Handbrakes](#creating-custom-handbrakes)
+* [Shifters](#creating-custom-shifters)
+* [Seats](#creating-custom-seats)
 
-### Custom steering wheel creation
+### Creating Custom Steering Wheels
 
-Steering wheel model must contain the following components:
-`st_wheel_alcantar` and `st_wheel_parts`. You can have an unlimited amount of these components (within the lines of reason).
+The steering wheel model must include the following components: `st_wheel_alcantar` and `st_wheel_parts`. There can be any number of these components (within reason).
 
-![st_wheel_hierarchy](../Images/CarParts/st_wheel_hierarchy.png)
+![parts_st_wheel_hierarchy](../Images/CarParts/parts_st_wheel_hierarchy.png)
 
-If `st_wheel_alcantar` and `st_wheel_parts` components are present the wheel will work in the game correctly and you will be able to instal and paint it.
+Having these components ensures the steering wheel is correctly interpreted by the game, allowing it to be installed and painted.
 
-Add a new element to the pack with the `Steering Wheel` type. Also set its size in the `Steering Wheel Size` field.
-
-> [!NOTE]
-> If you're creating a steering wheel for the first time, leave the size at the default values. You'll be able to adjust it after checking in the game. If the hands are not placed on the wheel proparly you can readjust the scale and rebuild the pack.
-
-![st_wheel_pack_entry](../Images/CarParts/st_wheel_pack_entry.png)
-
-### Custom hand brake creation
-
-Custom hand break must contain the following components:
-
-* `hbrakeA` - the base
-* `hbrakeB` - the handle
-* `pivot` - the point at which the handle is attached to the base
-* `target` - the point at which the driver will grab the handle
+Add a new entry to the pack with the type `Steering Wheel`. Also set its size in the `Steering Wheel Size` field.
 
 > [!NOTE]
-> You can have more components, hoever the ones mentioned above are absolutely necessary.
+> If you are creating a steering wheel for the first time, leave the default size. Adjust the size by installing the wheel in the game and switching to first-person view. If the hands are misaligned, adjust the wheel size and rebuild the pack.
 
-![hbrake_hierarchy](../Images/CarParts/hbrake_hierarchy.png)
+![parts_st_wheel_pack_entry](../Images/CarParts/parts_st_wheel_pack_entry.png)
+
+### Creating Custom Handbrakes
+
+A custom handbrake must include the following components:
+
+* `hbrakeA` - base of the handbrake
+* `hbrakeB` - lever of the handbrake
+* `pivot` - point where the lever attaches to the base
+* `target` - point that the pilot will grab onto
+
+> [!NOTE]
+> There can be more components than listed above, but the ones mentioned are mandatory.
+
+![parts_hbrake_hierarchy](../Images/CarParts/parts_hbrake_hierarchy.png)
 
 > [!WARNING]
-> Hierarchy must match the screenshot provided. The names of the necessary components must also match.
+> The hierarchy must exactly match the screenshot. The names of the mandatory components must also be identical.
 
-If the driver's hand placement on the handle is wrong you can rotate the `target` on the required axis to fix it.
+If the pilot's hand is incorrectly positioned on the lever, you can rotate the `target` along the necessary axis to correct this.
 
-![target_point_transform](../Images/CarParts/target_point_transform.png)
+![parts_target_point_transform](../Images/CarParts/parts_target_point_transform.png)
 
-Add the new element to the pack, then select the `Handbrake` type and fill out the fields.
+Add a new entry to the pack, select the type `Handbrake`, and fill in the fields.
 
-![hbrake_pack_entry](../Images/CarParts/hbrake_pack_entry.png)
+![parts_hbrake_pack_entry](../Images/CarParts/parts_hbrake_pack_entry.png)
 
-### Custom shifter creation
+### Creating Custom Shifters
 
-Custom hand break must contain the following components:
+A custom shifter must include the following components:
 
-* `shifterA` - the base
-* `shiferB` - the handle
-* `pivot` - the point at which the handle is attached to the base
-* `target` - the point at which the driver will grab the handle
-
-> [!NOTE]
-> You can have more components, hoever the ones mentioned above are absolutely necessary.
-
-![shifter_seq_hierarchy](../Images/CarParts/shifter_seq_hierarchy.png)
-
-> [!WARNING]
-> Hierarchy must match the screenshot provided. The names of the necessary components must also match.
-
-If the driver's hand placement on the handle is wrong you can rotate the `target` on the required axis to fix it.
-
-![target_point_transform](../Images/CarParts/target_point_transform.png)
-
-To add the shifter to the pack you need to a new element with `Shifter H Pattern` or `Shifter Sequential` type and fill out the fields. Selected type will decide the animation when shifting gears in the game.
-
-![shifter_pack_entry](../Images/CarParts/shifter_pack_entry.png)
-
-### Custom seat creation
-
-Custom seats must contain the following components:
-
-* `seat_alcantar1` - seat material #1
-* `seat_alcantar2` - seat material #2
-* `driver_root` - driver position
+* `shifterA` - base of the shifter
+* `shifterB` - lever of the shifter
+* `pivot` - point where the lever attaches to the base
+* `target` - point that the pilot will grab onto
 
 > [!NOTE]
-> You can have more components, hoever the ones mentioned above are absolutely necessary.
+> There can be more components than listed above, but the ones mentioned are mandatory.
 
-![seat_hierarchy](../Images/CarParts/seat_hierarchy.png)
+![parts_shifter_seq_hierarchy](../Images/CarParts/parts_shifter_seq_hierarchy.png)
 
 > [!WARNING]
-> Hierarchy must match the screenshot provided. The names of the necessary components must also match.
+> The hierarchy must exactly match the screenshot. The names of the mandatory components must also be identical.
 
-To add the seat to the pack you need to create a new element with the `Seat left` or `Seat right` type and fill out the fields.
+If the pilot's hand is incorrectly positioned on the lever, you can rotate the `target` along the necessary axis to correct this.
 
-![seat_pack_entry](../Images/CarParts/seat_pack_entry.png)
+![parts_target_point_transform](../Images/CarParts/parts_target_point_transform.png)
+
+To add a shifter to the pack, you need to add a new entry with type `Shifter H Pattern` or `Shifter Sequential` and fill in the fields. The animation of gear shifting will depend on the chosen type.
+
+![parts_shifter_pack_entry](../Images/CarParts/parts_shifter_pack_entry.png)
+
+### Creating Custom Seats
+
+Custom seats must include the following components:
+
+* `seat_alcantar1` - material for seat #1
+* `seat_alcantar2` - material for seat #2
+* `driver_root` - pilot seating point
+
+> [!NOTE]
+> There can be more components than listed above, but the ones mentioned are mandatory.
+
+![parts_seat_hierarchy](../Images/CarParts/parts_seat_hierarchy.png)
+
+> [!WARNING]
+> The hierarchy must exactly match the screenshot. The names of the mandatory components must also be identical.
+
+To add a seat to the pack, you need to add a new entry with type `Seat Left` or `Seat Right` and fill in the fields.
+
+![parts_seat_pack_entry](../Images/CarParts/parts_seat_pack_entry.png)

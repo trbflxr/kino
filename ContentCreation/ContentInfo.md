@@ -1,11 +1,32 @@
 ﻿# Content creation guides
 
-Resourcepacks enable you to create custom object and then place them on a track or attach to your car.
+### Maps
+For Kino, you can create two types of maps:
+* Kino (Unity)
+* OBJ
 
-> [Resource packs](https://github.com/trbflxr/kino/blob/master/ContentCreation/ResourcePackInfo.md)
+The guide for creating them can be found here:
+
+> [Maps](Maps/MapsInfo.md)
 
 ---
 
+### Resource packs
+
+Resource packs enable you to create custom object and then place them on a track or attach to your car.
+
+> [Resource packs](ResourcePacks/ResourcePackInfo.md)
+
+---
+
+### Custom car parts (knpp)
+
 Custom car parts are intended to replace and improve upon the existing system of workshop mods for the game.
 
-> [Custom car parts](https://github.com/trbflxr/kino/blob/master/ContentCreation/CustomCarPartsInfo.md)  
+> [Custom car parts](CustomCarParts/CustomPartsInfo.md)  
+
+---
+
+### Sticker packs (currently only for creators)
+
+If you are a sticker pack creator, then you have access to the guide.
