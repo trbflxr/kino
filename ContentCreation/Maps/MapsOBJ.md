@@ -1,6 +1,6 @@
 ﻿# OBJ Map Creation
 
-> [!INFO]  
+> [!NOTE]
 > Check out [Kino (Unity)](MapsKinoInfo.md) maps, as they are more customizable and much more performant.
 
 This is a basic guide for map creation.  

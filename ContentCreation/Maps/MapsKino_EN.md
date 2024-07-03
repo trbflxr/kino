@@ -2,9 +2,9 @@
 
 ## Installing Unity and Content SDK
 
-Install the Unity editor using [this guide](../UnityInstallation/UnityInstallation.md).
+Install the Unity editor using [this guide](../UnityInstallation/UnityInstallation_EN.md).
 
-Then install and configure the [Content SDK](../ContentSDK/ContentSDKInstallation.md).
+Then install and configure the [Content SDK](../ContentSDK/ContentSDKInstallation_EN.md).
 
 > [!NOTE]  
 > In the `Assets/Content/Maps/Example` folder, there is a sample map that you can review.
@@ -184,7 +184,7 @@ You can use two methods to set surface types:
 * Specify the surface type for each object individually  
   ![maps_surface_single.png](../Images/Maps/maps_surface_single.png)
 
-> [!INFO]  
+> [!NOTE]  
 > You can specify the surface type both during model creation (e.g., in Blender) and in Unity itself.
 
 ### Setting Waypoints (Teleport Points)

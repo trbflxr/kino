@@ -17,7 +17,7 @@ After downloading, extract the archive to a convenient location.
 
 Specify author information. This information serves as a kind of signature and will be added to all resources.
 
-> [!INFO]
+> [!NOTE]
 > You only need to fill in author information once.
 
 Edit the `__author_meta` file, then click **Validate** to ensure the data is correct.

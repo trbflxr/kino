@@ -2,9 +2,9 @@
 
 ## Installing Unity and the Content SDK
 
-Install the Unity editor using [this guide](../UnityInstallation/UnityInstallation.md).
+Install the Unity editor using [this guide](../UnityInstallation/UnityInstallation_EN.md).
 
-Then, install and configure the [Content SDK](../ContentSDK/ContentSDKInstallation.md).
+Then, install and configure the [Content SDK](../ContentSDK/ContentSDKInstallation_EN.md).
 
 > [!NOTE]  
 > There are example custom parts packs in the `Assets/Content/CarParts/Examples` folder that you can refer to.

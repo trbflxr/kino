@@ -1,8 +1,8 @@
 ﻿# Creating Maps
 
 You can create two types of maps:
-* [Kino (Unity)](#kino-unity-maps) - more complex but flexible, with excellent performance
-* [OBJ](#obj) - the simplest but least performant and flexible method
+* Kino (Unity) - more complex but flexible, with excellent performance
+* OBJ - the simplest but least performant and flexible method
 
 ## Kino (Unity) maps
 

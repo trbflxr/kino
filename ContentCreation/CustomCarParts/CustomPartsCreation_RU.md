@@ -2,9 +2,9 @@
 
 ## Установка Unity и Content SDK
 
-Установите редактор Unity используя [этот гайд](../UnityInstallation/UnityInstallation.md).
+Установите редактор Unity используя [этот гайд](../UnityInstallation/UnityInstallation_RU.md).
 
-Затем установите и настройте [Content SDK](../ContentSDK/ContentSDKInstallation.md).
+Затем установите и настройте [Content SDK](../ContentSDK/ContentSDKInstallation_RU.md).
 
 > [!NOTE]  
 > В папке `Assets/Content/CarParts/Examples` есть примеры паков кастомных деталей, с которыми вы можете ознакомиться.

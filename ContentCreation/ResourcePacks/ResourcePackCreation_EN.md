@@ -2,9 +2,9 @@
 
 ## Unity and Content SDK Installation
 
-Install the Unity editor using [this guide](../UnityInstallation/UnityInstallation.md).
+Install the Unity editor using [this guide](../UnityInstallation/UnityInstallation_EN.md).
 
-Next, install and configure the [Content SDK](../ContentSDK/ContentSDKInstallation.md).
+Next, install and configure the [Content SDK](../ContentSDK/ContentSDKInstallation_EN.md).
 
 > [!NOTE]
 > In the `Assets/Content/CustomObjects/Example` folder, you'll find an example resource pack that you can explore.

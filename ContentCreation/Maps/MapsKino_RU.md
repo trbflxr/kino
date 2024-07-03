@@ -2,9 +2,9 @@
 
 ## Установка Unity и Content SDK
 
-Установите редактор Unity используя [этот гайд](../UnityInstallation/UnityInstallation.md).
+Установите редактор Unity используя [этот гайд](../UnityInstallation/UnityInstallation_RU.md).
 
-Затем установите и настройте [Content SDK](../ContentSDK/ContentSDKInstallation.md).
+Затем установите и настройте [Content SDK](../ContentSDK/ContentSDKInstallation_RU.md).
 
 > [!NOTE]  
 > В папке `Assets/Content/Maps/Example` есть пример карты и вы можете с ним ознакомиться.
@@ -184,7 +184,7 @@
 * Указать тип поверхности для каждого объекта отдельно  
 ![maps_surface_single.png](../Images/Maps/maps_surface_single.png)
 
-> [!INFO]  
+> [!NOTE] 
 > Указывать тип поверхности можно как на этапе создания модели (на пример в Blender) так и в самом Unity
 
 ### Установка точек вейпоинтов (точек телепорта)
