@@ -40,3 +40,7 @@ CarX Drift Racing Online/kino/output.log
 ```
 
 The loader will generate the file automatically so you don't have to change any values.
+
+# The Mod displays incorrectly and/or not all features are available
+
+If after updating the mod the UI displays incorrectly and/or you lose access to swaps, sticker packs, or tuning features, use [this guide](ResourcesUpdate.md) to resolve the issue.
