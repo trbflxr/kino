@@ -9,14 +9,9 @@
 
 ## About
 
-The mod that has become popular for it's lighting and livery sharing features.  
-Still in active development with more things getting added.
+This is a global mod for CarX Drift Racing Online. It offers extensive functionality for graphic settings, car customization, UGC model and map loaders, replay recording system, FPV drone, and many other QoL and functional features.
 
-Brief explanation of features is listed bellow. You can click on the titles for more detailed explanation along with the screenshots of the mentioned tabs.
-
-## Features
-
-For more information on the mod features please visit the [feature guide](Help/Support/Guide.md).
+The mod is actively being developed and continuously expanded with new features.
 
 > [!NOTE]  
 > Use **F4** to bring up the in-game menu.
