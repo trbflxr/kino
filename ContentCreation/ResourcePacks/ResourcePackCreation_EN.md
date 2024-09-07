@@ -64,6 +64,7 @@ You can add the following options for objects:
 * [CarPaint](#carpaint) - allows painting the object in the game
 * [CarLights](#carlights) - light sources
 * [Exhaust](#exhaust) - exhaust particle source
+* [Bindable](#bindable) - the ability to assign a button to toggle activity
 
 ### CarPaint
 Mark objects with CarPaint for which painting capability is intended.
@@ -102,6 +103,21 @@ Note that particles will emit along the `Z` axis. Rotate the object in the corre
 
 > [!IMPORTANT]  
 > Name the object `flames_root` or prefix its name with `flames_root_` to mark it as an exhaust source.
+
+### Bindable
+
+With the Bindable option, you can give the user the ability to assign a button to toggle the object's activity.
+
+Keep in mind that Bindable can apply to the entire object or its parts. The object can contain an unlimited number of Bindable parts.
+
+![bindable_hierarchy.png](../Images/ResourcePacks/bindable_hierarchy.png)
+
+If you want users to be able to toggle objects like `CarPaint` or `Exhaust`, they need to be added to `Bindable` as sub-objects.
+
+![bindable_hierarchy_car_paint.png](../Images/ResourcePacks/bindable_hierarchy_car_paint.png)
+
+> [!IMPORTANT]  
+> Add `bindable_` to the beginning of the object or its subobjects names to allow them to be assigned activity buttons.
 
 ## Creating and configuring objects in other software
 
