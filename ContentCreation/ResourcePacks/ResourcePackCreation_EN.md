@@ -87,6 +87,20 @@ The visibility of `head_lights` and `running_lights` will be toggled in Kino wit
 > [!IMPORTANT]  
 > To add CarLights, you need to either name the object `head_lights, running_lights, tail_lights`, or prefix their names with these.
 
+The visibility of `turn_left` and `turn_tight` will work with the same logic as Kino's hazard lights.
+
+![turn_signals_naming.png](../Images/ResourcePacks/turn_signals_naming.png)
+
+> [!IMPORTANT]  
+> To add turn signals / hazard lights, use the prefixes `turn_left` and `turn_tight` or name the object accordingly.
+
+The reverse light signal `reverse_lights` will be active when reverse gear is engaged.
+
+![reverse_lights_naming.png](../Images/ResourcePacks/reverse_lights_naming.png)
+
+> [!IMPORTANT]  
+> To add a reverse light signal, use the prefix `reverse_lights` or name the object accordingly.
+
 ### Exhaust
 
 The Exhaust option specifies where the exhaust particles will emit from.

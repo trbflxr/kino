@@ -87,6 +87,19 @@
 > [!IMPORTANT]  
 > Для добавления CarLights необходимо либо назвать объект `head_lights, running_lights, tail_lights`, либо дописать эри префиксы в начале его имени.
 
+Видимость `turn_left` и `turn_tight` будет работать по той же логике, что и аварийки Kino.  
+
+![turn_signals_naming.png](../Images/ResourcePacks/turn_signals_naming.png)
+
+> [!IMPORTANT]  
+> Для добавления поворотников / авариек используйте префиксы `turn_left` и `turn_tight` или назовите так объект. 
+
+Сигнал заднего хода `reverse_lights` будет активен если включить заднюю передачу.  
+
+![reverse_lights_naming.png](../Images/ResourcePacks/reverse_lights_naming.png)
+
+> [!IMPORTANT]  
+> Для добавления сигнала заднего хода используйте префикс `reverse_lights` или назовите так объект. 
 
 ### Exhaust
 
