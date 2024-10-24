@@ -1,106 +1,56 @@
 ﻿# Creating Car Body Kit Parts
 
-## Preparation and Pack Creation
+## Content SDK
+
+Before proceeding with the creation of parts, make sure that you have the latest version of the [ContentSDK](../ContentSDK/ContentSDKInstallation_EN.md).
+
+If you already have ContentSDK installed, but it's not the latest version, update it using [this guide](../ContentSDK/ContentSDKUpdate_EN.md).
+
+## Preparing and Creating the Pack
 
 If you have already created a pack and want to add parts to it, you can skip this step.
 
-There's no need to create a separate pack for each part; group them by type, manufacturers, etc.
+You don't need to create a separate pack for each part; group them by types, manufacturers, etc.
 
-To create a pack, refer to [this guide](CustomPartsPackCreation_EN.md).
+To create a pack, use [this guide](CustomPartsPackCreation_EN.md).
 
-# Model Creation
+# Creating the Model
 
 > [!NOTE]
-> You can create the model in any 3D software that is convenient for you.
+> You can create the model in any 3D software of your choice. In this example, `Blender` will be used.
 
-For convenience, you can dump the car model, excluding the part you want to create. Follow these steps to do so:
+### Preparation
 
-1. Go to the car dumping menu: `Tools -> Car dumper -> Dump model`
-2. Disable the parts in the list that you do not need.
+Before starting, it is recommended to dump the car model, excluding the part you want to create. To do this, follow these steps:
+
+1. Go to the car dump menu: `Tools -> Car dumper -> Dump model`.
+2. In the list, disable the parts you don't need.
 3. Dump the model by clicking `Dump selected parts`.
+
+> [!IMPORTANT]
+> Be sure to dump the `PartRoots`, as it will make it much easier to position objects correctly.
 
 ![parts_model_dumper](../Images/CarParts/parts_model_dumper.png)
 
-## Importing Models into Unity
+### Creation
 
-To import models into Unity, you can drag the necessary files into the `Project` window or manually place them there via File Explorer.
+When creating the model, set its **origin** to the position of the required **root**. The example below shows the correct positioning of the lights.
 
-After importing, select the desired model and navigate to the `Materials` tab in the `Inspector` window.
-
-If the `Extract Textures` and `Extract Materials` buttons are grayed out and inactive, no action is needed.
-
-If they are active, first extract the textures and then the materials.
-
-![parts_unity_import_model](../Images/CarParts/parts_unity_import_model.png)
+![parts_blender_root](../Images/CarParts/parts_blender_root.png)
 
 > [!IMPORTANT]
-> If you want to enable the ability to apply liveries to the object, in the `Model` tab, enable `Read/Write Enabled`.
+> Be sure to familiarize yourself with the [structure](CustomPartsStructure_EN.md) of the parts. The components of the part must be correctly named and placed.
 
-![parts_model_import_read_write](../Images/CarParts/parts_model_import_read_write.png)
+Create the model according to the [structure](CustomPartsStructure_EN.md) of the required part, then proceed to export.
 
-Next, create a prefab by following these steps:
+### Setting up UV Mapping
 
-1. Create an empty object in the scene.
-2. Reset its `Transform`.
-3. Add the model to the newly created object.
-4. Save the prefab and remove it from the scene.
-5. Select the prefab in the `Project` window and double-click to enter editing mode.
+If you want to add livery overlays to your part, it needs to be properly mapped. If you don't plan to add livery overlays, you can skip this step.
 
-![parts_create_prefab_full](../Images/CarParts/parts_create_prefab_full.gif)
-
-Now you can proceed with creating the part.
-
-## Creating Car Body Kit Parts
-
-> [!NOTE]
-> Kino Content SDK includes examples of all parts in the `Examples/ExteriorParts` folder. Be sure to review them for a better understanding of the process.
-
-Available parts include:
-
-* Front bumper
-* Rear bumper
-* Side skirts
-* Doors
-* Mirrors
-* Hood
-* Trunk
-* Spoiler
-* Roof
-* Frame
-* Exhaust
-
-All parts are created using the same principle. Import the model into Unity, create a prefab, and configure the hierarchy.
-
-Some parts may have additional components, as discussed [below](#configuring-the-prefab).
-
-## Configuring the Prefab
-
-> [!NOTE]
-> It's crucial to set correct component names for the prefab, as this affects how it appears in the game.
-
-Materials for the part:
-
-* `body` - components with this name can be painted and will receive liveries (when [properly configured](#configuring-uv-mapping))
-* `body_nolivery` - these components can only be painted
-
-![parts_body_part_hierarchy](../Images/CarParts/parts_body_part_hierarchy.png)
-
-Additional components and materials:
-
-* `mirrors` - name surfaces on **mirrors** that should reflect
-* `Exhaust_root` - attachment point for exhaust, available only for **rear bumper**
-* `Flame_root_<N>` - firing point, available only for **exhaust**. Replace `N` with a number `0-inf`, name the points sequentially.
-
-![parts_mirrors_prefab](../Images/CarParts/parts_mirrors_prefab.png)
-![parts_bumper_rear_prefab](../Images/CarParts/parts_bumper_rear_prefab.png)
-![parts_exhaust_prefab](../Images/CarParts/parts_exhaust_prefab.png)
-
-## Configuring UV Mapping
-
-For convenient UV mapping configuration, prepare a template by following these steps:
+For convenient UV mapping setup, it's recommended to prepare a template by following these steps:
 
 1. Create a new livery in the game.
-2. Apply several stickers to completely cover the car from all sides.
+2. Apply several stickers to the car, ensuring it is **fully** covered from all sides.
 3. Dump the resulting livery using Kino: `Tools -> Car dumper -> Dump livery`.
 
 You will get something similar to this:
@@ -129,4 +79,45 @@ Arrange the geometry on the UV map correctly.
 
 ![parts_blender_uv_editor_position](../Images/CarParts/parts_blender_uv_editor_position.png)
 
-Finally, export the model in `.FBX` or `.blend` format and [import](#importing-models-into-unity) it into Unity.
+### Export
+
+You can save the `.blend` project directly into the `Assets` folder of ContentSDK, and if you have Blender integration set up, you can immediately start [importing the model](#importing-models-into-unity).
+
+If you want to export only part of the project, select the desired parts and click `File -> Export -> FBX`.
+
+In the export window, make sure to set the following settings:
+![parts_blender_export_2](../Images/CarParts/parts_blender_export_2.png)
+
+Then export the model into the **Assets** subfolder in ContentSDK. After this, you can proceed with [importing](#importing-models-into-unity).
+
+## Importing Models into Unity
+
+To import models into Unity, you can drag the required files into the `Project` window or place them there manually via the file explorer.
+
+After importing, select the desired model and in the `Inspector` window, go to the `Materials` tab.
+
+If the `Extract Textures` and `Extract Materials` buttons are greyed out and not clickable, no further action is needed.
+
+If they are active, first extract the textures, then extract the materials.
+
+![parts_unity_import_model](../Images/CarParts/parts_unity_import_model.png)
+
+You can also set up [Blender integration](../Blender/BlenderIntegration_EN.md) for easier model importing.
+
+> [!IMPORTANT]
+> If you want to enable livery overlays on the object, in the `Model` tab, enable the `Read/Write Enabled` option.
+
+![parts_model_import_read_write](../Images/CarParts/parts_model_import_read_write.png)
+
+## Prefab Preparation
+
+After importing and preparing the model, you need to create a prefab for further configuration.
+
+Create the prefab according to the instructions:
+
+![parts_create_prefab](../Images/CarParts/parts_create_prefab.gif)
+
+Afterward, you can proceed with additional prefab configuration. If everything is ready, you can start [packing the parts](CustomPartsCreation_EN.md#packing-parts).
+
+> [!NOTE]
+> If you want to add additional light sources (headlights, turn signals, etc.), proceed to [light source configuration](CustomPartsStructure_EN.md#light-source-configuration).
