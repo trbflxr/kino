@@ -34,12 +34,14 @@ To enable painting, the Mesh that you want to allow for coloring in-game must be
 
 Additional components:
 * `mirrors` - This is the mirror surface, and it will reflect. Available only for the **Mirrors** part.
-  ![parts_mirrors_prefab](../Images/CarParts/parts_mirrors_prefab.png)
+
+![parts_mirrors_prefab](../Images/CarParts/parts_mirrors_prefab.png)
 
 If you name the object this way, its material will be replaced with a mirror material.
 
 * `Exhaust_root` - Exhaust attachment point.
-  ![parts_bumper_rear_prefab](../Images/CarParts/parts_bumper_rear_prefab.png)
+
+![parts_bumper_rear_prefab](../Images/CarParts/parts_bumper_rear_prefab.png)
 
 You can add this point to any part, but note that there should only be **one**. If there are several parts with _Exhaust_root_ on the car, the exhaust will be added to the first one in the list.
 

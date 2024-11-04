@@ -86,6 +86,7 @@ You can save the `.blend` project directly into the `Assets` folder of ContentSD
 If you want to export only part of the project, select the desired parts and click `File -> Export -> FBX`.
 
 In the export window, make sure to set the following settings:
+
 ![parts_blender_export_2](../Images/CarParts/parts_blender_export_2.png)
 
 Then export the model into the **Assets** subfolder in ContentSDK. After this, you can proceed with [importing](#importing-models-into-unity).
