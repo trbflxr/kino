@@ -2,9 +2,9 @@
 
 ## Content SDK
 
-Before proceeding with creation, ensure you have the latest version of [ContentSDK](../ContentSDK/ContentSDKInstallation_RU.md).
+Before proceeding with creation, ensure you have the latest version of [ContentSDK](../ContentSDK/ContentSDKInstallation_EN.md).
 
-If you have ContentSDK installed, but it’s not the latest version, update it using [this guide](../ContentSDK/ContentSDKUpdate_RU.md).
+If you have ContentSDK installed, but it’s not the latest version, update it using [this guide](../ContentSDK/ContentSDKUpdate_EN.md).
 
 ## Preparing and Creating the Pack
 
@@ -12,7 +12,7 @@ If you’ve already created a pack and want to add details to it, you can skip t
 
 You don’t need to create a separate pack for every detail - group them by type, manufacturer, etc.
 
-To create a pack, use [this guide](CustomPartsPackCreation_RU.md).
+To create a pack, use [this guide](CustomPartsPackCreation_EN.md).
 
 # Creating the Model
 
@@ -73,7 +73,7 @@ After importing, select the desired model, and in the `Inspector` window, naviga
 
 ![parts_unity_import_model](../Images/CarParts/parts_unity_import_model.png)
 
-You can also set up [Blender integration](../Blender/BlenderIntegration_RU.md) for more convenient model imports.
+You can also set up [Blender integration](../Blender/BlenderIntegration_EN.md) for more convenient model imports.
 
 > [!IMPORTANT]
 > Ensure you select the imported model and enable the `Read/Write Enabled` option in the `Inspector` under the `Model` tab.
@@ -163,7 +163,7 @@ Indicators with the `Indicator` prefix are essentially "lights" that display the
 
 For Kino to recognize an interior object as a gauge or indicator, it must be properly named.
 
-**All** gauges and indicators must have names starting with one of the [prefixes](#L122-142).
+**All** gauges and indicators must have names starting with one of the [prefixes](#adding-gauges-and-indicators).
 
 Some gauges **require** additional values to be included in the name. Values should be separated by an underscore `_`.
 
