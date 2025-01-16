@@ -19,6 +19,8 @@
 
 > [Интерьер](CustomInterior_RU.md)
 
+> [Универсальные детали интерьера](CustomUniversalInterior_RU.md)
+
 
 ## Сборка паков
 
