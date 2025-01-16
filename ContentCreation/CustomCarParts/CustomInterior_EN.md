@@ -122,9 +122,11 @@ The following gauges and indicators are available for creation:
 * `Arrow_Speed`
 * `Arrow_Rpm`
 * `Arrow_Boost`
+* `Arrow_Dummy`
 * `DigitalArrow_Speed`
 * `DigitalArrow_Rpm`
 * `DigitalArrow_Boost`
+* `DigitalArrow_Dummy`
 * `Text_Speed`
 * `Text_Rpm`
 * `Text_Boost`
@@ -195,6 +197,16 @@ The needle can be either a 3D object with any material or a 2D object on a `Canv
 Example of a digital boost gauge: `DigitalArrow_Boost_-90_177_2` means that the starting point is at **-90** degrees and the endpoint (**2** atm) is at **177** degrees of rotation.
 
 ![parts_interior_digital_arrow_boost](../Images/CarParts/Interior/parts_interior_digital_arrow_boost.png)
+
+As you know, our game does not feature oil pressure, coolant temperature, voltage, or other values. However, you can add "dummy" gauges with animations to enhance the overall look of the interior.
+
+There are two types of dummy gauges available:
+* `Arrow_Dummy` - Mechanical with a pointer
+* `DigitalArrow_Dummy` - Electronic with a pointer
+
+Please note that the naming convention for these gauges is similar to standard `Arrow` and `DigitalArrow` gauges, but the **third argument** specifies the **angle** to which the pointer will rotate when the ignition is turned on.
+
+![parts_interior_dummy_gauge](../Images/CarParts/Interior/parts_interior_dummy_gauge.png)
 
 #### Creating Text gauges
 

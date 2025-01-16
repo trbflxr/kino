@@ -121,9 +121,11 @@
 * `Arrow_Speed`
 * `Arrow_Rpm`
 * `Arrow_Boost`
+* `Arrow_Dummy`
 * `DigitalArrow_Speed`
 * `DigitalArrow_Rpm`
 * `DigitalArrow_Boost`
+* `DigitalArrow_Dummy`
 * `Text_Speed`
 * `Text_Rpm`
 * `Text_Boost`
@@ -194,6 +196,16 @@
 Пример электронного датчика буста: `DigitalArrow_Boost_-90_177_2` значит, что начальная точка находится на **-90** градусах, а конечная (**2** атм) на **177** градусах вращения.
 
 ![parts_interior_digital_arrow_boost](../Images/CarParts/Interior/parts_interior_digital_arrow_boost.png)
+
+Как вы знаете, у нас в игре нет давления масла, температуры воды, вольтажа и прочих показателей. Но вы можете добавить "фейковые" датчики, которые будут анимированны, для полноты картины.
+
+Для этого существует два вида датчиков: 
+* `Arrow_Dummy` - Механический со стрелкой
+* `DigitalArrow_Dummy` - Электронный со стрелкой
+
+Обратите внимание, что нейминг этих датчиков аналогичен обычным `Arrow` и `DigitalArrow`, но **третий аргумент** отвечает не за максимальный показатель на шкале, а за **угол**, на который будет повернута стрелка при включении зажигания. 
+
+![parts_interior_dummy_gauge](../Images/CarParts/Interior/parts_interior_dummy_gauge.png)
 
 #### Создание датчиков Text
 
