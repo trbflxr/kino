@@ -132,6 +132,7 @@ The following gauges and indicators are available for creation:
 * `Text_Boost`
 * `Text_Gear`
 * `Text_Odometer`
+* `Text_Clock`
 * `Canvas_Root`
 * `Canvas_ImageSpeed`
 * `Canvas_ImageRpm`
@@ -173,11 +174,11 @@ Some gauges **require** additional values to be included in the name. Values sho
 > Keep in mind that the needles on the gauge rotate along the `Z` axis in Unity (`Y` in Blender). Consider this when creating them.
 
 Description of values for gauges:
-* `Arrow_*` and `DigitalArrow_*` must include **3** additional values:
-    * 1: The angle at which the needle indicates the **minimum** value (e.g., 0 RPM).
-    * 2: The angle at which the needle indicates the **maximum** value.
-    * 3: The **maximum** value on the dial (e.g., 300 km/h, 10k RPM, etc.).
-    * 4: **[Optional]** Add the argument `inv` to make the needle rotate counterclockwise.
+* `Arrow_*` and `DigitalArrow_*` must include **4** additional values:
+    * 1: Axis of rotation (x, -x, y, -y, z, -z), the axis along which Kino will rotate the gauge needle.
+    * 2: The angle at which the needle indicates the **minimum** value (e.g., 0 RPM).
+    * 3: The angle at which the needle indicates the **maximum** value.
+    * 4: The **maximum** value on the dial (e.g., 300 km/h, 10k RPM, etc.).
 * `Canvas_Image***` must include **one** additional argument:
     * 1: The **maximum** value on the dial.
 * `Text_*` may **optionally** include one argument specifying the [text format](https://learn.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings).
@@ -188,13 +189,13 @@ Description of values for gauges:
 #### Creating Arrow and DigitalArrow gauges
 
 Name the gauge needle `Arrow` or `DigitalArrow` and include the additional arguments.
-For example: `Arrow_Speed_0_202_300` means that the gauge will show speed with the starting point (0 km/h) at **0** degrees and the endpoint (**300** km/h) at **202** degrees.
+For example: `Arrow_Speed_y_0_202_300` means that the gauge will show speed with the starting point (0 km/h) at **0** degrees and the endpoint (**300** km/h) at **202** degrees.
 
 The needle can be either a 3D object with any material or a 2D object on a `Canvas`; there are no restrictions.
 
 ![parts_interior_arrow_speed](../Images/CarParts/Interior/parts_interior_arrow_speed.png)
 
-Example of a digital boost gauge: `DigitalArrow_Boost_-90_177_2` means that the starting point is at **-90** degrees and the endpoint (**2** atm) is at **177** degrees of rotation.
+Example of a digital boost gauge: `DigitalArrow_Boost_-z_-90_177_2` means that the starting point is at **-90** degrees and the endpoint (**2** atm) is at **177** degrees of rotation.
 
 ![parts_interior_digital_arrow_boost](../Images/CarParts/Interior/parts_interior_digital_arrow_boost.png)
 
@@ -211,7 +212,7 @@ Please note that the naming convention for these gauges is similar to standard `
 #### Creating Text gauges
 
 To create digital gauges, use the prefix `Text`, then specify the value it will display. Optionally, you can define a text display format.
-Example of creating a digital odometer: `Text_Odometer_D7`. **D7** means the text will display in the format `0000069`, i.e., text of 7 characters with leading zeros.
+Example of creating a digital odometer: `Text_Odometer_D7`. **D7** means the text will display in the format `0000123`, i.e., text of 7 characters with leading zeros.
 
 ![parts_interior_text_odometer](../Images/CarParts/Interior/parts_interior_text_odometer.png)
 
