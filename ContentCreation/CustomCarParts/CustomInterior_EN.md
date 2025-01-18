@@ -143,6 +143,7 @@ The following gauges and indicators are available for creation:
 * `Indicator_RunningLights`
 * `Indicator_HighBeams`
 * `Indicator_CheckEngine`
+* `Indicator_Hazard`
 
 > [!NOTE]
 > Keep in mind that gauges with the `Text` and `Canvas` prefixes can only be created in the Unity editor.

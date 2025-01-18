@@ -142,6 +142,7 @@
 * `Indicator_RunningLights`
 * `Indicator_HighBeams`
 * `Indicator_CheckEngine`
+* `Indicator_Hazard`
 
 > [!NOTE]
 > Обратите внимание, датчики с приставками `Text` и `Canvas` можно создать только в редакторе `Unity`. 
