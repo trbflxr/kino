@@ -267,6 +267,9 @@ There are two types of `Canvas` group elements:
 * `Canvas_Root` - A container element, essentially a "screen", where all 2D elements will be displayed. There can be an unlimited number of `Canvas_Root` elements.
 * `Canvas_Image***` - A 2D element with an `Image` component and a `Filled` display type. These elements, along with additional images and text, allow for the creation of complex digital dashboards and screens.
 
+> [!IMPORTANT]
+> When creating `Canvas_Root`, be sure to set its layer to `Default` so that it displays correctly in the garage.
+
 All elements with the prefix `Canvas_Image***` must be located within an object named `Canvas_Root`, which itself must include a `Canvas` component.
 
 ![parts_interior_canvas_root_hierarchy](../Images/CarParts/Interior/parts_interior_canvas_root_hierarchy.png)
