@@ -113,7 +113,8 @@ Parameters of the `CarInterior` Shader:
     * `EmissionPower` - Emission intensity.
     * `EmissionIntensity` - This parameter is controlled by Kino. It can be used for previewing emission but its values **will not be saved**.
 
----
+> [!NOTE]
+> If you want to add a rearview mirror, name it `mirror`, and Kino will automatically assign the required material to it.
 
 ### Adding Gauges and Indicators
 
