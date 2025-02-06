@@ -15,9 +15,11 @@ You can now start creating custom parts.
 
 > [Wheels](CustomWheels_EN.md)
 
-> [Exterior](CustomExterior_EN.md)
+> [Body parts](CustomExterior_EN.md)
 
 > [Interior](CustomInterior_EN.md)
+
+> [Universal interior parts](CustomUniversalInterior_EN.md)
 
 ## Building Packs
 
