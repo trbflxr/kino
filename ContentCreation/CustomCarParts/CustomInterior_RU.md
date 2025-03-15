@@ -26,14 +26,13 @@
 
 Перед работой рекомендуется сдампить модель **стокового** интерьера, для этого выполните следующие действия:
 
-1. перейдите в меню дампа авто: `Tools -> Car dumper -> Dump model`
-2. оставьте активными только опции `StockInterior` и `PartRoots`
-3. сдампите модель нажав `Dump selected parts`
+1. перейдите в меню дампа авто: `Tools -> Car dumper`
+2. сдампите модель нажав `Dump model`
 
 > [!IMPORTANT]
 > Обязательно сдампите `PartRoots`, с ними будет гораздо проще установить объекты в нужные позиции.
 
-![parts_model_dumper](../Images/CarParts/parts_model_dumper.png)
+![parts_car_dumper](../Images/CarParts/parts_car_dumper.png)
 
 ## Создание
 

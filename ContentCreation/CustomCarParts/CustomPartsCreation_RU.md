@@ -15,7 +15,7 @@
 
 > [Диски](CustomWheels_RU.md)
 
-> [Обвесы](CustomExterior_RU.md)
+> [Обвесы и боди киты](CustomExterior_RU.md)
 
 > [Интерьер](CustomInterior_RU.md)
 

@@ -5,6 +5,7 @@
 
 Parts can be roughly divided into two types:
 * Body parts:
+    * Body kit (Chassis)
     * Front bumper
     * Rear bumper
     * Side skirts

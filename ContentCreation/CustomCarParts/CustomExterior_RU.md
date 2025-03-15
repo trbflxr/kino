@@ -4,7 +4,7 @@
 
 Прежде чем переходить к созданию деталей, убедитесь что у вас установлена последняя версия [ContentSDK](../ContentSDK/ContentSDKInstallation_RU.md).
 
-Если у вас установлен ContentSDK, но вы не последней версии, то обновите его по [этому гайду](../ContentSDK/ContentSDKUpdate_RU.md).
+Если у вас установлен ContentSDK, но не последней версии, то обновите его по [этому гайду](../ContentSDK/ContentSDKUpdate_RU.md).
 
 ## Подготовка и создание пака
 
@@ -23,14 +23,13 @@
 
 Перед работой рекомендуется сдампить модель авто, исключив из неё часть, которую вы хотите создать, для этого выполните следующие действия:
 
-1. перейдите в меню дампа авто: `Tools -> Car dumper -> Dump model`
-2. в списке отключите части, которые вам не нужны
-3. сдампите модель нажав `Dump selected parts`
+1. перейдите в меню дампа авто: `Tools -> Car dumper`
+2. сдампите модель нажав `Dump model`
 
 > [!IMPORTANT]
 > Обязательно сдампите `PartRoots`, с ними будет гораздо проще установить объекты в нужные позиции.
 
-![parts_model_dumper](../Images/CarParts/parts_model_dumper.png)
+![parts_car_dumper](../Images/CarParts/parts_car_dumper.png)
 
 ### Создание
 

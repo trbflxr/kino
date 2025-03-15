@@ -23,14 +23,13 @@ To create a pack, use [this guide](CustomPartsPackCreation_EN.md).
 
 Before starting, it is recommended to dump the car model, excluding the part you want to create. To do this, follow these steps:
 
-1. Go to the car dump menu: `Tools -> Car dumper -> Dump model`.
-2. In the list, disable the parts you don't need.
-3. Dump the model by clicking `Dump selected parts`.
+1. Go to the car dump menu: `Tools -> Car dumper`.
+2. Dump the model by clicking `Dump model`.
 
 > [!IMPORTANT]
 > Be sure to dump the `PartRoots`, as it will make it much easier to position objects correctly.
 
-![parts_model_dumper](../Images/CarParts/parts_model_dumper.png)
+![parts_car_dumper](../Images/CarParts/parts_car_dumper.png)
 
 ### Creation
 

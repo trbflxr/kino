@@ -26,14 +26,13 @@ To create a pack, use [this guide](CustomPartsPackCreation_EN.md).
 
 Before working, it’s recommended to dump the **stock** interior model. To do so, follow these steps:
 
-1. Navigate to the car dumping menu: `Tools -> Car dumper -> Dump model`
-2. Keep only the `StockInterior` and `PartRoots` options active.
-3. Dump the model by clicking `Dump selected parts`.
+1. Navigate to the car dumping menu: `Tools -> Car dumper`
+2. Dump the model by clicking `Dump model`.
 
 > [!IMPORTANT]
 > Be sure to dump `PartRoots`, as they make it much easier to position objects correctly.
 
-![parts_model_dumper](../Images/CarParts/parts_model_dumper.png)
+![parts_car_dumper](../Images/CarParts/parts_car_dumper.png)
 
 ## Creation
 
