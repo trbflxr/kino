@@ -30,7 +30,7 @@ Example structure:
 
 ## Creating Garage Metadata
 
-> [!IMPORTANT]  
+> [!NOTE]  
 > In this example, the garage name will be `Example`. You can name your garages however you like.
 
 Each new garage requires a **metadata file**. To create it, go to the folder of your new garage. Then create the metadata file using the **context menu**.
@@ -104,7 +104,7 @@ You can name the points however you like, but the Kino system recognizes the fol
 * `BodyShop` – _Optional_ body kit customization point.
 * `PaintShop` – _Optional_ point for paint and livery editing.
 
-> [!INFO]  
+> [!NOTE]  
 > Note that if the player has the auto-teleport option enabled, they will be moved to one of the _additional_ spawn points based on the current context, such as `Dyno`, `BodyShop`, or `PaintShop`.
 > However, these points are optional, and if you don't need them, add the `Spawn` point only.
 
@@ -141,7 +141,7 @@ Configure the existing effects (disable them if not needed), or add new ones by 
 
 ![scene_volume.png](../Images/Garages/scene_volume.png)
 
-> [!INFO]  
+> [!NOTE]  
 > Keep in mind the garage will appear in-game exactly as it's configured in the editor, including all post-processing effects.
 >
 > Additionally, having `Sun` and `Volume` components allows players to customize the garage's graphics using Kino.
@@ -168,7 +168,7 @@ To add `LightGroups`, select the `Kino.System` object, right-click on it, choose
 
 Groups must be added directly inside the `LightGroups` object by creating empty GameObjects. Group names can be anything, and there's no limit on the number of groups.
 
-> [!INFO]  
+> [!NOTE]  
 > Note that players will be able to adjust the intensity, color temperature, and color of lights in each group.  
 > These settings will apply to the entire group.
 
