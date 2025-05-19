@@ -90,6 +90,10 @@
 
 Имена `emissive`, `emissive_left`, `illumination_light_123` и т.д. являются корректными и будут распознаны. Но имена `left_emissive`, `my toggle_light` и т.д. распознаны не будут. 
 
+> [!IMPORTANT]
+> Если вы хотите создать комбинированные ходовые огни и индикаторы поворота (часто встречается на новых авто), то назовите объект с `CarLights` шейдером **emissive_combined**.
+> Таким образом активация индикаторов поворота перезапишет ходовые огни. 
+
 ![parts_lights_components_naming](../Images/CarParts/parts_lights_components_naming.png)
 
 > [!NOTE]

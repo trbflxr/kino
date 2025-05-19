@@ -90,6 +90,10 @@ The components can be named either as presented above or with a prefix.
 
 Names like `emissive`, `emissive_left`, `illumination_light_123`, etc., are valid and will be recognized. However, names like `left_emissive`, `my toggle_light`, etc., will not be recognized.
 
+> [!IMPORTANT]
+> If you want to create combined running lights and turn indicators (common on modern cars), name the object with the `CarLights` shader **emissive_combined**.
+> This way, activating the turn indicators will override the running lights.
+
 ![parts_lights_components_naming](../Images/CarParts/parts_lights_components_naming.png)
 
 > [!NOTE]
