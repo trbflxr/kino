@@ -90,6 +90,9 @@ The Kino garage system expects the following system objects to be present:
 * [LightGroups](#light-groups-lightgroups) – _Optional_ object with groups of light sources that can be configured in-game.
 * [PodiumCars](#podium-cars-podiumcars) – _Optional_ object with spawn points for "podium" cars.
 
+> [!NOTE]  
+> To make the _Kino reflection controller_ work, add a `Reflection Probe` to the scene and configure its coverage area.
+
 ### Spawn points (Waypoints)
 
 Add a new empty object to the `Kino.System` object by right-clicking on it and selecting `Create Empty`, then name the new object `Waypoints`. All available spawn points must be placed inside this object.
