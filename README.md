@@ -1,5 +1,4 @@
 ![LOGO](Images/kino_banner.png#gh-dark-mode-only)
-![LOGO](Images/kino_banner_dark.png#gh-light-mode-only)
 
 #
 
