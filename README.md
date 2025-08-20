@@ -1,4 +1,4 @@
-![LOGO](Images/logo.png)
+![LOGO](Images/kino_banner.png)
 
 #
 
@@ -10,6 +10,8 @@
 ## About
 
 This is a global mod for CarX Drift Racing Online. It offers extensive functionality for graphic settings, car customization, UGC model and map loaders, replay recording system, FPV drone, and many other QoL and functional features.
+
+Visit our website [kinomod.gg](https://kinomod.gg), where you’ll find tons of content created by our community.
 
 The mod is actively being developed and continuously expanded with new features.
 
