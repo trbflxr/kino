@@ -2,6 +2,12 @@
 
 If you **do not have** ContentSDK installed, follow [this guide](ContentSDKInstallation_RU.md) instead.
 
+## Backing Up Author Meta
+
+![backup_author_meta](../Images/SDK/backup_author_meta.jpg)
+
+Before updating, back up the `__author_meta` file in Assets\Content (Place it anywhere on your computer)
+
 ## Downloading Content SDK
 
 Download the latest release of [Content SDK](https://github.com/trbflxr/kino_content_sdk/releases/latest).
@@ -18,3 +24,7 @@ Then, extract the archive into the **same folder** where the older version of Co
 > **Replace** all the files when prompted by the system.
 
 ![sdk_replace](../Images/SDK/sdk_replace.png)
+
+## Backing Up Author Meta
+
+After updating, restore the `__author_meta` file you previously backed up into Assets\Content
