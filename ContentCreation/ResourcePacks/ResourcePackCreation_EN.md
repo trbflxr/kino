@@ -92,7 +92,7 @@ The visibility of `turn_left` and `turn_tight` will work with the same logic as 
 ![turn_signals_naming.png](../Images/ResourcePacks/turn_signals_naming.png)
 
 > [!IMPORTANT]  
-> To add turn signals / hazard lights, use the prefixes `turn_left` and `turn_tight` or name the object accordingly.
+> To add turn signals / hazard lights, use the prefixes `turn_left` and `turn_right` or name the object accordingly.
 
 The reverse light signal `reverse_lights` will be active when reverse gear is engaged.
 
