@@ -2,7 +2,7 @@
 
 If you **do not have** ContentSDK installed, follow [this guide](ContentSDKInstallation_RU.md) instead.
 
-## Backing Up Author Meta
+## Backing Up __author_meta
 
 ![backup_author_meta](../Images/SDK/backup_author_meta.jpg)
 
@@ -25,6 +25,6 @@ Then, extract the archive into the **same folder** where the older version of Co
 
 ![sdk_replace](../Images/SDK/sdk_replace.png)
 
-## Backing Up Author Meta
+## Restoring __author_meta
 
 After updating, restore the `__author_meta` file you previously backed up into Assets\Content
