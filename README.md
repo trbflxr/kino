@@ -20,14 +20,21 @@ The mod is actively being developed and continuously expanded with new features.
 
 ## Installation
 
-Installation is described [here](INSTALL.md).  
+Installation is described [here](INSTALL.md).
+
 If you have issues with the mod, refer to the [troubleshooting guide](Help/Support/Troubleshooting.md).
 
 Other mods installation [guide](https://github.com/trbflxr/ksl/blob/master/doc/guide/install_content.md).
 
+## Content installation
+
+To install any content created for Kino (except maps), place the files into the `<Game root>/kino/mods/KN_Base/__install_content` folder.
+
+To install maps, place them into the `<Game root>/kino/mods/KN_Base/maps` folder.
+
 ## Content creation
 
-If you're interested in creating content for the game, such as **maps**, **body kits**, **wheels**, etc., you can learn how to do that [here](ContentCreation/ContentInfo.md).
+If you’re interested in creating content for Kino and CarX, such as **body kit parts**, **custom objects**, **maps**, **garages**, and more, guides are available for you in both [English](ContentCreation/ContentCreation_EN.md) and [Russian](ContentCreation/ContentCreation_RU.md).
 
 ## Mods creation
 
@@ -35,12 +42,21 @@ If you are interested in creating mods and plugins, please visit the [KSL](https
 
 ## Feedback
 
-Forward all the bugs to the issues tab or open a ticket in our Discord  
-Suggestions can also be left in the dedicated channel in Discord
+Submit all found bugs as [tickets](https://discord.com/channels/716264804498538516/818886497570521109) in Discord.
+
+Suggestions can also be left in the [dedicated channel](https://discord.com/channels/716264804498538516/1139177884326568036) in Discord.
 
 ## Support the project
 
 If you want to support the development of the project, you can do so on our [Patreon](https://www.patreon.com/kinomod).
-All supporters get access to **Extras** which you can read about in the **Features** part of this page.  
-Tier 2 supporters will also have access to **Air** and **Hydraulic** suspension.
+
+Extra features for Tier 1 supporters:
+* Engine swaps
+* Customizable Name and Tag
+* Advanced collision manager
+
+Extra features for Tier 2 supporters:
+* All features from Tier 1
+* Air and hydraulic suspension
+
 Thanks a lot to people who have already supported us!

@@ -5,7 +5,7 @@ If the mod doesn't work there could be multiple reasons as to why that could be 
 Let's take a look at possible solutions:
 
 ### **|** Installation  
-If this is your first time installing the mod and it doesn't appear in the game, then the most common case is wrong installation. It could be either the improper installation of the BepInEx mod loader or the mod itself. Either way, if you're installing Kino for the first time and it doesn't appear in the game, please refer to the [installation](../../INSTALL.md) and make sure you did everything right.
+If this is your first time installing the mod and it doesn't appear in the game, then the most common case is wrong installation. It could be either the improper installation of the [KSL](https://github.com/trbflxr/ksl/blob/master/doc/guide/install_win.md) mod loader or the mod itself. Either way, if you're installing Kino for the first time, and it doesn't appear in the game, please refer to the [installation](../../INSTALL.md) and make sure you did everything right.
 
 ### **|** Use the correct branch. 
 Make sure you're on the moddable version of the game.  
@@ -18,7 +18,7 @@ A lot of fixes are posted as patches instead of releases, so you won't find them
 This is one of the obvious solutions a lot of people seem to look over. If none of the mods work, then this just might be the case. To do that, click on the game in your steam library, click on the `Properties..`, go to `Local files` and click on the `Verify integrity of game files...`
 
 ### **|** .NET Framework
-The mod uses the .NET Framework 4.6.2. Usually this is something you should already have installed. However it won't hurt to try. Download it from the [Microsoft website](https://dotnet.microsoft.com/download/dotnet-framework/net462). You will need the [.NET Framework 4.6.2 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net462-web-installer)
+The mod uses the .NET Framework 4.7.2. Usually this is something you should already have installed. However, it won't hurt to try. Download it from the [Microsoft website](https://dotnet.microsoft.com/download/dotnet-framework/net472). You will need the [.NET Framework 4.7.2 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net472-web-installer)
 
 ### **Get the log**
 
@@ -28,18 +28,13 @@ The mod uses the .NET Framework 4.6.2. Usually this is something you should alre
 
 3. Close the game normally
 
-4. The files will appear inside the following folder:
+4. The file will appear inside the following folder:
 
-##### **For Kino native loader:**
 ```
 CarX Drift Racing Online/kino/output.log
 ```
-##### **For third party loaders:**
-```
-<...>/KN_Base/kino.log
-```
 
-The loader will generate the file automatically so you don't have to change any values.
+The loader will generate the file automatically, so you don't have to change any values.
 
 # The Mod displays incorrectly and/or not all features are available
 
