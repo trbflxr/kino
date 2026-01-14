@@ -34,7 +34,7 @@ To install maps, place them into the `<Game root>/kino/mods/KN_Base/maps` folder
 
 ## Content creation
 
-If you’re interested in creating content for Kino and CarX, such as **body kit parts**, **custom objects**, **maps**, **garages**, and more, guides are available for you in both [English](ContentCreation/ContentCreation_EN.md) and [Russian](ContentCreation/ContentCreation_RU.md).
+If you’re interested in creating content for Kino and CarX, such as **body kit parts**, **custom objects**, **sound packs**, **maps**, **garages**, and more, guides are available for you in both [English](ContentCreation/ContentCreation_EN.md) and [Russian](ContentCreation/ContentCreation_RU.md).
 
 ## Mods creation
 
