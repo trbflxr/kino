@@ -23,6 +23,14 @@ Models can be either static or interactive, with features like painting, key bin
 
 ---
 
+### Sound Packs
+
+Sound packs allow you to replace the car’s default sounds with custom ones.
+
+> [Sound Packs](CustomSounds/CustomSounds_EN.md)
+
+---
+
 ### Garages
 
 Custom garages serve as a great replacement for the vanilla garage.
