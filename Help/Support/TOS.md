@@ -20,6 +20,10 @@
      1.7. Supporter role - a role that users acquire after their donation being successfully verified.  
 
      1.8. Validation - a process of verifying the donation.
+
+     1.9. Custom Stickers - user-loading visual assets (decals / stickers) used in vehicle liveries through Kino Mod.
+
+
 2. **Conditions**  
 2.1. Donations made through patreon are rewarded with a patreon supporter role in the Kino’s discord server.  
 
@@ -37,10 +41,24 @@
 
    2.8. Kino mod team is only responsible for the modification and it’s maintenance. In the unforeseen event that modding the game is no longer possible due to decisions of CarX developers, Kino mod team does not bear responsibility for the functionality of the mod/loss of access to the features.
 
+   2.9. Patreon Tier 3 provides access to the Custom Stickers feature, allowing users to load and use their own stickers for vehicle liveries via Kino Mod.
+
+   2.10. By using the Custom Stickers feature, the user agrees to follow all content restrictions established by Kino Mod and the rules of CarX Drift Racing Online public environments.
+
+   2.11. The use of Custom Stickers for the following purposes is strictly prohibited in public lobbies and shared environments:
+      - griefing or harassment of other players;
+      - NSFW, explicit, offensive, or disturbing content;
+      - hate speech, extremist symbols, or illegal content;
+      - any content intended to provoke, shock, or disrupt other players.
+
+   2.13. Moderation decisions regarding Custom Stickers are made at the sole discretion of the Kino Mod team and are final.
+
+   2.14. Kino Mod team is not responsible for any consequences resulting from the user's misuse of Custom Stickers, including loss of access to synchronization liveries or mod features.
+
 # Donation guide
 
 Now that we finished with the formal part of this document, we hope for your understanding that the terms of service above are provided only to protect our side of the argument and avoid any possible misunderstanding. Please make sure to read them.
-#
+
 ## Donation process
 Assuming you want to get a full advantage of your benefits for supporting the mod, read through the following guide which will explain everything regarding the process that follows after you make your donation on Patreon and more.  
 1. **Receiving the patreon supporter role.**  
