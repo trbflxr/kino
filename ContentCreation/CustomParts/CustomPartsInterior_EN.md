@@ -152,6 +152,8 @@ Gauges with the `Canvas` prefix are 2D elements intended for creating digital da
 
 Indicators with the `Indicator` prefix are essentially "lights" that display the activity of a specific state. These indicators will reflect their state only when the **ignition is on**.
 
+You can also add a multimedia screen for **CarPlay**. Learn more about this in [this section](#adding-multimedia--carplay).
+
 > [!IMPORTANT]
 > Kino will search for gauges and indicators **only** in the `kino_indicators` object, which must be in the **parent object** of the interior.
 
@@ -279,3 +281,16 @@ Example of creating a 2D RPM gauge `Canvas_ImageRpm_10000`.
 ![parts_interior_canvas_image_rpm](../Images/CarParts/Interior/parts_interior_canvas_image_rpm.png)
 
 Note that the RPM gauge `Canvas_ImageRpm` is a child object of `Canvas_Root`.
+
+### Adding Multimedia \ CarPlay
+
+To add a multimedia screen, create an empty object named `kino_carplay`.  
+Then add a **Quad** to it by right-clicking and selecting `3D Object -> Quad`, name it `display`, and adjust its size, position, and rotation as needed.
+
+You can add a Quad via the context menu by selecting `3D Object -> Quad`.  
+Also, don’t forget to remove the `MeshCollider` component from the Quad.
+
+![parts_interion_carplay_hierarchy](../Images/CarParts/Interior/parts_interion_carplay_hierarchy.png)
+
+> [!NOTE]
+> Kino will automatically attach the CarPlay screen to the `display` object.

@@ -65,6 +65,7 @@ You can add the following options for objects:
 * [CarLights](#carlights) - light sources
 * [Exhaust](#exhaust) - exhaust particle source
 * [Bindable](#bindable) - the ability to assign a button to toggle activity
+* [CarPlay](#adding-multimedia--carplay) - multimedia screen
 
 ### CarPaint
 Mark objects with CarPaint for which painting capability is intended.
@@ -132,6 +133,21 @@ If you want users to be able to toggle objects like `CarPaint` or `Exhaust`, the
 
 > [!IMPORTANT]  
 > Add `bindable_` to the beginning of the object or its subobjects names to allow them to be assigned activity buttons.
+
+
+### Adding Multimedia \ CarPlay
+
+To add a multimedia screen, create an empty object named `kino_carplay`.  
+Then add a **Quad** to it by right-clicking and selecting `3D Object -> Quad`, name it `display`, and adjust its size, position, and rotation as needed.
+
+You can add a Quad via the context menu by selecting `3D Object -> Quad`.  
+Also, don’t forget to remove the `MeshCollider` component from the Quad.
+
+![parts_interion_carplay_hierarchy](../Images/CarParts/Interior/parts_interion_carplay_hierarchy.png)
+
+> [!NOTE]
+> Kino will automatically attach the CarPlay screen to the `display` object.
+> 
 
 ## Creating and configuring objects in other software
 
